@@ -179,6 +179,18 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Karpathy and Fei-Fei}{Karpathy and
+  Fei-Fei}{2015}]%
+        {karpathy2015deep}
+\bibfield{author}{\bibinfo{person}{Andrej Karpathy} {and} \bibinfo{person}{Li
+  Fei-Fei}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Deep visual-semantic alignments for generating
+  image descriptions}. In \bibinfo{booktitle}{{\em Proceedings of the IEEE
+  conference on computer vision and pattern recognition}}.
+  \bibinfo{pages}{3128--3137}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Khosla et~al\mbox{.}}{Khosla
   et~al\mbox{.}}{2014}]%
         {khosla2014makes}
@@ -199,6 +211,19 @@
 \newblock \showarticletitle{Imagenet classification with deep convolutional
   neural networks}. In \bibinfo{booktitle}{{\em Advances in neural information
   processing systems}}. \bibinfo{pages}{1097--1105}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mao, Xu, Yang, Wang, and Yuille}{Mao
+  et~al\mbox{.}}{2014}]%
+        {mao2014explain}
+\bibfield{author}{\bibinfo{person}{Junhua Mao}, \bibinfo{person}{Wei Xu},
+  \bibinfo{person}{Yi Yang}, \bibinfo{person}{Jiang Wang}, {and}
+  \bibinfo{person}{Alan~L Yuille}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Explain images with multimodal recurrent neural
+  networks}.
+\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1410.1090\/}}
+  (\bibinfo{year}{2014}).
 \newblock
 
 

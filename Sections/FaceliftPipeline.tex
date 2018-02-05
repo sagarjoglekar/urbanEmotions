@@ -1,0 +1,193 @@
+\section{Facelift Pipeline}
+We present here a pipeline for transforming natural geolocated images from one category to another. The current process concentrates for Beautification of urban images for the sake of this study, but the pipeline is generalizable for any annotated urban image dataset. The components work equally effective given that the principles of training a deep-learning model are followed. 
+
+For the sake of berevity, we summarise the notations used in Table \ref{notations} and the pipeline steps in Figure \ref{fig:pipeline}. 
+
+\begin{table}[t]
+	\resizebox{\linewidth}{!}{
+		\begin{tabular}{l|p{8cm}}
+			\textbf{symbol} & \textbf{stands for}\\
+			$X$    & Georeferenced urban images data \\
+			$I_i$    & Georeferenced image where $I_i \in X $ \\
+			$Y$    & Annotations classes for $X$ in affective space ( We work with Beauty )\\
+			$y_i$    & Annotation class in $Y$\\
+			$\hat{I_j}$ & Template image \\
+			$I'$ & Target Image \\
+			$C$ & Image Classifier \\
+			& \\
+			\textbf{term} & \textbf{stands for}\\
+			\textit{Template Image} $\hat{I_j}$    & A synthetic transformation of input image $I$ towards the class $y_j$ \\
+			\textit{Target Image} $I'$    & The natural image which is most visually similar to the template image \\
+			\textit{ Data Clustering}    & A process which groups images in $X$ according to visual similarity (e.g urban vs rural)\\
+			\textit{Data Augmentation}    & A process which looks for images taken in the surrounding areas of the georeferenced images in $X$\\
+			\textit{Classifier}   & A deep-learning framework that is able to classify images into one of the classes in $Y$\\
+			\textit{Generator} $(GAN)$    & A deep-learning based generative framework to produce images similar to the ones in  $X$\\
+			$DGN-AM$    & A framework that, given the GAN and the Classifier, transforms an input image into the template image.\\
+	\end{tabular}}
+	\caption{Notations and Terms.}\label{notations}
+\end{table}
+
+ \begin{figure*}[ht]
+	\centering
+	\includegraphics[width=2\columnwidth]{Plot/UrbanEmotionsPipeline.png}
+	\caption{Architecture of the Beautification Pipeline}
+	\label{fig:pipeline}
+\end{figure*}
+
+In general terms, the framework allows any arbitrary set of \emph{geolocated} images $ X = { I_1, I_2 ... . I_n  }$ annotated in classes $Y = {y_1 , y_2 , ... ,y_k}$, to transform natural images between classes: the algorithm can transform an  image $I_i$ belonging to class $y_i \in Y$ , to image $I_j$ from class $y_j \in Y$. Both $I_i$ and $I_j$ are natural, non-synthetic images. Despite having another \emph{meaning} (i.e. category), $I_j$ maintains the structural characteristics of $I_i$ (e.g. point of view, layout).  This allows  to visually reason about the discriminative properties between classes $y_i , y_j \in Y$, and visually understand the salient characteristics that drive a classifier to distinguish between  classes $y_i,y_j$. The questions pertaining to what the network learns semantically have been explored for popular use cases \cite{mao2014explain,karpathy2015deep}  but still remain largely unexplored for intangible classes representing concepts like beauty, sentiment etc.  In this paper, we apply this general scheme to the specific problem of predicting beauty and explaining the changes that influence the beautification process.
+\par 
+The transformation framework consists of three phases (see Fig. \ref{fig:pipeline}). The first phase
+classifies images from $X$ into the corresponding categories $Y$ with high accuracy , using a convolutional neural network $C$.
+
+The second phase transforms am image from class $y_i$ to class $y_j$, using Generative Adversarial Networks\cite{radford2015unsupervised}. The output of this phase is a synthetic image $\hat{I_j}$, which summarizes the basic traits of the destination class $y_j \in Y$. The last phase matches the synthetic image $\hat{I_j}$,  with the closest natural image in $X$. This matched natural image is then used to reason about urban design metrics that the network learnt to associate with beauty. We do this by formulating 5 urban design metrics in terms of different measured attributes.
+
+For the rest of this section, we would delve deeper into the specifics of the pipeline that produces beautification of urban images. 
+
+\subsection{Phase 1: Classifying Beauty}
+We design here a classifier $C$  able to correctly assess the beauty category $y_i$ of an image in $X$ using a deep learning network, we need first make sure we have enough reliable data to train the classifier. We do this by augmenting the available geolocated image data. 
+
+\subsubsection{ Data }
+\label{sec:label}
+Our seed dataset comes from StreetScore, a research work on urban affects scores \cite{naik2014streetscore}. The dataset in total contains 11183 images across the world from Google StreetView. The images are compared in a pairwise manner for qualities such as beauty, depression, richness , safety etc. For the purpose of our paper, we use the annotations for beauty. To train our classifier $C$ to detect beauty in terms of categories $Y$, we need to transform pairwise votes into absolute scores, then discretize absolute scores into a finite set of categories $y_i$. We transform the pairwise votes %from the dataset are then transformed 
+into ordinal scores using the TrueSkill \cite{herbrich2007trueskill} algorithm.  To ensure reliability of absolute judgements, we filter out images with less than 3 votes.
+To discretize the resulting scores, we heuristically partition the data into two classes with maximum separation. Figure \ref{fig:Trueskill} shows the distribution of Trueskill score estimates with the threshold scores at which we decide beauty or ugly class boundary. 
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\columnwidth]{Plot/Trueskill.png}
+	\caption{Distribution of ordinal scores for images with at-least 4 votes. The red and green line represent the threshold below and above which images are tagged Ugly or beautiful. Images in between are dropped for separability }
+	\label{fig:Trueskill}
+\end{figure}
+
+
+\subsubsection{Data Augmentation similarity bound}
+\label{sec:bound}
+Since smaller data size implies that a machine learning model has a risk of over-fitting,
+we augment the data with some additional real and transformed data. Here, we take advantage of the geo-located nature of the images in our dataset. We also take advantage of the fact that some urban places in proximity, look quite similar to each other. 
+Despite over a hundred thousand images in the original data, after filtering we are left with 20,000 images only.
+This is non-ideal to train classifiers with substantial number of parameters such as convolutional neural networks.
+Hence we choose to augment the dataset by exploiting the geo-located nature of the image dataset. 
+With an assumption that "\textbf{[A1]}\textit{rotation of camera, keeping the location constant, does not change the composition of the image considerably}" we now have two sets of images. 
+First set  is $R(i) \forall i \in I$ , which consists of images acquired by just rotating the pitch for a given annotated image. We rotate the camera across different values $\theta \in {-30^{\circ}, -15^{\circ} , 15^{\circ} , 30^{\circ} }$. For these images, the beauty score can be safely transferred from $i$. 
+Next we  acquire set of Images $T(i) \forall i \in I$, from a near geographic vicinity of a StreetView image $i$ in the StreetScore datase, by translating the streetview  camera at distances of 10, 20 40 and 60 meters. 
+We then represent each image from both sets, using features from the last but one layer of PlacesNet \cite{zhou2014learning}. We then calculate a set of cosine similarities $ S_t = \{s(i,T(i)) \forall i \in I \}$
+between each original image $i$ and all images in the augmented set $T(i)$. 
+We also calculate another set of cosine similaritie  $ S_r = \{s(i,R(i)) \forall i \in I \}$
+Now with assumption \textbf{[A1]} , we only select translational images in the augmentation set where $s(i,T(i)) < median(S_r)$. This implies that the translational images  $T(i) $ are just as similar to the original annotated image, as images acquired by rotation of camera. 
+Hence we arrive at a similarity bound
+\begin{equation}
+\rho = median(S_r) \text{ where }{S_r} = \{s(i,R(i)) \forall i \in I \}
+\label{eq:bound}
+\end{equation}
+
+\begin{figure*}[ht]
+	\centering
+	\includegraphics[width=1.25\columnwidth]{Plot/AugmentationExample.png}
+	\caption{Example images showing similarity of streetview scapes, when the camera is rotated by a small angle. The translational example shows similarity of images where the angle is less than the established bound $\rho$}
+	\label{fig:augmentationExample}
+\end{figure*}
+
+\subsubsection{Semantics of Augmentable images}
+Given that we now had a similarity bound to decide whether to augment or not a particular image, we wondered whether certain types of scenes are more prone to augmentation compared to others.  So we partitioned our data in two sets
+\begin{itemize}
+	\item $set A$: contains images where the median similarity  between translated images and the original image ${s(i,T(i))} < \rho$ .
+	
+	\item $set B$:  Images whose similarity with their translated set is farther apart i.e. ${s(i,T(i))} > \rho$ .
+\end{itemize}
+
+We describe each image in both sets according to the scene depicted, by collecting the PlacesNet \cite{zhou2014learning} labels with the top5 confidence scores. We then aggregate such labels at a set level by computing a TF-IDF metric. The resulting set of \{label,Count\} pairs are essentially how common or uncommon is a particular scene label in $setA$ compared to $setB$ 
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.7\columnwidth]{Plot/SimilarityPlacesPrevalence.png}
+	\caption{Prevalence plot of types of scenes prevalent in Similar images compared to dissimilar ones.}
+	\label{fig:augmentationSimilarity}
+\end{figure}
+
+The resulting prevalences of scene types can be seen in Fig \ref{fig:augmentationSimilarity}. The plot shows that scenes like highways, fields and bridges, typically more uniform and open, 
+don't change despite translation. On the other hand, there are more urban scenes like gardens, residential neighbourhoods , plazas and skyscrapers which are intuitively more sensitive to change in perspective by translation. 
+
+
+\subsubsection{The Beauty Classifier}
+\label{sec:classifier}
+Once we have enough data, we train a deep convolutional network so as to classify images into the $Y$ beauty classes. One may use several successful deep convolutional neural network architectures, which work for other use cases like AlexNet \cite{krizhevsky2012imagenet} , PlacesNet \cite{zhou2014learning} or GoogLeNet \cite{szegedy2015going}.  For our paper we use CaffeNet which is a modified version of AlexNet. This trained classifier is a important component in the next phase, which is generation of images. 
+
+We employ the above observations to train the beauty classifier model. We start with  the base dataset of 20k images, as described in Section \ref{sec:label}. We then progressively augment the data: first with rotation across 5 angles, then rotation with uniform translation for all images, and then rotation and translation for only images which satisfy similarity bound as evaluated as shown in Equation \ref{eq:bound}. 
+We then train a Convolutional neural net model based on AlexNet architecture \cite{szegedy2015going} on each of these augmentated datasets. The training is done on 70\% split of the data and tested on the 30\%. 
+
+We see considerable improvement in classifier accuracy \ref{tab:classifier}, with the best model performing at 73\% accuracy for classifying images in two classes of Beauty and Ugly. 
+This model represents the knowledge of the concept of beauty, learned from annotated and augmented streetview images. 
+
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Policy} & \textbf{Accuracy (Percentage)}\\
+		\hline
+		No augmentation & 63 \\
+		\hline
+		Rotation only & 68 \\
+		\hline
+		Rotation + translation  & 64 \\
+		\hline
+		Rotation + Smart Translation & 73.5 \\
+		\hline
+		
+		\hline
+	\end{tabular}
+	\caption{Performance differences based on different augmentation policies, for the 3 Cities data}
+	\label{tab:classifier}
+	%        \vspace{-5mm}
+\end{table}
+
+
+
+\subsection{Phase 2: Generating Images}
+\par 
+We now want to design a framework to transform any image $I$ into a template image $\hat{I_j}$ (as shown in Figure \ref{fig:pipeline})
+$\hat{I_j}$  is  a synthetic version of the original image, with added features and motifs that maximize class $y_j$. 
+To produce the template image $\hat{I_j}$, we need the following components in place,
+\begin{itemize}
+	\item {\textit{Classifier}}. We need a deep constitutional classifier that has learnt to classify between ugly and beautiful images. This implies that it has learnt the abstract concept of beauty to some extent
+	
+	\item \textit{Generator}. We train a generative adversarial network (GAN) which can generate an approximate natural looking image drawn from distribution of a particular class of images, similar to the one  in \cite{dosovitskiy2016inverting}. 
+	
+	\item \textit{Activation Maximization}. We plug in the GAN and the classifier network into an Activation Maximisation (AM) framework. Given these components, an input image $I$, and a target beauty class $y_i$, the AM transforms $I$ in an ideal image $\hat{I_j}$ ( that maximizes the activation for beauty class $y_i$).	
+\end{itemize}
+ 
+ We have described the design and performace of Classifier in Sec. \ref{sec:classifier}. We will delve deeper into the other two below
+ 
+ \subsubsection{Generator}
+ Generative Adverserial networks are an extremly useful tool when it comes to generating samples from a learned distribution\cite{radford2015unsupervised}. GANs work by learning a pair of networks where one learns the distribution of sample space and generates samples using de-convolutional layers and another learns to discriminate between natural images from the training set and synthetic images generated by the generators. The problem is a min-max arrangement where we want to maximize error in discriminator by minimizing error between generated and natural images, there by generating samples that confuse the discriminator. But GANs are known to be very tricky to train \cite{gulrajani2017improved} and hence to our end, we first try to use a pre-trained GANs on Imagenet images from \cite{nguyen2016synthesizing}. We use this GAN to generate images for maximizing beauty, but because of the vast difference in the ImageNet image distributions for the 1000 classes, and the streetview images, the results were not very optimal. This provoked us to retrain the generator on the training dataset we used for Classification model. This improved the GAN performance considerably and it started generating images which do not entirely resemble natural streetview images, but look like paintings of these scenes. 
+
+\subsubsection{Activation Maximization}
+We build on top of the activation maximization technique elaborated by Nguyen et. al \cite{nguyen2016synthesizing} which utilizes the property of locality of codes with respected to generated images in Generator networks. Which means Generator codes which are close to each other would create similar looking images.This approach was initially aimed at visualizing the learnt knowledge of a convolutional neural network classifier. This is done by maximizing the activation of a particular output class probability neuron in a trained Classifier network, by feeding it images generated by a generator network. The maximization is achieved by doing gradient descent on the input generator codes with respect to the classifier neuron activation, keeping everything else locked. The result is a synthetic image that has a high activation for a pre-determined output neuron.
+To our end, we modify this method by starting the maximization method from a code which is closest to the a-priori input image, which is the ugly urban image $I_j$. This initializes the generator to a point from which the modified image should be ideally closest in terms of composition to the a-priori image. We then maximize the Beauty neuron of our trained classifier $C$ by doing the activation maximization process on the initialized generator, and stop as soon as the generated image pixels start getting saturated. The resulting output image is a natural-like image, which maximizes the beauty neuron for our classifier $\hat{I_j}$ . We hypothesize that because the process begins from an a-priori image, the resulting image is closest possible template to the ugly input image, but with the beauty neural activation maximized. Figure \ref{fig:BeautyExample} shows the activation maximization output in the center.
+
+%\begin{figure*}[h]
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{Plot/GanCompare.png}
+%	\caption{Comparison of using the Default ImageNet GAN against Custom trained GAN for Activation maximization. By re-training the GAN on the test dataset, we can see improvement in terms of structure and colours in the generated images}
+%	\label{fig:GanComparison}
+%\end{figure*}
+
+\subsection{Phase 3: Retrieving Images }
+%In mathematical terms, we want to choose a target image $I'$ from $X$ so as to minimize $E(I' , \hat{I_j} )$ , where $E(I_1, I_2)$ is some error measure that quantifies visual error between two images. This image $I'$ is effectively a natural transformed image.
+In this final step we find a target image $I'$ from the dataset that is closely aligned, in terms of some visual similarity metric $E(I_1, I_2)$, with the generated template image  $\hat{I_j}$ . The result of this exercise is to find the most similar looking image to an input image $I$ that maximizes a particular annotation class $y_j$.
+The visual differences in these two natural images, can act as the subject of reasoning for the explain-ability.
+The problem of finding images which are visually similar can be solved using image embeddings in a $N$ dimensional space $R^N$
+We use a pre-trained deep  network, which is trained to classify scene types to a very high accuracy \cite{zhou2014learning} to extract the image embeddings. We use the last but one fully connected layer of this network to extract a 4096 dimensional feature vector from the template image. We then extract feature vectors from the complete test dataset using the same process. We can now use the $L_2$ Norm to find pairwise distances in the $R^{4096}$. Formally with $N$ test natural images and a template image $\hat{i}$ we extract $v_{\hat{i}} \in R^{4096}$ and and find pairwise distances  $\{d_j \text{  }\forall j \in N\} \text{ where } d_j = L_2(v_j , v_{\hat{i}})$ 
+We then find the target image by finding the $min(\{d_j\})$. For the sake of redundancy, we find the top 5 such matches for every template $\hat{i}$ generated from every ugly image $i$. These target images are what we call the transformed images for maximizing beauty
+
+\begin{figure*}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Plot/Example.png}
+	\caption{Example of Beautification Process}
+	\label{fig:BeautyExample}
+\end{figure*}
+
+\subsection{Pipeline Validation}
+%\textbf{[add EXP details! number of participants, agreement, pay, and ground truth construction ...]}
+Because beauty is a subjective opinion, we need to understand if our pipeline is able to actually learn and generate the intangible qualities of beauty. For this, we run a user study to check how often humans agree with the machine's inference. For this reason, we take help of crowd-sourcing to understand how much do real humans agree with the pipeline's transformations.
+We randomly select 200 images, 100 beautiful  and 100 ugly as per their TrueSkill scores. To have a reliable seperation in terms of visual appeal, we only select ugly images with scores less than 15 and beautiful images with scores greater than 30. This means that we are selecting images from the bottom 10 and top 10 percentiles according to the trueskill distribution as shown in figure \ref{fig:Trueskill}. These images are then transformed to the opposite side of the spectrum of beauty using FaceLift. As a result, a beautiful image would be transformed into an ugly image and vice versa. Then we design an Amazon Mechanical Turk experiment, where we ask the turkers to choose the beautiful image between the original and the transformed images, without giving any hints of the transformation. We pay 0.1\$ per human intensive task and we make sure that each Turker is a verified master, which assures that the Turker has a HIT approval rate above 90\% for the past 30 days. We make sure that we have at least 3 votes on each image comparison, there by allowing us to choose majority voting. In all  The results show that over all , the Turkers agree with the model \textbf{77.5\%} of the time. Besides the over all agreement, the turkers agree \textbf{70\%} of the time with the process of beautification and \textbf{85\%} of the time with uglyfication. These results show that the facelift pipeline is learning the concept of beauty and then doing agreeable transformations on images.  

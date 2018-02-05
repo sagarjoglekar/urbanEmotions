@@ -10,9 +10,8 @@ as discriminatory features of beauty, in a fully automatic way. %We summarize so
 %them between these two transformed groups. The differences in these metrics give us a good understanding of what the deep learning model is learning about the concept if beauty in an urban setting. 
 Table \ref{tab:Design_metrics} shows a list of 5 evaluation metrics%, which are 
 taken from urban design literature\cite{ewing2013measuring,alexander1977pattern}. These represent interpretable, measurable urban elements whose presence drives the aesthetic value of an urban environment. %Apart from being interpretable, these metrics also have an important property which is measurability. 
-We design computer-based features to map each of these theoretical metrics into a computational form. 
+We design computer-based methods to map each of these theoretical metrics into a computationally measurable form. 
 To measure the metrics, we select 500 ugly and 500 beautiful images from the test dataset based on their base TrueSkill scores. We then transform these images towards the opposite side of the beauty specturm using the FaceLift pipeline. 
-%This allows to measure in a fully automatic way t
 We compare the values of these features between the two changed samples (beauty -> ugly , ugly->beauty), thus inferring statistics regarding which types of urban elements are added/removed by the beautification pipeline.
 %All of these metrics have an approximate way of measurement using one or more of the computer the state of art computer vision tools. 
 In this Section, we present the computational methods used to map these 5 metrics, as well as the results that we get on the pre and post transform images. 
@@ -40,7 +39,7 @@ In this Section, we present the computational methods used to map these 5 metric
 			'U' relation with aesthetic values. The beauty and aesthetics of a place increases until it starts dropping because of 'too much' complexity\cite{ewing2013measuring}. \\
 			\hline
 	\end{tabular}}
-	\caption{Urban Design Metrics \textbf{ADD IMPLEMENTATION INTO COMPUTATIONAL APPROACH}}
+	\caption{Urban Design Metrics}
 	\label{tab:Design_metrics}
 	%        \vspace{-5mm}
 \end{table*}
@@ -165,14 +164,7 @@ Visual complexity is a metric to measure the diversity of an urban scene. There 
 \textit{[H4] Visual Complexity has a inverse 'U' relation with the sense of beauty }
 \par
 
-To test  this hypothesis, we compute the binned plot (see Sec. \label{sec:privacy}) of our complexity metric. It can be seen from Fig \ref{fig:complexity} that visual complexity does peak in beautiful images but then deteriorates rapidly.
-%\begin{figure}[h]
-%	\centering
-%	\includegraphics[width=\columnwidth]{Plot/binnedPlot_complexity.png}
-%	\caption{Binned Plot for Visual Complexity across transformed images}
-%	\label{fig:complexity}
-%\end{figure}
-
+To test  this hypothesis, we compute the binned plot (see Sec. \ref{sec:privacy}) of our complexity metric. It can be seen from Fig \ref{fig:complexity} that visual complexity does peak in beautiful images but then deteriorates rapidly.
 
 
 \subsection{Interdependence of Urban elements}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  4 FEB 2018 19:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  5 FEB 2018 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -743,9 +743,6 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 ))
 (./Sections/Abstract.tex) (./main.aux
 
-LaTeX Warning: Label `fig:BeautyExample' multiply defined.
-
-
 LaTeX Warning: Label `sec:privacy' multiply defined.
 
 )
@@ -984,123 +981,129 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 (./Sections/Intro.tex) (./Sections/Related.tex
-Overfull \hbox (1.33197pt too wide) in paragraph at lines 3--4
-\T1/ptm/b/n/9 [@Sagar please add more on ur-ban com-put-ing e.g. happy Maps] 
- []
-
-
-Underfull \vbox (badness 3482) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1.1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ])
-(./Sections/pipeline.tex
+(./Sections/FaceliftPipeline.tex
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 29.
+(Font)              scaled to size 9.0pt on input line 26.
 
-<Plot/UrbanEmotionsPipeline.png, id=140, 1420.30624pt x 429.605pt>
+<Plot/UrbanEmotionsPipeline.png, id=123, 1420.30624pt x 429.605pt>
 File: Plot/UrbanEmotionsPipeline.png Graphic file (type png)
 
 <use Plot/UrbanEmotionsPipeline.png>
-Package pdftex.def Info: Plot/UrbanEmotionsPipeline.png used on input line 45.
+Package pdftex.def Info: Plot/UrbanEmotionsPipeline.png used on input line 32.
 (pdftex.def)             Requested size: 482.29498pt x 145.88022pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 68.
- [2.2]
-Overfull \hbox (1.35928pt too wide) in paragraph at lines 93--94
-[]\T1/ptm/m/it/9 (-20) Generator\T1/ptm/m/n/9 (-20) . We train a gen-er-a-tive 
-ad-ver-sar-ial net-work (GAN)
- []
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 51.
 
-) (./Sections/FaceLift.tex
-<Plot/Trueskill.png, id=177, 981.6675pt x 719.68875pt>
+<Plot/Trueskill.png, id=132, 981.6675pt x 719.68875pt>
 File: Plot/Trueskill.png Graphic file (type png)
 
 <use Plot/Trueskill.png>
-Package pdftex.def Info: Plot/Trueskill.png used on input line 19.
-(pdftex.def)             Requested size: 192.91872pt x 141.4314pt.
- [3.3 <./Plot/UrbanEmotionsPipeline.png>]
-<Plot/SimilarityPlacesPrevalence.png, id=190, 1803.73875pt x 1553.805pt>
+Package pdftex.def Info: Plot/Trueskill.png used on input line 57.
+(pdftex.def)             Requested size: 168.8025pt x 123.7511pt.
+ [2.2]
+<Plot/AugmentationExample.png, id=158, 895.345pt x 435.6275pt>
+File: Plot/AugmentationExample.png Graphic file (type png)
+
+<use Plot/AugmentationExample.png>
+Package pdftex.def Info: Plot/AugmentationExample.png used on input line 85.
+(pdftex.def)             Requested size: 301.43436pt x 146.66231pt.
+
+<Plot/SimilarityPlacesPrevalence.png, id=160, 1803.73875pt x 1553.805pt>
 File: Plot/SimilarityPlacesPrevalence.png Graphic file (type png)
 
 <use Plot/SimilarityPlacesPrevalence.png>
 Package pdftex.def Info: Plot/SimilarityPlacesPrevalence.png used on input line
- 81.
-(pdftex.def)             Requested size: 241.14749pt x 207.71564pt.
- [4.4 <./Plot/Trueskill.png> <./Plot/SimilarityPlacesPrevalence.png>]
-<Plot/GanCompare.png, id=212, 794.97pt x 281.853pt>
-File: Plot/GanCompare.png Graphic file (type png)
- <use Plot/GanCompare.png>
-Package pdftex.def Info: Plot/GanCompare.png used on input line 137.
-(pdftex.def)             Requested size: 354.40495pt x 125.65427pt.
+ 102.
+(pdftex.def)             Requested size: 168.8025pt x 145.40805pt.
 
+Underfull \vbox (badness 1596) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ [3.3 <./Plot/UrbanEmotionsPipeline.png> <./Plot/Trueskill.png>]
+Overfull \hbox (1.35928pt too wide) in paragraph at lines 154--155
+[]\T1/ptm/m/it/9 (-20) Generator\T1/ptm/m/n/9 (-20) . We train a gen-er-a-tive 
+ad-ver-sar-ial net-work (GAN)
+ []
 
-<Plot/Example.png, id=214, 1147.28625pt x 368.37625pt>
+[4.4 <./Plot/AugmentationExample.png> <./Plot/SimilarityPlacesPrevalence.png>]
+<Plot/Example.png, id=205, 1147.28625pt x 368.37625pt>
 File: Plot/Example.png Graphic file (type png)
  <use Plot/Example.png>
-Package pdftex.def Info: Plot/Example.png used on input line 149.
-(pdftex.def)             Requested size: 354.40495pt x 113.79074pt.
+Package pdftex.def Info: Plot/Example.png used on input line 185.
+(pdftex.def)             Requested size: 253.14749pt x 81.2791pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./Sections/metrics_miriam_2.tex [5.5]
+) (./Sections/metrics_miriam_2.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[5.5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 1571) has occurred while \output is active []
-
- [6.6 <./Plot/GanCompare.png> <./Plot/Example.png>]
-<Plot/taxonomyCount.png, id=261, 829.0975pt x 612.2875pt>
+ [6.6 <./Plot/Example.png>] <Plot/taxonomyCount.png, id=249, 829.0975pt x 612.2
+875pt>
 File: Plot/taxonomyCount.png Graphic file (type png)
 
 <use Plot/taxonomyCount.png>
-Package pdftex.def Info: Plot/taxonomyCount.png used on input line 90.
+Package pdftex.def Info: Plot/taxonomyCount.png used on input line 89.
 (pdftex.def)             Requested size: 241.14749pt x 178.08202pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Plot/walkable_taxonomy.png, id=264, 1803.73875pt x 1420.30624pt>
+<Plot/walkable_taxonomy.png, id=252, 1803.73875pt x 1420.30624pt>
 File: Plot/walkable_taxonomy.png Graphic file (type png)
 
 <use Plot/walkable_taxonomy.png>
-Package pdftex.def Info: Plot/walkable_taxonomy.png used on input line 103.
+Package pdftex.def Info: Plot/walkable_taxonomy.png used on input line 102.
 (pdftex.def)             Requested size: 241.14749pt x 189.86926pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7.7 <./Plot/taxonomyCount.png>]
-<Plot/BinnedPlot.png, id=277, 974.64125pt x 712.6625pt>
+<Plot/BinnedPlot.png, id=253, 974.64125pt x 712.6625pt>
 File: Plot/BinnedPlot.png Graphic file (type png)
 
 <use Plot/BinnedPlot.png>
-Package pdftex.def Info: Plot/BinnedPlot.png used on input line 138.
+Package pdftex.def Info: Plot/BinnedPlot.png used on input line 137.
 (pdftex.def)             Requested size: 227.82123pt x 142.25812pt.
 
-<Plot/binnedPlot_complexity.png, id=278, 1086.0575pt x 717.68124pt>
+<Plot/binnedPlot_complexity.png, id=254, 1086.0575pt x 717.68124pt>
 File: Plot/binnedPlot_complexity.png Graphic file (type png)
 
 <use Plot/binnedPlot_complexity.png>
-Package pdftex.def Info: Plot/binnedPlot_complexity.png used on input line 142.
+Package pdftex.def Info: Plot/binnedPlot_complexity.png used on input line 141.
 
 (pdftex.def)             Requested size: 227.83022pt x 142.2634pt.
 
-Overfull \hbox (29.06271pt too wide) in paragraph at lines 192--210
+Underfull \vbox (badness 7186) has occurred while \output is active []
+
+ [7.7 <./Plot/taxonomyCount.png> <./Plot/walkable_taxonomy.png>]
+Overfull \hbox (29.06271pt too wide) in paragraph at lines 184--202
  [][] 
  []
 
-) (./Sections/Discussion.tex [8.8 <./Plot/walkable_taxonomy.png>]) (./main.bbl
-Underfull \hbox (badness 1783) in paragraph at lines 356--364
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Sections/Discussion.tex
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
+)
+(./main.bbl [8.8 <./Plot/BinnedPlot.png> <./Plot/binnedPlot_complexity.png>]
+Underfull \hbox (badness 1783) in paragraph at lines 381--389
 []\T1/ptm/m/n/7 (+20) Brandon K Vaughn. 2008.  Data anal-y-sis us-ing re-gres-s
 ion and mul-ti-
  []
 
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 391.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 416.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -1108,34 +1111,29 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [9.9 <./Plot/BinnedPlot.png> <./Plot/binnedPlot_complexity.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
+) [9.9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
 
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 5B71A8680B5D75755BB96A8B44476719;2766.
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: B1945517909796CBADBA8B634ED4E5E2;3533
-(rerunfilecheck)             After:  647BC08E46A160DECC50456FBE200D51;3626.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 17942 strings out of 492995
- 266690 string characters out of 6132703
- 387052 words of memory out of 5000000
- 20573 multiletter control sequences out of 15000+600000
- 109848 words of font info for 348 fonts, out of 8000000 for 9000
+ 17956 strings out of 492995
+ 266928 string characters out of 6132703
+ 389268 words of memory out of 5000000
+ 20574 multiletter control sequences out of 15000+600000
+ 111107 words of font info for 361 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,12n,94p,1382b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,94p,1559b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2017/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/usr/local/texli
 ve/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}</usr/local/texliv
@@ -1154,10 +1152,10 @@ uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvro8a
 live/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/newtx/zxlri.pfb>
-Output written on main.pdf (9 pages, 3492193 bytes).
+Output written on main.pdf (9 pages, 2199613 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
- 92 named destinations out of 1000 (max. 500000)
- 47838 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 379 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 47798 words of extra memory for PDF output out of 51595 (max. 10000000)
 
