@@ -181,6 +181,7 @@ Here $invLogit$ is the inverse Logistic function. According to the rule of fourt
 We perform the logistic regression on the 5 prime influences namely \textit{Sky , Buildings , Road , Vehicles , Trees}. The results of pairwise regression along with the dependency term are summaries in the table \ref{tab:regressioncoef}
 \begin{table}[h]
 	\centering
+	\resizebox{\linewidth}{!}{%
 	\begin{tabular}{|c|c|c|c|c|}
 		\hline
 		\textbf{Object pair} & \textbf{$\beta_1$}  & \textbf{$\beta_2$} & \textbf{$\beta_3$}  & Error Rate (Percentage)\\
@@ -199,9 +200,10 @@ We perform the logistic regression on the 5 prime influences namely \textit{Sky 
 		Roads - Buildings & -0.05  & -0.097  &  0.04  & 20.2  \\
 		\hline
 	\end{tabular}
+	}
 	\caption{Regression coefficients}
 	\label{tab:regressioncoef}
-	%        \vspace{-5mm}
+    \vspace{-10mm}
 \end{table}
 
 

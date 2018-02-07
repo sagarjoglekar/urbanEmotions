@@ -5,13 +5,11 @@ The style file: ACMbib.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: urbanEmotions.bib
-Repeated entry---line 301 of file urbanEmotions.bib
- : @inproceedings{zhou2014learning
- :                                ,
-I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty address in alexander1977pattern
+Warning--empty publisher in arisoy2012deep
+Warning--empty address in arisoy2012deep
 Warning--no number and no volume in badrinarayanan2015segnet
 Warning--page numbers missing in both pages and numpages fields in badrinarayanan2015segnet
 Warning--empty publisher in datta2008algorithmic
@@ -30,82 +28,73 @@ Warning--no number and no volume in gulrajani2017improved
 Warning--page numbers missing in both pages and numpages fields in gulrajani2017improved
 Warning--empty publisher in herbrich2007trueskill
 Warning--empty address in herbrich2007trueskill
-Warning--empty publisher in Isola2011
-Warning--empty address in Isola2011
-Warning--empty publisher in karpathy2015deep
-Warning--empty address in karpathy2015deep
 Warning--empty publisher in khosla2014makes
 Warning--empty address in khosla2014makes
 Warning--empty publisher in krizhevsky2012imagenet
 Warning--empty address in krizhevsky2012imagenet
-Warning--no number and no volume in mao2014explain
-Warning--page numbers missing in both pages and numpages fields in mao2014explain
+Warning--require articleno with numpages field in Law:2017:ACN:3149808.3149810
 Warning--empty publisher in naik2014streetscore
 Warning--empty address in naik2014streetscore
 Warning--empty publisher in nguyen2016synthesizing
 Warning--empty address in nguyen2016synthesizing
 Warning--empty publisher in quercia2015chatty
 Warning--empty address in quercia2015chatty
-Warning--empty publisher in quercia2014aesthetic
-Warning--empty address in quercia2014aesthetic
 Warning--empty publisher in quercia2014shortest
 Warning--empty address in quercia2014shortest
 Warning--no number and no volume in quercia2015smelly
 Warning--page numbers missing in both pages and numpages fields in quercia2015smelly
 Warning--no number and no volume in radford2015unsupervised
 Warning--page numbers missing in both pages and numpages fields in radford2015unsupervised
-Warning--empty publisher in redi20146
-Warning--empty address in redi20146
 Warning--empty publisher in schifanella2015image
 Warning--empty address in schifanella2015image
 Warning--page numbers missing in both pages and numpages fields in schifanella2015image
 Warning--empty publisher in szegedy2015going
 Warning--empty address in szegedy2015going
+Warning--empty publisher in szegedy2013deep
+Warning--empty address in szegedy2013deep
 Warning--empty address in Wang:2015:USA:2832415.2832579
 Warning--page numbers missing in both pages and numpages fields in Wang:2015:USA:2832415.2832579
-Warning--no journal in workman2016
-Warning--no number and no volume in workman2016
 Warning--empty publisher in zhou2014learning
 Warning--empty address in zhou2014learning
-You've used 32 entries,
+You've used 33 entries,
             5580 wiz_defined-function locations,
-            1459 strings with 21133 characters,
-and the built_in function-call counts, 34375 in all, are:
-= -- 4080
-> -- 1486
+            1475 strings with 21818 characters,
+and the built_in function-call counts, 36055 in all, are:
+= -- 4411
+> -- 1635
 < -- 0
-+ -- 464
-- -- 553
-* -- 2550
-:= -- 3807
-add.period$ -- 161
-call.type$ -- 32
-change.case$ -- 229
-chr.to.int$ -- 32
-cite$ -- 88
-duplicate$ -- 2809
-empty$ -- 2000
-format.name$ -- 600
-if$ -- 8226
++ -- 514
+- -- 589
+* -- 2750
+:= -- 3993
+add.period$ -- 166
+call.type$ -- 33
+change.case$ -- 247
+chr.to.int$ -- 33
+cite$ -- 82
+duplicate$ -- 2851
+empty$ -- 2029
+format.name$ -- 644
+if$ -- 8708
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 141
-newline$ -- 285
-num.names$ -- 256
-pop$ -- 1250
+missing$ -- 144
+newline$ -- 294
+num.names$ -- 264
+pop$ -- 1258
 preamble$ -- 1
-purify$ -- 388
+purify$ -- 412
 quote$ -- 0
-skip$ -- 803
+skip$ -- 816
 stack$ -- 0
-substring$ -- 2469
-swap$ -- 275
+substring$ -- 2482
+swap$ -- 287
 text.length$ -- 99
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 436
-warning$ -- 56
-while$ -- 230
+type$ -- 450
+warning$ -- 49
+while$ -- 223
 width$ -- 0
-write$ -- 568
-(There was 1 error message)
+write$ -- 590
+(There were 50 warnings)
