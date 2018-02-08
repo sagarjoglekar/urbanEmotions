@@ -52,7 +52,7 @@ To validate the presence before/after transformation of the 5 urban elements in 
 \subsubsection{Measuring Walkability and presence of Landmarks}
 To quanitfy elements of Walkability, Greenery, and Landmarks, we proceed as follows. % %We use the data that is transformed into beautiful and ugly scenes using the learned model, to analyze scene level characteristics.
 We use PlacesNet \cite{zhou2014learning} to extract information regarding the scene type (e.g. beach, garden, etc.). PlaceNet's output is the SoftMax distribution over 205 scene labels. We retain for an image the top 5 labels with higher confidence scores.
-We classify the 205 scene labels of PlacesNet into 4 categories, \textbf{L}andmarks , \textbf{A}rchitectural , \textbf{W}alkable , \textbf{N}atural. Each category is inspired from  urban design literature \cite{urbanDesign}.  Labels like \textit{Abbey , Plaza , Courtyard, Garden, Picnic Area, Park , etc} fall into the category of \textit{Walkable}, where as labels like \textit{Mansion, Castle, Dam , Airport, etc} fall in the category of \textit{Landmarks}. Labels like \textit{Residential neighborhood, Motel, hotel, restaurant, etc} fall in the category of \textit{Architectural} and labels like {fields, pasture , forest, ocean, beach etc } fall in the category \textit{Natural}. %All in all 
+We classify the 205 scene labels of PlacesNet into 4 categories, \textbf{L}andmarks , \textbf{A}rchitectural , \textbf{W}alkable , \textbf{N}atural. Each category is inspired from  urban design literature \cite{ewing2013measuring}.  Labels like \textit{Abbey , Plaza , Courtyard, Garden, Picnic Area, Park , etc} fall into the category of \textit{Walkable}, where as labels like \textit{Mansion, Castle, Dam , Airport, etc} fall in the category of \textit{Landmarks}. Labels like \textit{Residential neighborhood, Motel, hotel, restaurant, etc} fall in the category of \textit{Architectural} and labels like {fields, pasture , forest, ocean, beach etc } fall in the category \textit{Natural}. %All in all 
 For an image, we then measure its Wakability according to how many of the top-5 labels fall in category W. Similarly, we quantify presence of Greenery and Landmarks according to the frequency of N and L labels.%These higher-level LAWN labels represent  broader urban design motifs that constitute a liveable city we can detect through PlaceNEt. 
 
 \subsubsection{Measuring Openness and Green spaces}
@@ -70,7 +70,7 @@ The $i$ in Eq \ref{eq:entropy} is the SegNet dimension for one of the 12 objects
 
 
 \subsection{Testing Hypothesis}
-We now try to reason about different hypothesis inspired from the literature \cite{ewing2013measuring,urbanDesign,alexander1977pattern} using the computational approaches mentioned above. The main outcome of this excercise is either to confirm or refute whether we can explain how our model understands beauty using popular urban design concepts. Without the loss of generalization, we want to probe whether the elements that the pipeline deems beautiful or ugly, are grounded in literature. 
+We now try to reason about different hypothesis inspired from the literature \cite{ewing2013measuring,alexander1977pattern} using the computational approaches mentioned above. The main outcome of this excercise is either to confirm or refute whether we can explain how our model understands beauty using popular urban design concepts. Without the loss of generalization, we want to probe whether the elements that the pipeline deems beautiful or ugly, are grounded in literature. 
 
 \subsubsection{Walkability and Green spaces}
 As mentioned in table \ref{tab:Design_metrics} , Walk-ability of streets has high impact on the beauty and other aesthetic qualities of a place. We test this by quantifying the amount of greenery and walkable elements added by the beautification process.
@@ -95,7 +95,7 @@ It can be seen from Fig \ref{fig:taxonomyCount}, that walkable scene types are h
 \textit{[H2] Green spaces are favourable for beauty in urban scenes.  }
 \par
 
-Figure \ref{fig:taxonomyCount} and \ref{fig:WalkableTnomy} implies that natural scenes are twice as likely in beautified images than in uglified images. To test this hypothesis further, we further analyze the percentage of 'tree' pixels (according to SegNet) added by the beautification process: in average \textbf{[XXX\% pixels]} of greenery are added after beautification. %It can be seen from Fig \ref{fig:greenBinned} that more than as the green cover in an urban image increases, it is highly favoured in beautified class than in the u class. This shows that the green spaces are highly favourable for urban beauty.
+Figure \ref{fig:taxonomyCount} and \ref{fig:WalkableTnomy} implies that natural scenes are twice as likely in beautified images than in uglified images. To test this hypothesis further, we further analyze the percentage of 'tree' pixels (according to SegNet) added by the beautification process: on average 32\% of greenery pixels are added during the beautification process as compared to the original. On the contrary on an average 17\% greenery pixels are removed in the uglification process compared to the base original image. %It can be seen from Fig \ref{fig:greenBinned} that more than as the green cover in an urban image increases, it is highly favoured in beautified class than in the u class. This shows that the green spaces are highly favourable for urban beauty.
 
 \begin{figure}[h]
 	\centering
@@ -123,7 +123,7 @@ Too much privacy discourages the fundamental human urge to explore a mystery. To
 \textit{[H3] Sense of Privacy has an inverse 'U' relationship with the sense of beauty }
 \par
 What \textit{H3} suggests is that sense of privacy is not always associated with beauty. 
-To understand the relationship between openness and beauty in urban scenes, we employ a technique called binned plots \textbf{CITE \cite{}}. We bin the range of sky pixels into \textbf{XXX Bins}%. This range is broken into bins and then each image out of the 1000, 
+To understand the relationship between openness and beauty in urban scenes, we employ a technique called binned plots \cite{witten2016data} (Chapter 8, section 3). We bin the range of sky pixels into \textbf{6 equal ranged bins}. The number is arrived so that each bin contains roughly the same amount of images out of the 1000.%. This range is broken into bins and then each image out of the 1000, 
 Each image is then assigned to the bin corresponding to its proportion of sky pixels. %, based on where the value of its metric falls. 
 Among the 1000 images (500 uglified, 500 beautified) in our data, we then repeatedly sample 100 images across bins, and count how many of the sampled images fall in either beautified or uglified transformed category. We plot the mean and standard deviation in a plot for these occurrence frequencies. The resulting plot gives a trend about how likely is the presence of pixels favoured or disfavoured by the beautification process. 
 
@@ -133,14 +133,14 @@ Among the 1000 images (500 uglified, 500 beautified) in our data, we then repeat
 	\hspace*{-5mm}
 	\subfloat[]{
 		\includegraphics[width=0.45\textwidth, height = 5cm ]{Plot/BinnedPlot.png}
-		\label{fig:greenBinned}
+		\label{fig:skyBinned}
 	}
 	\subfloat[]{
 		\includegraphics[width=0.45\linewidth, height = 5cm ]{Plot/binnedPlot_complexity.png}
 		\label{fig:complexity}
 	}
 \vspace{-0.4cm}
-\caption{ Figure \ref{fig:greenBinned} shows the Binned Plot for Sky pixels across transformed images and Figure \ref{fig:complexity} shows the Binned Plot for Visual Complexity across transformed images }
+\caption{ Figure \ref{fig:skyBinned} shows the Binned Plot for Sky pixels across transformed images and Figure \ref{fig:complexity} shows the Binned Plot for Visual Complexity across transformed images }
 \vspace{-0.4cm}
 \end{figure*}
 

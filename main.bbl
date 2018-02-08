@@ -149,15 +149,6 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Ewing~Reid}{Ewing~Reid}{}]%
-        {urbanDesign}
-\bibfield{author}{\bibinfo{person}{Clemente~Otto Ewing~Reid}.}
-\newblock \showarticletitle{Measuring Urban Design - Metrics for Livable
-  Places}.
-\newblock  (\bibinfo{year}{????}).
-\newblock
-
-
 \bibitem[\protect\citeauthoryear{Gulrajani, Ahmed, Arjovsky, Dumoulin, and
   Courville}{Gulrajani et~al\mbox{.}}{2017}]%
         {gulrajani2017improved}
@@ -442,6 +433,18 @@
 \showISBNx{978-1-57735-738-4}
 \showURL{%
 \url{http://dl.acm.org/citation.cfm?id=2832415.2832579}}
+
+
+\bibitem[\protect\citeauthoryear{Witten, Frank, Hall, and Pal}{Witten
+  et~al\mbox{.}}{2016}]%
+        {witten2016data}
+\bibfield{author}{\bibinfo{person}{Ian~H Witten}, \bibinfo{person}{Eibe Frank},
+  \bibinfo{person}{Mark~A Hall}, {and} \bibinfo{person}{Christopher~J Pal}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Data Mining: Practical machine learning
+  tools and techniques}}.
+\newblock \bibinfo{publisher}{Morgan Kaufmann}.
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Zhou, Lapedriza, Xiao, Torralba, and

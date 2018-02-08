@@ -5,7 +5,7 @@ The style file: ACMbib.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: urbanEmotions.bib
-Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "urbanDesign"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty address in alexander1977pattern
 Warning--empty publisher in arisoy2012deep
@@ -20,10 +20,6 @@ Warning--empty address in dosovitskiy2016inverting
 Warning--no number and no volume in dubey2016deep
 Warning--page numbers missing in both pages and numpages fields in dubey2016deep
 Warning--empty address in ewing2013measuring
-Warning--empty year in urbanDesign
-Warning--no journal in urbanDesign
-Warning--no number and no volume in urbanDesign
-Warning--page numbers missing in both pages and numpages fields in urbanDesign
 Warning--no number and no volume in gulrajani2017improved
 Warning--page numbers missing in both pages and numpages fields in gulrajani2017improved
 Warning--empty publisher in herbrich2007trueskill
@@ -54,47 +50,48 @@ Warning--empty publisher in szegedy2013deep
 Warning--empty address in szegedy2013deep
 Warning--empty address in Wang:2015:USA:2832415.2832579
 Warning--page numbers missing in both pages and numpages fields in Wang:2015:USA:2832415.2832579
+Warning--empty address in witten2016data
 Warning--empty publisher in zhou2014learning
 Warning--empty address in zhou2014learning
 You've used 33 entries,
             5580 wiz_defined-function locations,
-            1475 strings with 21818 characters,
-and the built_in function-call counts, 36055 in all, are:
-= -- 4411
-> -- 1635
+            1477 strings with 21900 characters,
+and the built_in function-call counts, 36218 in all, are:
+= -- 4427
+> -- 1667
 < -- 0
-+ -- 514
-- -- 589
-* -- 2750
-:= -- 3993
-add.period$ -- 166
++ -- 526
+- -- 597
+* -- 2789
+:= -- 4025
+add.period$ -- 167
 call.type$ -- 33
-change.case$ -- 247
+change.case$ -- 250
 chr.to.int$ -- 33
-cite$ -- 82
-duplicate$ -- 2851
-empty$ -- 2029
-format.name$ -- 644
-if$ -- 8708
+cite$ -- 79
+duplicate$ -- 2848
+empty$ -- 2025
+format.name$ -- 656
+if$ -- 8733
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 144
+missing$ -- 142
 newline$ -- 294
 num.names$ -- 264
-pop$ -- 1258
+pop$ -- 1248
 preamble$ -- 1
-purify$ -- 412
+purify$ -- 415
 quote$ -- 0
-skip$ -- 816
+skip$ -- 822
 stack$ -- 0
-substring$ -- 2482
-swap$ -- 287
+substring$ -- 2487
+swap$ -- 289
 text.length$ -- 99
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 450
-warning$ -- 49
-while$ -- 223
+type$ -- 444
+warning$ -- 46
+while$ -- 219
 width$ -- 0
-write$ -- 590
-(There were 50 warnings)
+write$ -- 592
+(There were 47 warnings)

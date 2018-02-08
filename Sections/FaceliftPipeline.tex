@@ -78,7 +78,7 @@ To develop a better way of augmenting images which can be transferred with score
 %\textbf{[Explain this assumption better - give example, refer to \ref{fig:rotSim} ]}.
 %With an assumption that "\textbf{[A1]}\textit{rotation of camera, keeping the location constant, does not change the composition of the image considerably}" we now have two sets of images. 
 All images in the PlacePulse dataset are taken with a default camera rotation which depends on the location. The Streetview API allows to specify the preferred camera rotation angle. This gives us the opportunity to take snapshots of the same location at different camera angles. We rotate the camera across different values $\theta \in {-30^{\circ}, -15^{\circ} , 15^{\circ} , 30^{\circ} }$ and derive a first set  $R=\{R(I)_{\theta} \forall I \in X\}$ , which consists of images acquired by rotating the camera angle for each annotated image in $X$. Following \textbf{A1}, For these images, the beauty score of each rotated image $R(I)_{\theta}$ can be safely transferred from $I$. 
-%First set  is $R(I_i) \forall I_i \in X$ , which consists of images acquired by just rotating the camera angle for a given annotated image. We rotate the camera across different values $\theta \in {-30^{\circ}, -15^{\circ} , 15^{\circ} , 30^{\circ} }$. For these images, the beauty score can be safely transferred from $i$. 
+%First set  is $R(I_i) \forall I_i \in X$ , which consists of images acquired b	y just rotating the camera angle for a given annotated image. We rotate the camera across different values $\theta \in {-30^{\circ}, -15^{\circ} , 15^{\circ} , 30^{\circ} }$. For these images, the beauty score can be safely transferred from $i$. 
 
 Next, for each image in $X$, we translate the location of the Streetview camera: we select points on the map at a distance of $d \in \{10,20,40,60\}$ meters and acquire the resulting set of images $T=\{T(I)_d \forall I \in X\}$%, by translating the location of Streetview camera a near geographic vicinity of a StreetView image $I_i$ in $X$. We by translating the streetview  camera at distances of 10, 20 40 an,d 60 meters
 . Although possibly very similar, transferring the beauty score from $I$ to each $T(I)_d$ might result in very noisy data. To understand the extent to which beauty scores can be transferred from images to their translated version, we use a smart augmentation technique. 
@@ -131,7 +131,7 @@ We describe each image in both sets according to the scene depicted, by collecti
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.7\columnwidth]{Plot/SimilarityPlacesPrevalence.png}
+	\includegraphics[width=\columnwidth]{Plot/SimilarityPlacesPrevalence.png}
 	\caption{Prevalence plot of types of scenes prevalent in Similar images compared to dissimilar ones.}
 	\label{fig:augmentationSimilarity}
 \end{figure}

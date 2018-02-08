@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  7 FEB 2018 19:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  8 FEB 2018 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,15 +1036,22 @@ File: Plot/SimilarityPlacesPrevalence.png Graphic file (type png)
 <use Plot/SimilarityPlacesPrevalence.png>
 Package pdftex.def Info: Plot/SimilarityPlacesPrevalence.png used on input line
  134.
-(pdftex.def)             Requested size: 168.8025pt x 145.40805pt.
+(pdftex.def)             Requested size: 241.14749pt x 207.71564pt.
  [3.3 <./Plot/UrbanEmotionsPipeline.png> <./Plot/Trueskill.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 3291) has occurred while \output is active []
+
+
 Overfull \hbox (1.35928pt too wide) in paragraph at lines 186--187
 []\T1/ptm/m/it/9 (-20) Generator\T1/ptm/m/n/9 (-20) . We train a gen-er-a-tive 
 ad-ver-sar-ial net-work (GAN)
  []
 
 [4.4 <./Plot/rotationalSim.png> <./Plot/transSim.png> <./Plot/SimilarityPlacesP
-revalence.png>] <Plot/Example.png, id=219, 1147.28625pt x 368.37625pt>
+revalence.png>] <Plot/Example.png, id=218, 1147.28625pt x 368.37625pt>
 File: Plot/Example.png Graphic file (type png)
 
 <use Plot/Example.png>
@@ -1055,13 +1062,19 @@ Package pdftex.def Info: Plot/Example.png used on input line 243.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./Sections/metrics_miriam_2.tex
+Underfull \vbox (badness 1953) has occurred while \output is active []
+
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5.5]
-Underfull \vbox (badness 1082) has occurred while \output is active []
 
- [6.6 <./Plot/Example.png>] <Plot/taxonomyCount.png, id=263, 829.0975pt x 612.2
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5.5]
+Underfull \vbox (badness 2662) has occurred while \output is active []
+
+ [6.6 <./Plot/Example.png>] <Plot/taxonomyCount.png, id=261, 829.0975pt x 612.2
 875pt>
 File: Plot/taxonomyCount.png Graphic file (type png)
 
@@ -1069,24 +1082,21 @@ File: Plot/taxonomyCount.png Graphic file (type png)
 Package pdftex.def Info: Plot/taxonomyCount.png used on input line 89.
 (pdftex.def)             Requested size: 241.14749pt x 178.08202pt.
 
-<Plot/walkable_taxonomy.png, id=266, 1803.73875pt x 1420.30624pt>
+<Plot/walkable_taxonomy.png, id=264, 1803.73875pt x 1420.30624pt>
 File: Plot/walkable_taxonomy.png Graphic file (type png)
 
 <use Plot/walkable_taxonomy.png>
 Package pdftex.def Info: Plot/walkable_taxonomy.png used on input line 102.
 (pdftex.def)             Requested size: 241.14749pt x 189.86926pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Plot/BinnedPlot.png, id=267, 974.64125pt x 712.6625pt>
+<Plot/BinnedPlot.png, id=266, 974.64125pt x 712.6625pt>
 File: Plot/BinnedPlot.png Graphic file (type png)
 
 <use Plot/BinnedPlot.png>
 Package pdftex.def Info: Plot/BinnedPlot.png used on input line 137.
 (pdftex.def)             Requested size: 227.82123pt x 142.25812pt.
 
-<Plot/binnedPlot_complexity.png, id=268, 1086.0575pt x 717.68124pt>
+<Plot/binnedPlot_complexity.png, id=267, 1086.0575pt x 717.68124pt>
 File: Plot/binnedPlot_complexity.png Graphic file (type png)
 
 <use Plot/binnedPlot_complexity.png>
@@ -1094,11 +1104,9 @@ Package pdftex.def Info: Plot/binnedPlot_complexity.png used on input line 141.
 
 (pdftex.def)             Requested size: 227.83022pt x 142.2634pt.
  [7.7 <./Plot/taxonomyCount.png> <./Plot/walkable_taxonomy.png>]) (./Sections/D
-iscussion.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8.8 <./Plot/BinnedPlot.png> <./Plot/binnedPlot_complexity.png>] (./main.bbl
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 222.
+iscussion.tex [8.8 <./Plot/BinnedPlot.png> <./Plot/binnedPlot_complexity.png>])
+ (./main.bbl
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 213.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1108,10 +1116,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \vbox (badness 5652) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1783) in paragraph at lines 422--430
+Underfull \hbox (badness 1783) in paragraph at lines 413--421
 []\T1/ptm/m/n/7 (+20) Brandon K Vaughn. 2008.  Data anal-y-sis us-ing re-gres-s
 ion and mul-ti-
  []
@@ -1123,15 +1128,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F50BE8145BB1866C555BCB810DCF8F20;2831.
+(rerunfilecheck)             Checksum: 8293582C3F1AC9AAD07E43FD33E553B1;2786.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 18009 strings out of 492995
- 267633 string characters out of 6132703
- 389432 words of memory out of 5000000
+ 18006 strings out of 492995
+ 267611 string characters out of 6132703
+ 389462 words of memory out of 5000000
  20587 multiletter control sequences out of 15000+600000
- 115485 words of font info for 385 fonts, out of 8000000 for 9000
+ 115260 words of font info for 383 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,12n,94p,1550b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
@@ -1152,7 +1157,7 @@ uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvro8a
 live/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/
 texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/newtx/zxlri.pfb>
-Output written on main.pdf (9 pages, 2197816 bytes).
+Output written on main.pdf (9 pages, 2198744 bytes).
 PDF statistics:
  392 PDF objects out of 1000 (max. 8388607)
  337 compressed objects within 4 object streams
