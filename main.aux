@@ -16,160 +16,136 @@
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
-\citation{lecun2015deep}
-\citation{szegedy2013deep}
-\citation{mnih2015human}
-\citation{arisoy2012deep}
-\citation{naik2014streetscore,seresinhe2017using,Law:2017:ACN:3149808.3149810,seresinhe2015quantifying,naik2017computer}
-\citation{datta2008algorithmic}
-\citation{khosla2014makes,Wang:2015:USA:2832415.2832579,schifanella2015image}
-\citation{quercia2014shortest,quercia2015chatty,quercia2015smelly,aiello2016chatty}
-\citation{naik2014streetscore,salesses2013collaborative}
+\citation{alexander1977pattern,quercia2014aesthetic,salesses2013collaborative}
+\citation{jacobs1961death}
 \citation{dubey2016deep}
-\citation{seresinhe2017using,Law:2017:ACN:3149808.3149810,seresinhe2015quantifying,naik2017computer}
+\citation{de2008architecture}
+\citation{sampson04seeing}
+\citation{lindal2012}
+\citation{salesses2013collaborative}
+\citation{quercia2014aesthetic}
 \@writefile{toc}{\contentsline {section}{Abstract}{1}{section*.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{1}{section.2}}
-\citation{radford2015unsupervised}
+\newlabel{sec:related}{{2}{1}{Related Work}{section.2}{}}
+\citation{dubey2016deep,seresinhe2017using}
+\citation{naik2017computer}
+\citation{DeNadai16}
+\citation{nguyen2016synthesizing}
 \citation{dubey2016deep}
 \citation{herbrich2007trueskill}
-\citation{parislooklikeparis}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Notations and Terms.\relax }}{2}{table.caption.3}}
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{notations}{{1}{2}{Notations and Terms.\relax }{table.caption.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Facelift Framework}{2}{section.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Phase 1: Classifying Beauty}{2}{subsection.3.1}}
-\newlabel{sec:label}{{3.1.1}{2}{Dataset and Beauty Judgements}{subsubsection.3.1.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Dataset and Beauty Judgements}{2}{subsubsection.3.1.1}}
-\newlabel{sec:bound}{{3.1.2}{2}{Data Augmentation similarity bound}{subsubsection.3.1.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}Data Augmentation similarity bound}{2}{subsubsection.3.1.2}}
-\citation{zhou2014learning}
+\citation{}
 \citation{zhou2014learning}
 \citation{krizhevsky2012imagenet}
 \citation{zhou2014learning}
 \citation{szegedy2015going}
 \citation{szegedy2015going}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Architecture of the Beautification Pipeline\relax }}{3}{figure.caption.4}}
-\newlabel{fig:pipeline}{{1}{3}{Architecture of the Beautification Pipeline\relax }{figure.caption.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Distribution of ordinal scores for images with at-least 4 votes. The red and green line represent the threshold below and above which images are tagged Ugly or beautiful. Images in between are dropped for separability \relax }}{3}{figure.caption.5}}
-\newlabel{fig:Trueskill}{{2}{3}{Distribution of ordinal scores for images with at-least 4 votes. The red and green line represent the threshold below and above which images are tagged Ugly or beautiful. Images in between are dropped for separability \relax }{figure.caption.5}{}}
-\newlabel{eq:bound}{{1}{3}{Data Augmentation similarity bound}{equation.3.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.3}Semantics of Augmentable images}{3}{subsubsection.3.1.3}}
-\newlabel{sec:classifier}{{3.1.4}{3}{The Beauty Classifier}{subsubsection.3.1.4}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4}The Beauty Classifier}{3}{subsubsection.3.1.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Distribution of ordinal scores for images with at-least 4 votes. The red and green line represent the threshold below and above which images are tagged Ugly or beautiful. Images in between are dropped for separability \relax }}{2}{figure.caption.3}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:Trueskill}{{1}{2}{Distribution of ordinal scores for images with at-least 4 votes. The red and green line represent the threshold below and above which images are tagged Ugly or beautiful. Images in between are dropped for separability \relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}FaceLift Framework}{2}{section.3}}
+\newlabel{sec:framework}{{3}{2}{FaceLift Framework}{section.3}{}}
 \citation{dosovitskiy2016inverting}
+\newlabel{fig:rotSim}{{2a}{3}{Subfigure 2a}{subfigure.2.1}{}}
+\newlabel{sub@fig:rotSim}{{(a)}{a}{Subfigure 2a\relax }{subfigure.2.1}{}}
+\newlabel{fig:transSim}{{2b}{3}{Subfigure 2b}{subfigure.2.2}{}}
+\newlabel{sub@fig:transSim}{{(b)}{b}{Subfigure 2b\relax }{subfigure.2.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  Fig \ref  {fig:rotSim} shows an example set of images showing similarity of streetview scapes, when the camera is rotated by a small angle. Fig \ref  {fig:transSim} shows the translational similarity where the angle is less than the established bound $\rho $ \relax }}{3}{figure.caption.4}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{3}{subfigure.2.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{3}{subfigure.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Prevalence plot of types of scenes prevalent in Similar images compared to dissimilar ones.\relax }}{3}{figure.caption.5}}
+\newlabel{fig:augmentationSimilarity}{{3}{3}{Prevalence plot of types of scenes prevalent in Similar images compared to dissimilar ones.\relax }{figure.caption.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Notations and Terms.\relax }}{3}{table.caption.6}}
+\newlabel{notations}{{1}{3}{Notations and Terms.\relax }{table.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Performance differences based on different augmentation policies\relax }}{3}{table.caption.8}}
+\newlabel{tab:classifier}{{2}{3}{Performance differences based on different augmentation policies\relax }{table.caption.8}{}}
 \citation{radford2015unsupervised}
 \citation{gulrajani2017improved}
 \citation{nguyen2016synthesizing}
-\newlabel{fig:rotSim}{{3a}{4}{Subfigure 3a}{subfigure.3.1}{}}
-\newlabel{sub@fig:rotSim}{{(a)}{a}{Subfigure 3a\relax }{subfigure.3.1}{}}
-\newlabel{fig:transSim}{{3b}{4}{Subfigure 3b}{subfigure.3.2}{}}
-\newlabel{sub@fig:transSim}{{(b)}{b}{Subfigure 3b\relax }{subfigure.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  Fig \ref  {fig:rotSim} shows an example set of images showing similarity of streetview scapes, when the camera is rotated by a small angle. Fig \ref  {fig:transSim} shows the translational similarity where the angle is less than the established bound $\rho $ \relax }}{4}{figure.caption.6}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{4}{subfigure.3.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{4}{subfigure.3.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Prevalence plot of types of scenes prevalent in Similar images compared to dissimilar ones.\relax }}{4}{figure.caption.7}}
-\newlabel{fig:augmentationSimilarity}{{4}{4}{Prevalence plot of types of scenes prevalent in Similar images compared to dissimilar ones.\relax }{figure.caption.7}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Performance differences based on different augmentation policies\relax }}{4}{table.caption.8}}
-\newlabel{tab:classifier}{{2}{4}{Performance differences based on different augmentation policies\relax }{table.caption.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Phase 2: Generating Images}{4}{subsection.3.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Generator}{4}{subsubsection.3.2.1}}
 \citation{nguyen2016synthesizing}
 \citation{zhou2014learning}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Architecture of the Beautification framework\relax }}{4}{figure.caption.7}}
+\newlabel{fig:framework}{{4}{4}{Architecture of the Beautification framework\relax }{figure.caption.7}{}}
+\newlabel{eq:dgn-am}{{1}{4}{Step 2 Generating Images}{equation.3.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Evaluation}{4}{section.4}}
+\newlabel{sec:evaluation}{{4}{4}{Evaluation}{section.4}{}}
 \citation{ewing2013measuring,alexander1977pattern}
 \citation{ewing2013measuring}
 \citation{alexander1977pattern}
 \citation{ewing2013measuring}
 \citation{ewing2013measuring}
 \citation{ewing2013measuring}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Activation Maximization}{5}{subsubsection.3.2.2}}
-\newlabel{eq:dgn-am}{{2}{5}{Activation Maximization}{equation.3.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Phase 3: Retrieving Images }{5}{subsection.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Pipeline Validation}{5}{subsection.3.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Validation Metrics}{5}{section.4}}
 \citation{zhou2014learning}
+\citation{badrinarayanan2015segnet}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Comparison of using the Default ImageNet GAN against Custom trained GAN for Activation maximization. By re-training the GAN on the test dataset, we can see improvement in terms of structure and colours in the generated images\relax }}{5}{figure.caption.10}}
+\newlabel{fig:GanComparison}{{5}{5}{Comparison of using the Default ImageNet GAN against Custom trained GAN for Activation maximization. By re-training the GAN on the test dataset, we can see improvement in terms of structure and colours in the generated images\relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Example of Beautification Process\relax }}{5}{figure.caption.12}}
+\newlabel{fig:BeautyExample}{{6}{5}{Example of Beautification Process\relax }{figure.caption.12}{}}
 \citation{ewing2013measuring}
-\citation{badrinarayanan2015segnet}
-\citation{ewing2013measuring}
-\citation{badrinarayanan2015segnet}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Example of Beautification Process\relax }}{6}{figure.caption.9}}
-\newlabel{fig:BeautyExample}{{5}{6}{Example of Beautification Process\relax }{figure.caption.9}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Urban Design Metrics\relax }}{6}{table.caption.10}}
-\newlabel{tab:Design_metrics}{{3}{6}{Urban Design Metrics\relax }{table.caption.10}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Computational Methods}{6}{subsection.4.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Measuring Walkability and presence of Landmarks}{6}{subsubsection.4.1.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Measuring Openness and Green spaces}{6}{subsubsection.4.1.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Measuring Visual Complexity}{6}{subsubsection.4.1.3}}
-\newlabel{eq:entropy}{{3}{6}{Measuring Visual Complexity}{equation.4.3}{}}
-\citation{ewing2013measuring,alexander1977pattern}
-\citation{witten2016data}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Testing Hypothesis}{7}{subsection.4.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Walkability and Green spaces}{7}{subsubsection.4.2.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Prevalence plot of categories of scenes prevalent in Beautified against Ugly-fied images\relax }}{7}{figure.caption.11}}
-\newlabel{fig:taxonomyCount}{{6}{7}{Prevalence plot of categories of scenes prevalent in Beautified against Ugly-fied images\relax }{figure.caption.11}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Prevalence of Walkable labels in Beautified images against Ugly\relax }}{7}{figure.caption.12}}
-\newlabel{fig:WalkableTnomy}{{7}{7}{Prevalence of Walkable labels in Beautified images against Ugly\relax }{figure.caption.12}{}}
-\newlabel{sec:privacy}{{4.2.2}{7}{Privacy and Openness}{subsubsection.4.2.2}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Privacy and Openness }{7}{subsubsection.4.2.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Visual Complexity }{7}{subsubsection.4.2.3}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Urban Design Metrics\relax }}{6}{table.caption.15}}
+\newlabel{tab:Design_metrics}{{3}{6}{Urban Design Metrics\relax }{table.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Number of labels in specific urban design categories (on the $x$-axis) found in beautified scenes as opposed to those found in uglified scenes.\relax }}{6}{figure.caption.16}}
+\newlabel{fig:taxonomyCount}{{7}{6}{Number of labels in specific urban design categories (on the $x$-axis) found in beautified scenes as opposed to those found in uglified scenes.\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Count of specific walkability-related labels (on the $x$-axis) found in beautified scenes minus the count of the same labels found in uglified scenes.\relax }}{6}{figure.caption.17}}
+\newlabel{fig:WalkableTnomy}{{8}{6}{Count of specific walkability-related labels (on the $x$-axis) found in beautified scenes minus the count of the same labels found in uglified scenes.\relax }{figure.caption.17}{}}
+\newlabel{eq:entropy}{{2}{6}{Q2 Are beautified scenes great urban spaces?}{equation.4.2}{}}
+\citation{quercia2014aesthetic,ewing2013measuring,alexander1977pattern}
 \citation{vaughn2008data}
-\citation{badrinarayanan2015segnet}
 \citation{vaughn2008data}
-\citation{naik2014streetscore}
-\newlabel{fig:skyBinned}{{8a}{8}{Subfigure 8a}{subfigure.8.1}{}}
-\newlabel{sub@fig:skyBinned}{{(a)}{a}{Subfigure 8a\relax }{subfigure.8.1}{}}
-\newlabel{fig:complexity}{{8b}{8}{Subfigure 8b}{subfigure.8.2}{}}
-\newlabel{sub@fig:complexity}{{(b)}{b}{Subfigure 8b\relax }{subfigure.8.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces  Figure \ref  {fig:skyBinned} shows the Binned Plot for Sky pixels across transformed images and Figure \ref  {fig:complexity} shows the Binned Plot for Visual Complexity across transformed images \relax }}{8}{figure.caption.13}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{8}{subfigure.8.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{8}{subfigure.8.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Interdependence of Urban elements}{8}{subsection.4.3}}
-\newlabel{eq:regression}{{4}{8}{Interdependence of Urban elements}{equation.4.4}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Regression coefficients\relax }}{8}{table.caption.14}}
-\newlabel{tab:regressioncoef}{{4}{8}{Regression coefficients\relax }{table.caption.14}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{8}{section.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Expert Reactions}{8}{subsection.5.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Limitations and biases}{8}{subsection.5.2}}
+\citation{de2008architecture}
+\newlabel{fig:skyBinned}{{9a}{7}{Subfigure 9a}{subfigure.9.1}{}}
+\newlabel{sub@fig:skyBinned}{{(a)}{a}{Subfigure 9a\relax }{subfigure.9.1}{}}
+\newlabel{fig:complexity}{{9b}{7}{Subfigure 9b}{subfigure.9.2}{}}
+\newlabel{sub@fig:complexity}{{(b)}{b}{Subfigure 9b\relax }{subfigure.9.2}{}}
+\newlabel{fig:bin_figures}{{\caption@xref {fig:bin_figures}{ on input line 105}}{7}{Q2 Are beautified scenes great urban spaces?}{subfigure.9.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The percentage of scenes ($y$-axis): (a) having an increasing presence of sky (on the $x$-axis); and (b) having an increasing level of visual richness (on the $x$-axis).\relax }}{7}{figure.caption.18}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{7}{subfigure.9.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{7}{subfigure.9.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Regression coefficients on a logistic run on a pair of predictors at the time.\relax }}{7}{table.caption.20}}
+\newlabel{tab:regressioncoef}{{4}{7}{Regression coefficients on a logistic run on a pair of predictors at the time.\relax }{table.caption.20}{}}
+\newlabel{eq:regression}{{3}{7}{Q3 Urban elements of beautified scenes}{equation.4.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{7}{section.5}}
+\newlabel{sec:discussion}{{5}{7}{Conclusion}{section.5}{}}
 \bibstyle{ACMbib}
 \bibdata{urbanEmotions}
-\bibcite{aiello2016chatty}{{1}{2016}{{Aiello et~al\unhbox \voidb@x \hbox {.}}}{{Aiello, Schifanella, Quercia, and Aletta}}}
-\bibcite{alexander1977pattern}{{2}{1977}{{Alexander et~al\unhbox \voidb@x \hbox {.}}}{{Alexander, Ishikawa, Silverstein, i~Rami{\'o}, Jacobson, and Fiksdahl-King}}}
-\bibcite{arisoy2012deep}{{3}{2012}{{Arisoy et~al\unhbox \voidb@x \hbox {.}}}{{Arisoy, Sainath, Kingsbury, and Ramabhadran}}}
-\bibcite{badrinarayanan2015segnet}{{4}{2015}{{Badrinarayanan et~al\unhbox \voidb@x \hbox {.}}}{{Badrinarayanan, Kendall, and Cipolla}}}
-\bibcite{datta2008algorithmic}{{5}{2008}{{Datta et~al\unhbox \voidb@x \hbox {.}}}{{Datta et~al\unhbox \voidb@x \hbox {.}}}}
-\bibcite{parislooklikeparis}{{6}{2012}{{Doersch et~al\unhbox \voidb@x \hbox {.}}}{{Doersch, Singh, Gupta, Sivic, and Efros}}}
-\bibcite{dosovitskiy2016inverting}{{7}{2016}{{Dosovitskiy and Brox}}{{Dosovitskiy and Brox}}}
-\bibcite{dubey2016deep}{{8}{2016}{{Dubey et~al\unhbox \voidb@x \hbox {.}}}{{Dubey, Naik, Parikh, Raskar, and Hidalgo}}}
-\bibcite{ewing2013measuring}{{9}{2013}{{Ewing and Clemente}}{{Ewing and Clemente}}}
-\bibcite{gulrajani2017improved}{{10}{2017}{{Gulrajani et~al\unhbox \voidb@x \hbox {.}}}{{Gulrajani, Ahmed, Arjovsky, Dumoulin, and Courville}}}
-\bibcite{herbrich2007trueskill}{{11}{2007}{{Herbrich et~al\unhbox \voidb@x \hbox {.}}}{{Herbrich, Minka, and Graepel}}}
-\bibcite{khosla2014makes}{{12}{2014}{{Khosla et~al\unhbox \voidb@x \hbox {.}}}{{Khosla et~al\unhbox \voidb@x \hbox {.}}}}
-\bibcite{krizhevsky2012imagenet}{{13}{2012}{{Krizhevsky et~al\unhbox \voidb@x \hbox {.}}}{{Krizhevsky, Sutskever, and Hinton}}}
-\bibcite{Law:2017:ACN:3149808.3149810}{{14}{2017}{{Law et~al\unhbox \voidb@x \hbox {.}}}{{Law, Shen, and Seresinhe}}}
-\bibcite{lecun2015deep}{{15}{2015}{{LeCun et~al\unhbox \voidb@x \hbox {.}}}{{LeCun, Bengio, and Hinton}}}
-\bibcite{mnih2015human}{{16}{2015}{{Mnih et~al\unhbox \voidb@x \hbox {.}}}{{Mnih, Kavukcuoglu, Silver, Rusu, Veness, Bellemare, Graves, Riedmiller, Fidjeland, Ostrovski, et~al\unhbox \voidb@x \hbox {.}}}}
-\bibcite{naik2017computer}{{17}{2017}{{Naik et~al\unhbox \voidb@x \hbox {.}}}{{Naik, Kominers, Raskar, Glaeser, and Hidalgo}}}
-\bibcite{naik2014streetscore}{{18}{2014}{{Naik et~al\unhbox \voidb@x \hbox {.}}}{{Naik, Philipoom, Raskar, and Hidalgo}}}
-\bibcite{nguyen2016synthesizing}{{19}{2016}{{Nguyen et~al\unhbox \voidb@x \hbox {.}}}{{Nguyen, Dosovitskiy, Yosinski, Brox, and Clune}}}
-\bibcite{quercia2015chatty}{{20}{2015}{{Quercia}}{{Quercia}}}
-\bibcite{quercia2014shortest}{{21}{2014}{{Quercia et~al\unhbox \voidb@x \hbox {.}}}{{Quercia, Schifanella, and Aiello}}}
-\bibcite{quercia2015smelly}{{22}{2015}{{Quercia et~al\unhbox \voidb@x \hbox {.}}}{{Quercia, Schifanella, Aiello, and McLean}}}
-\bibcite{radford2015unsupervised}{{23}{2015}{{Radford et~al\unhbox \voidb@x \hbox {.}}}{{Radford, Metz, and Chintala}}}
-\bibcite{salesses2013collaborative}{{24}{2013}{{Salesses et~al\unhbox \voidb@x \hbox {.}}}{{Salesses, Schechtner, and Hidalgo}}}
-\bibcite{schifanella2015image}{{25}{2015}{{Schifanella et~al\unhbox \voidb@x \hbox {.}}}{{Schifanella et~al\unhbox \voidb@x \hbox {.}}}}
-\bibcite{seresinhe2015quantifying}{{26}{2015}{{Seresinhe et~al\unhbox \voidb@x \hbox {.}}}{{Seresinhe, Preis, and Moat}}}
-\bibcite{seresinhe2017using}{{27}{2017}{{Seresinhe et~al\unhbox \voidb@x \hbox {.}}}{{Seresinhe, Preis, and Moat}}}
-\bibcite{szegedy2015going}{{28}{2015}{{Szegedy et~al\unhbox \voidb@x \hbox {.}}}{{Szegedy, Liu, Jia, Sermanet, Reed, Anguelov, Erhan, Vanhoucke, and Rabinovich}}}
-\bibcite{szegedy2013deep}{{29}{2013}{{Szegedy et~al\unhbox \voidb@x \hbox {.}}}{{Szegedy, Toshev, and Erhan}}}
-\bibcite{vaughn2008data}{{30}{2008}{{Vaughn}}{{Vaughn}}}
-\bibcite{Wang:2015:USA:2832415.2832579}{{31}{2015}{{Wang et~al\unhbox \voidb@x \hbox {.}}}{{Wang et~al\unhbox \voidb@x \hbox {.}}}}
-\bibcite{witten2016data}{{32}{2016}{{Witten et~al\unhbox \voidb@x \hbox {.}}}{{Witten, Frank, Hall, and Pal}}}
-\bibcite{zhou2014learning}{{33}{2014}{{Zhou et~al\unhbox \voidb@x \hbox {.}}}{{Zhou, Lapedriza, Xiao, Torralba, and Oliva}}}
+\bibcite{alexander1977pattern}{{1}{1977}{{Alexander et~al\unhbox \voidb@x \hbox {.}}}{{Alexander, Ishikawa, and Silverstein}}}
+\bibcite{badrinarayanan2015segnet}{{2}{2015}{{Badrinarayanan et~al\unhbox \voidb@x \hbox {.}}}{{Badrinarayanan, Kendall, and Cipolla}}}
+\bibcite{de2008architecture}{{3}{2008}{{De~Botton}}{{De~Botton}}}
+\bibcite{DeNadai16}{{4}{2016}{{De~Nadai et~al\unhbox \voidb@x \hbox {.}}}{{De~Nadai, Vieriu, Zen, Dragicevic, Naik, Caraviello, Hidalgo, Sebe, and Lepri}}}
+\bibcite{parislooklikeparis}{{5}{2012}{{Doersch et~al\unhbox \voidb@x \hbox {.}}}{{Doersch, Singh, Gupta, Sivic, and Efros}}}
+\bibcite{dosovitskiy2016inverting}{{6}{2016}{{Dosovitskiy and Brox}}{{Dosovitskiy and Brox}}}
+\bibcite{dubey2016deep}{{7}{2016}{{Dubey et~al\unhbox \voidb@x \hbox {.}}}{{Dubey, Naik, Parikh, Raskar, and Hidalgo}}}
+\bibcite{ewing2013measuring}{{8}{2013}{{Ewing and Clemente}}{{Ewing and Clemente}}}
+\bibcite{gulrajani2017improved}{{9}{2017}{{Gulrajani et~al\unhbox \voidb@x \hbox {.}}}{{Gulrajani, Ahmed, Arjovsky, Dumoulin, and Courville}}}
+\bibcite{herbrich2007trueskill}{{10}{2007}{{Herbrich et~al\unhbox \voidb@x \hbox {.}}}{{Herbrich, Minka, and Graepel}}}
+\bibcite{jacobs1961death}{{11}{1961}{{Jacobs}}{{Jacobs}}}
+\bibcite{krizhevsky2012imagenet}{{12}{2012}{{Krizhevsky et~al\unhbox \voidb@x \hbox {.}}}{{Krizhevsky, Sutskever, and Hinton}}}
+\bibcite{lindal2012}{{13}{2012}{{Lindal and Hartig}}{{Lindal and Hartig}}}
+\bibcite{naik2017computer}{{14}{2017}{{Naik et~al\unhbox \voidb@x \hbox {.}}}{{Naik, Kominers, Raskar, Glaeser, and Hidalgo}}}
+\bibcite{nguyen2016synthesizing}{{15}{2016}{{Nguyen et~al\unhbox \voidb@x \hbox {.}}}{{Nguyen, Dosovitskiy, Yosinski, Brox, and Clune}}}
+\bibcite{quercia2014aesthetic}{{16}{2014}{{Quercia et~al\unhbox \voidb@x \hbox {.}}}{{Quercia, O'Hare, and Cramer}}}
+\bibcite{radford2015unsupervised}{{17}{2015}{{Radford et~al\unhbox \voidb@x \hbox {.}}}{{Radford, Metz, and Chintala}}}
+\bibcite{salesses2013collaborative}{{18}{2013}{{Salesses et~al\unhbox \voidb@x \hbox {.}}}{{Salesses, Schechtner, and Hidalgo}}}
+\bibcite{sampson04seeing}{{19}{2004}{{Sampson and Raudenbush}}{{Sampson and Raudenbush}}}
+\bibcite{seresinhe2017using}{{20}{2017}{{Seresinhe et~al\unhbox \voidb@x \hbox {.}}}{{Seresinhe, Preis, and Moat}}}
+\bibcite{szegedy2015going}{{21}{2015}{{Szegedy et~al\unhbox \voidb@x \hbox {.}}}{{Szegedy, Liu, Jia, Sermanet, Reed, Anguelov, Erhan, Vanhoucke, and Rabinovich}}}
+\bibcite{vaughn2008data}{{22}{2008}{{Vaughn}}{{Vaughn}}}
+\bibcite{zhou2014learning}{{23}{2014}{{Zhou et~al\unhbox \voidb@x \hbox {.}}}{{Zhou, Lapedriza, Xiao, Torralba, and Oliva}}}
 \newlabel{tocindent-1}{0pt}
 \newlabel{tocindent0}{0pt}
 \newlabel{tocindent1}{0pt}
 \newlabel{tocindent2}{0pt}
 \newlabel{tocindent3}{0pt}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Future work}{9}{subsection.5.3}}
-\@writefile{toc}{\contentsline {section}{References}{9}{section*.16}}
-\newlabel{TotPages}{{9}{9}{}{page.9}{}}
+\newlabel{fig:decision}{{10a}{8}{Subfigure 10a}{subfigure.10.1}{}}
+\newlabel{sub@fig:decision}{{(a)}{a}{Subfigure 10a\relax }{subfigure.10.1}{}}
+\newlabel{fig:participation}{{10b}{8}{Subfigure 10b}{subfigure.10.2}{}}
+\newlabel{sub@fig:participation}{{(b)}{b}{Subfigure 10b\relax }{subfigure.10.2}{}}
+\newlabel{fig:promotion}{{10c}{8}{Subfigure 10c}{subfigure.10.3}{}}
+\newlabel{sub@fig:promotion}{{(c)}{c}{Subfigure 10c\relax }{subfigure.10.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Urban expert polling on the extent to which an interactive map of ``FaceLifted'' scenes promotes: (a) decision making; (b) citizen participation in urban planning; and (c) promotion of green cities.\relax }}{8}{figure.caption.22}}
+\newlabel{fig:pies}{{10}{8}{Urban expert polling on the extent to which an interactive map of ``FaceLifted'' scenes promotes: (a) decision making; (b) citizen participation in urban planning; and (c) promotion of green cities.\relax }{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{8}{subfigure.10.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{8}{subfigure.10.2}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{8}{subfigure.10.3}}
+\@writefile{toc}{\contentsline {section}{References}{8}{section*.24}}
+\newlabel{TotPages}{{8}{8}{}{page.8}{}}

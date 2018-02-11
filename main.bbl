@@ -38,43 +38,15 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[\protect\citeauthoryear{Aiello, Schifanella, Quercia, and
-  Aletta}{Aiello et~al\mbox{.}}{2016}]%
-        {aiello2016chatty}
-\bibfield{author}{\bibinfo{person}{Luca~Maria Aiello}, \bibinfo{person}{Rossano
-  Schifanella}, \bibinfo{person}{Daniele Quercia}, {and}
-  \bibinfo{person}{Francesco Aletta}.} \bibinfo{year}{2016}\natexlab{}.
-\newblock \showarticletitle{Chatty maps: constructing sound maps of urban areas
-  from social media data}.
-\newblock \bibinfo{journal}{{\em Royal Society open science\/}}
-  \bibinfo{volume}{3}, \bibinfo{number}{3} (\bibinfo{year}{2016}),
-  \bibinfo{pages}{150690}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Alexander, Ishikawa, Silverstein, i~Rami{\'o},
-  Jacobson, and Fiksdahl-King}{Alexander et~al\mbox{.}}{1977}]%
+\bibitem[\protect\citeauthoryear{Alexander, Ishikawa, and
+  Silverstein}{Alexander et~al\mbox{.}}{1977}]%
         {alexander1977pattern}
-\bibfield{author}{\bibinfo{person}{Christopher Alexander},
-  \bibinfo{person}{Sara Ishikawa}, \bibinfo{person}{Murray Silverstein},
-  \bibinfo{person}{Joaquim~Romaguera i Rami{\'o}}, \bibinfo{person}{Max
-  Jacobson}, {and} \bibinfo{person}{Ingrid Fiksdahl-King}.}
+\bibfield{author}{\bibinfo{person}{C. Alexander}, \bibinfo{person}{S.
+  Ishikawa}, {and} \bibinfo{person}{M. Silverstein}.}
   \bibinfo{year}{1977}\natexlab{}.
-\newblock \bibinfo{booktitle}{{\em A pattern language}}.
-\newblock \bibinfo{publisher}{Gustavo Gili}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Arisoy, Sainath, Kingsbury, and
-  Ramabhadran}{Arisoy et~al\mbox{.}}{2012}]%
-        {arisoy2012deep}
-\bibfield{author}{\bibinfo{person}{Ebru Arisoy}, \bibinfo{person}{Tara~N
-  Sainath}, \bibinfo{person}{Brian Kingsbury}, {and} \bibinfo{person}{Bhuvana
-  Ramabhadran}.} \bibinfo{year}{2012}\natexlab{}.
-\newblock \showarticletitle{Deep neural network language models}. In
-  \bibinfo{booktitle}{{\em Proceedings of the NAACL-HLT 2012 Workshop: Will We
-  Ever Really Replace the N-gram Model? On the Future of Language Modeling for
-  HLT}}. Association for Computational Linguistics, \bibinfo{pages}{20--28}.
+\newblock \bibinfo{booktitle}{{\em {A Pattern Language: Towns, Buildings,
+  Constructions}}}.
+\newblock \bibinfo{publisher}{{Oxford University Press}}.
 \newblock
 
 
@@ -91,14 +63,27 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Datta et~al\mbox{.}}{Datta
-  et~al\mbox{.}}{2008}]%
-        {datta2008algorithmic}
-\bibfield{author}{\bibinfo{person}{Ritendra Datta} {and}
-  \bibinfo{person}{others}.} \bibinfo{year}{2008}\natexlab{}.
-\newblock \showarticletitle{Algorithmic inferencing of aesthetics and emotion
-  in natural images: An exposition}. In \bibinfo{booktitle}{{\em 2008 15th IEEE
-  ICIP}}. IEEE, \bibinfo{pages}{105--108}.
+\bibitem[\protect\citeauthoryear{De~Botton}{De~Botton}{2008}]%
+        {de2008architecture}
+\bibfield{author}{\bibinfo{person}{A. De~Botton}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {The Architecture of Happiness}}}.
+\newblock \bibinfo{publisher}{Knopf Doubleday Publishing Group}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{De~Nadai, Vieriu, Zen, Dragicevic, Naik,
+  Caraviello, Hidalgo, Sebe, and Lepri}{De~Nadai et~al\mbox{.}}{2016}]%
+        {DeNadai16}
+\bibfield{author}{\bibinfo{person}{Marco De~Nadai},
+  \bibinfo{person}{Radu~Laurentiu Vieriu}, \bibinfo{person}{Gloria Zen},
+  \bibinfo{person}{Stefan Dragicevic}, \bibinfo{person}{Nikhil Naik},
+  \bibinfo{person}{Michele Caraviello}, \bibinfo{person}{Cesar~Augusto
+  Hidalgo}, \bibinfo{person}{Nicu Sebe}, {and} \bibinfo{person}{Bruno Lepri}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{Are Safer Looking Neighborhoods More Lively?: A
+  Multimodal Investigation into Urban Life}}. In \bibinfo{booktitle}{{\em
+  {Proceedings of the ACM on Multimedia Conference (MM)}}}.
 \newblock
 
 
@@ -173,14 +158,13 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Khosla et~al\mbox{.}}{Khosla
-  et~al\mbox{.}}{2014}]%
-        {khosla2014makes}
-\bibfield{author}{\bibinfo{person}{Aditya Khosla} {and}
-  \bibinfo{person}{others}.} \bibinfo{year}{2014}\natexlab{}.
-\newblock \showarticletitle{What makes an image popular?}. In
-  \bibinfo{booktitle}{{\em Proceedings of the 23rd WWW}}. International World
-  Wide Web Conferences Steering Committee, \bibinfo{pages}{867--876}.
+\bibitem[\protect\citeauthoryear{Jacobs}{Jacobs}{1961}]%
+        {jacobs1961death}
+\bibfield{author}{\bibinfo{person}{J. Jacobs}.}
+  \bibinfo{year}{1961}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {The Death and Life of Great American
+  Cities}}}.
+\newblock \bibinfo{publisher}{{Random House}}.
 \newblock
 
 
@@ -196,49 +180,14 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Law, Shen, and Seresinhe}{Law
-  et~al\mbox{.}}{2017}]%
-        {Law:2017:ACN:3149808.3149810}
-\bibfield{author}{\bibinfo{person}{Stephen Law}, \bibinfo{person}{Yao Shen},
-  {and} \bibinfo{person}{Chanuki Seresinhe}.} \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{An Application of Convolutional Neural Network in
-  Street Image Classification: The Case Study of London}. In
-  \bibinfo{booktitle}{{\em Proceedings of the 1st Workshop on Artificial
-  Intelligence and Deep Learning for Geographic Knowledge Discovery}} {\em
-  (\bibinfo{series}{GeoAI '17})}. \bibinfo{publisher}{ACM},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{5--9}.
-\newblock
-\showISBNx{978-1-4503-5498-1}
-\showDOI{%
-\url{http://dx.doi.org/10.1145/3149808.3149810}}
-
-
-\bibitem[\protect\citeauthoryear{LeCun, Bengio, and Hinton}{LeCun
-  et~al\mbox{.}}{2015}]%
-        {lecun2015deep}
-\bibfield{author}{\bibinfo{person}{Yann LeCun}, \bibinfo{person}{Yoshua
-  Bengio}, {and} \bibinfo{person}{Geoffrey Hinton}.}
-  \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Deep learning}.
-\newblock \bibinfo{journal}{{\em nature\/}} \bibinfo{volume}{521},
-  \bibinfo{number}{7553} (\bibinfo{year}{2015}), \bibinfo{pages}{436}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Mnih, Kavukcuoglu, Silver, Rusu, Veness,
-  Bellemare, Graves, Riedmiller, Fidjeland, Ostrovski, et~al\mbox{.}}{Mnih
-  et~al\mbox{.}}{2015}]%
-        {mnih2015human}
-\bibfield{author}{\bibinfo{person}{Volodymyr Mnih}, \bibinfo{person}{Koray
-  Kavukcuoglu}, \bibinfo{person}{David Silver}, \bibinfo{person}{Andrei~A
-  Rusu}, \bibinfo{person}{Joel Veness}, \bibinfo{person}{Marc~G Bellemare},
-  \bibinfo{person}{Alex Graves}, \bibinfo{person}{Martin Riedmiller},
-  \bibinfo{person}{Andreas~K Fidjeland}, \bibinfo{person}{Georg Ostrovski},
-  {and} \bibinfo{person}{others}.} \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Human-level control through deep reinforcement
-  learning}.
-\newblock \bibinfo{journal}{{\em Nature\/}} \bibinfo{volume}{518},
-  \bibinfo{number}{7540} (\bibinfo{year}{2015}), \bibinfo{pages}{529}.
+\bibitem[\protect\citeauthoryear{Lindal and Hartig}{Lindal and Hartig}{2012}]%
+        {lindal2012}
+\bibfield{author}{\bibinfo{person}{Pall~Jakob Lindal} {and}
+  \bibinfo{person}{Terry Hartig}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Architectural variation, building height, and the
+  restorative quality of urban residential streetscapes}.
+\newblock \bibinfo{journal}{{\em Journal of Environmental Psychology\/}}
+  (\bibinfo{year}{2012}).
 \newblock
 
 
@@ -257,19 +206,6 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Naik, Philipoom, Raskar, and Hidalgo}{Naik
-  et~al\mbox{.}}{2014}]%
-        {naik2014streetscore}
-\bibfield{author}{\bibinfo{person}{Nikhil Naik}, \bibinfo{person}{Jade
-  Philipoom}, \bibinfo{person}{Ramesh Raskar}, {and} \bibinfo{person}{C{\'e}sar
-  Hidalgo}.} \bibinfo{year}{2014}\natexlab{}.
-\newblock \showarticletitle{Streetscore-predicting the perceived safety of one
-  million streetscapes}. In \bibinfo{booktitle}{{\em Proceedings of the IEEE
-  Conference on Computer Vision and Pattern Recognition Workshops}}.
-  \bibinfo{pages}{779--785}.
-\newblock
-
-
 \bibitem[\protect\citeauthoryear{Nguyen, Dosovitskiy, Yosinski, Brox, and
   Clune}{Nguyen et~al\mbox{.}}{2016}]%
         {nguyen2016synthesizing}
@@ -283,39 +219,16 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Quercia}{Quercia}{2015}]%
-        {quercia2015chatty}
-\bibfield{author}{\bibinfo{person}{Daniele Quercia}.}
-  \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Chatty, Happy, and Smelly Maps}. In
-  \bibinfo{booktitle}{{\em Proceedings of the 24th International Conference on
-  World Wide Web}}. ACM, \bibinfo{pages}{741--741}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Quercia, Schifanella, and Aiello}{Quercia
+\bibitem[\protect\citeauthoryear{Quercia, O'Hare, and Cramer}{Quercia
   et~al\mbox{.}}{2014}]%
-        {quercia2014shortest}
-\bibfield{author}{\bibinfo{person}{Daniele Quercia}, \bibinfo{person}{Rossano
-  Schifanella}, {and} \bibinfo{person}{Luca~Maria Aiello}.}
-  \bibinfo{year}{2014}\natexlab{}.
-\newblock \showarticletitle{The shortest path to happiness: Recommending
-  beautiful, quiet, and happy routes in the city}. In \bibinfo{booktitle}{{\em
-  Proceedings of the 25th ACM conference on Hypertext and social media}}. ACM,
-  \bibinfo{pages}{116--125}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Quercia, Schifanella, Aiello, and
-  McLean}{Quercia et~al\mbox{.}}{2015}]%
-        {quercia2015smelly}
-\bibfield{author}{\bibinfo{person}{Daniele Quercia}, \bibinfo{person}{Rossano
-  Schifanella}, \bibinfo{person}{Luca~Maria Aiello}, {and}
-  \bibinfo{person}{Kate McLean}.} \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Smelly maps: the digital life of urban
-  smellscapes}.
-\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1505.06851\/}}
-  (\bibinfo{year}{2015}).
+        {quercia2014aesthetic}
+\bibfield{author}{\bibinfo{person}{Daniele Quercia},
+  \bibinfo{person}{Neil~Keith O'Hare}, {and} \bibinfo{person}{Henriette
+  Cramer}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Aesthetic capital: what makes London look
+  beautiful, quiet, and happy?}. In \bibinfo{booktitle}{{\em Proceedings of the
+  17th ACM conference on Computer supported cooperative work \& social
+  computing}}. ACM, \bibinfo{pages}{945--955}.
 \newblock
 
 
@@ -344,27 +257,15 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Schifanella et~al\mbox{.}}{Schifanella
-  et~al\mbox{.}}{2015}]%
-        {schifanella2015image}
-\bibfield{author}{\bibinfo{person}{Rossano Schifanella} {and}
-  \bibinfo{person}{others}.} \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{An Image is Worth More than a Thousand Favorites:
-  Surfacing the Hidden Beauty of Flickr Pictures}. In \bibinfo{booktitle}{{\em
-  Proceedings of THE 9TH ICWSM 2015}}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Seresinhe, Preis, and Moat}{Seresinhe
-  et~al\mbox{.}}{2015}]%
-        {seresinhe2015quantifying}
-\bibfield{author}{\bibinfo{person}{Chanuki~Illushka Seresinhe},
-  \bibinfo{person}{Tobias Preis}, {and} \bibinfo{person}{Helen~Susannah Moat}.}
-  \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Quantifying the impact of scenic environments on
-  health}.
-\newblock \bibinfo{journal}{{\em Scientific reports\/}}  \bibinfo{volume}{5}
-  (\bibinfo{year}{2015}), \bibinfo{pages}{16899}.
+\bibitem[\protect\citeauthoryear{Sampson and Raudenbush}{Sampson and
+  Raudenbush}{2004}]%
+        {sampson04seeing}
+\bibfield{author}{\bibinfo{person}{Robert~J. Sampson} {and}
+  \bibinfo{person}{Stephen~W. Raudenbush}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{{Seeing Disorder: Neighborhood Stigma and the
+  Social Construction of Broken Windows}}.
+\newblock \bibinfo{journal}{{\em {Social Psychology Quarterly}\/}}
+  \bibinfo{volume}{67}, \bibinfo{number}{4} (\bibinfo{year}{2004}).
 \newblock
 
 
@@ -396,18 +297,6 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Szegedy, Toshev, and Erhan}{Szegedy
-  et~al\mbox{.}}{2013}]%
-        {szegedy2013deep}
-\bibfield{author}{\bibinfo{person}{Christian Szegedy},
-  \bibinfo{person}{Alexander Toshev}, {and} \bibinfo{person}{Dumitru Erhan}.}
-  \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{Deep neural networks for object detection}. In
-  \bibinfo{booktitle}{{\em Advances in neural information processing systems}}.
-  \bibinfo{pages}{2553--2561}.
-\newblock
-
-
 \bibitem[\protect\citeauthoryear{Vaughn}{Vaughn}{2008}]%
         {vaughn2008data}
 \bibfield{author}{\bibinfo{person}{Brandon~K Vaughn}.}
@@ -417,33 +306,6 @@
 \newblock \bibinfo{journal}{{\em Journal of Educational Measurement\/}}
   \bibinfo{volume}{45}, \bibinfo{number}{1} (\bibinfo{year}{2008}),
   \bibinfo{pages}{94--97}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Wang et~al\mbox{.}}{Wang
-  et~al\mbox{.}}{2015}]%
-        {Wang:2015:USA:2832415.2832579}
-\bibfield{author}{\bibinfo{person}{Yilin Wang} {and} \bibinfo{person}{others}.}
-  \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Unsupervised Sentiment Analysis for Social Media
-  Images}. In \bibinfo{booktitle}{{\em Proceedings of the 24th International
-  Conference on Artificial Intelligence}} {\em (\bibinfo{series}{IJCAI'15})}.
-  \bibinfo{publisher}{AAAI Press}.
-\newblock
-\showISBNx{978-1-57735-738-4}
-\showURL{%
-\url{http://dl.acm.org/citation.cfm?id=2832415.2832579}}
-
-
-\bibitem[\protect\citeauthoryear{Witten, Frank, Hall, and Pal}{Witten
-  et~al\mbox{.}}{2016}]%
-        {witten2016data}
-\bibfield{author}{\bibinfo{person}{Ian~H Witten}, \bibinfo{person}{Eibe Frank},
-  \bibinfo{person}{Mark~A Hall}, {and} \bibinfo{person}{Christopher~J Pal}.}
-  \bibinfo{year}{2016}\natexlab{}.
-\newblock \bibinfo{booktitle}{{\em Data Mining: Practical machine learning
-  tools and techniques}}.
-\newblock \bibinfo{publisher}{Morgan Kaufmann}.
 \newblock
 
 
