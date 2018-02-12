@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  12 FEB 2018 03:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  12 FEB 2018 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -950,7 +950,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 22.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 51.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -959,19 +959,12 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 22.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 22.
+(Font)              scaled to size 10.0pt on input line 51.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 22.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -979,11 +972,26 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 51.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 51.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.2pt on input line 51.
+
 (./Sections/1_intro.tex
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 14.
-) (./Sections/2_related.tex [1.1{/usr/local/texlive/2017/texmf-var/fonts/map/pd
-ftex/updmap/pdftex.map}
+)
+(./Sections/2_related.tex
+Underfull \vbox (badness 5667) has occurred while \output is active []
+
+ [1.1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 14--17
@@ -991,37 +999,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
  []
 
 ) (./Sections/3_facelift.tex
-<Plot/Trueskill.png, id=70, 981.6675pt x 719.68875pt>
+<Plot/Trueskill.png, id=68, 981.6675pt x 719.68875pt>
 File: Plot/Trueskill.png Graphic file (type png)
  <use Plot/Trueskill.png>
 Package pdftex.def Info: Plot/Trueskill.png used on input line 39.
 (pdftex.def)             Requested size: 168.8025pt x 123.7511pt.
 
-<Plot/rotationalSim.png, id=72, 432.61626pt x 435.6275pt>
+<Plot/rotationalSim.png, id=70, 432.61626pt x 435.6275pt>
 File: Plot/rotationalSim.png Graphic file (type png)
 
 <use Plot/rotationalSim.png>
 Package pdftex.def Info: Plot/rotationalSim.png used on input line 56.
 (pdftex.def)             Requested size: 253.1488pt x 227.61772pt.
- <Plot/transSim.png, id=73, 433.62pt x 435.6275pt>
+ <Plot/transSim.png, id=71, 433.62pt x 435.6275pt>
 File: Plot/transSim.png Graphic file (type png)
 
 <use Plot/transSim.png>
 Package pdftex.def Info: Plot/transSim.png used on input line 60.
 (pdftex.def)             Requested size: 253.14728pt x 227.61772pt.
-
-<Plot/SimilarityPlacesPrevalence.png, id=80, 1814.78pt x 1643.13875pt>
+ [2.2 <./Plot/Trueskill.png>]
+<Plot/SimilarityPlacesPrevalence.png, id=100, 1814.78pt x 1643.13875pt>
 File: Plot/SimilarityPlacesPrevalence.png Graphic file (type png)
 
 <use Plot/SimilarityPlacesPrevalence.png>
 Package pdftex.def Info: Plot/SimilarityPlacesPrevalence.png used on input line
  76.
 (pdftex.def)             Requested size: 241.14749pt x 218.32912pt.
- [2.2 <./Plot/Trueskill.png>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3.3 <./Plot/rotationalSim.png> <./Plot/transSim.png> <./Plot/SimilarityPlaces
-Prevalence.png>] <Plot/Example.png, id=123, 1428.33624pt x 375.4025pt>
+Prevalence.png>] <Plot/Example.png, id=122, 1428.33624pt x 375.4025pt>
 File: Plot/Example.png Graphic file (type png)
 
 <use Plot/Example.png>
@@ -1035,17 +1043,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Plot/taxonomyCount.png, id=138, 855.195pt x 638.385pt>
+<Plot/taxonomyCount.png, id=137, 855.195pt x 638.385pt>
 File: Plot/taxonomyCount.png Graphic file (type png)
 
 <use Plot/taxonomyCount.png>
 Package pdftex.def Info: Plot/taxonomyCount.png used on input line 57.
 (pdftex.def)             Requested size: 241.14749pt x 180.00316pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Plot/walkable_taxonomy.png, id=139, 1803.73875pt x 1411.2725pt>
+ [4.4]
+<Plot/walkable_taxonomy.png, id=151, 1803.73875pt x 1411.2725pt>
 File: Plot/walkable_taxonomy.png Graphic file (type png)
 
 <use Plot/walkable_taxonomy.png>
@@ -1055,28 +1060,21 @@ Package pdftex.def Info: Plot/walkable_taxonomy.png used on input line 65.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4.4]
-<Plot/BinnedPlot.png, id=158, 1075.01625pt x 717.68124pt>
+[5.5 <./Plot/Example.png> <./Plot/taxonomyCount.png> <./Plot/walkable_taxonomy.
+png>] <Plot/BinnedPlot.png, id=169, 1075.01625pt x 717.68124pt>
 File: Plot/BinnedPlot.png Graphic file (type png)
 
 <use Plot/BinnedPlot.png>
 Package pdftex.def Info: Plot/BinnedPlot.png used on input line 94.
 (pdftex.def)             Requested size: 227.8269pt x 142.2634pt.
 
-<Plot/binnedPlot_complexity.png, id=159, 1086.0575pt x 717.68124pt>
+<Plot/binnedPlot_complexity.png, id=170, 1086.0575pt x 717.68124pt>
 File: Plot/binnedPlot_complexity.png Graphic file (type png)
 
 <use Plot/binnedPlot_complexity.png>
 Package pdftex.def Info: Plot/binnedPlot_complexity.png used on input line 98.
 (pdftex.def)             Requested size: 227.83022pt x 142.2634pt.
 
-Underfull \vbox (badness 1960) has occurred while \output is active []
-
- [5.5 <./Plot/Example.png> <./Plot/taxonomyCount.png> <./Plot/walkable_taxonomy
-.png>]
 <Plot/DecisionMaking.png, id=182, 602.25pt x 372.39125pt>
 File: Plot/DecisionMaking.png Graphic file (type png)
 
@@ -1108,32 +1106,46 @@ Package pdftex.def Info: Plot/UI.png used on input line 198.
 (./Sections/5_discussion.tex [6.6]) (./main.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7.7 <./Plot/BinnedPlot.png> <./Plot/binnedPlot_complexity.png> <./Plot/Decisi
-onMaking.png (PNG copy)> <./Plot/ParticipationUrbanPlanning.png (PNG copy)> <./
-Plot/PromoteGreenCities.png (PNG copy)> <./Plot/UI.png>]
+
+Underfull \vbox (badness 6032) has occurred while \output is active []
+
+
+Overfull \vbox (9.33344pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (9.33344pt too high) has occurred while \output is active []
+
+
+[7.7 <./Plot/BinnedPlot.png> <./Plot/binnedPlot_complexity.png> <./Plot/Decisio
+nMaking.png (PNG copy)> <./Plot/ParticipationUrbanPlanning.png (PNG copy)> <./P
+lot/PromoteGreenCities.png (PNG copy)> <./Plot/UI.png>]
 Underfull \hbox (badness 1783) in paragraph at lines 274--282
 []\T1/ptm/m/n/7 (+20) Brandon K Vaughn. 2008.  Data anal-y-sis us-ing re-gres-s
 ion and mul-ti-
  []
 
-) [8.8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+)
+Overfull \vbox (1.13098pt too high) has occurred while \output is active []
+
+
+[8.8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B6D9FD66320D5AEF22A570F1DC7DA34B;775.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 17866 strings out of 492995
- 265304 string characters out of 6132703
- 390599 words of memory out of 5000000
- 20540 multiletter control sequences out of 15000+600000
- 105634 words of font info for 337 fonts, out of 8000000 for 9000
+ 17902 strings out of 492995
+ 265858 string characters out of 6132703
+ 394599 words of memory out of 5000000
+ 20560 multiletter control sequences out of 15000+600000
+ 112872 words of font info for 357 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,12n,94p,2965b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,94p,2965b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc
 }{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/u
 sr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texliv
@@ -1148,10 +1160,10 @@ rw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on main.pdf (8 pages, 2507686 bytes).
+Output written on main.pdf (8 pages, 2509934 bytes).
 PDF statistics:
  280 PDF objects out of 1000 (max. 8388607)
  232 compressed objects within 3 object streams
  69 named destinations out of 1000 (max. 500000)
- 40058 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 42618 words of extra memory for PDF output out of 42996 (max. 10000000)
 
