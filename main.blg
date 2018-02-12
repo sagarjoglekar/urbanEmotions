@@ -1,11 +1,11 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: ACMbib.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: urbanEmotions.bib
-Repeated entry---line 234 of file urbanEmotions.bib
+Repeated entry---line 250 of file urbanEmotions.bib
  : @book{alexander1977pattern
  :                           ,
 I'm skipping whatever remains of this entry
@@ -17,14 +17,9 @@ Warning--empty address in de2008architecture
 Warning--empty publisher in DeNadai16
 Warning--empty address in DeNadai16
 Warning--page numbers missing in both pages and numpages fields in DeNadai16
-Warning--page numbers missing in both pages and numpages fields in parislooklikeparis
-Warning--empty publisher in dosovitskiy2016inverting
-Warning--empty address in dosovitskiy2016inverting
 Warning--no number and no volume in dubey2016deep
 Warning--page numbers missing in both pages and numpages fields in dubey2016deep
 Warning--empty address in ewing2013measuring
-Warning--no number and no volume in gulrajani2017improved
-Warning--page numbers missing in both pages and numpages fields in gulrajani2017improved
 Warning--empty publisher in herbrich2007trueskill
 Warning--empty address in herbrich2007trueskill
 Warning--empty address in jacobs1961death
@@ -34,54 +29,57 @@ Warning--no number and no volume in lindal2012
 Warning--page numbers missing in both pages and numpages fields in lindal2012
 Warning--empty publisher in nguyen2016synthesizing
 Warning--empty address in nguyen2016synthesizing
+Warning--empty publisher in quercia15thedigital
+Warning--empty address in quercia15thedigital
 Warning--empty publisher in quercia2014aesthetic
 Warning--empty address in quercia2014aesthetic
-Warning--no number and no volume in radford2015unsupervised
-Warning--page numbers missing in both pages and numpages fields in radford2015unsupervised
 Warning--page numbers missing in both pages and numpages fields in sampson04seeing
+Warning--empty publisher in speck12
+Warning--empty address in speck12
+Warning--page numbers missing in both pages and numpages fields in speck12
 Warning--empty publisher in szegedy2015going
 Warning--empty address in szegedy2015going
 Warning--empty publisher in zhou2014learning
 Warning--empty address in zhou2014learning
-You've used 23 entries,
+You've used 21 entries,
             5580 wiz_defined-function locations,
-            1413 strings with 19661 characters,
-and the built_in function-call counts, 23859 in all, are:
-= -- 2965
-> -- 1132
+            1404 strings with 19220 characters,
+and the built_in function-call counts, 21507 in all, are:
+= -- 2544
+> -- 999
 < -- 0
-+ -- 350
-- -- 376
-* -- 1843
-:= -- 2696
-add.period$ -- 118
-call.type$ -- 23
-change.case$ -- 175
-chr.to.int$ -- 23
-cite$ -- 56
-duplicate$ -- 1848
-empty$ -- 1333
-format.name$ -- 456
-if$ -- 5795
++ -- 306
+- -- 332
+* -- 1647
+:= -- 2445
+add.period$ -- 107
+call.type$ -- 21
+change.case$ -- 157
+chr.to.int$ -- 21
+cite$ -- 52
+duplicate$ -- 1734
+empty$ -- 1242
+format.name$ -- 400
+if$ -- 5158
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 92
-newline$ -- 216
-num.names$ -- 184
-pop$ -- 830
+missing$ -- 85
+newline$ -- 199
+num.names$ -- 168
+pop$ -- 789
 preamble$ -- 1
-purify$ -- 290
+purify$ -- 262
 quote$ -- 0
-skip$ -- 526
+skip$ -- 488
 stack$ -- 0
-substring$ -- 1464
-swap$ -- 171
+substring$ -- 1362
+swap$ -- 163
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 298
-warning$ -- 33
-while$ -- 149
+type$ -- 270
+warning$ -- 31
+while$ -- 141
 width$ -- 0
-write$ -- 415
+write$ -- 382
 (There was 1 error message)

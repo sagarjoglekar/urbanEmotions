@@ -87,29 +87,6 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Doersch, Singh, Gupta, Sivic, and
-  Efros}{Doersch et~al\mbox{.}}{2012}]%
-        {parislooklikeparis}
-\bibfield{author}{\bibinfo{person}{Carl Doersch}, \bibinfo{person}{Saurabh
-  Singh}, \bibinfo{person}{Abhinav Gupta}, \bibinfo{person}{Josef Sivic}, {and}
-  \bibinfo{person}{Alexei Efros}.} \bibinfo{year}{2012}\natexlab{}.
-\newblock \showarticletitle{What makes paris look like paris?}
-\newblock \bibinfo{journal}{{\em ACM Transactions on Graphics\/}}
-  \bibinfo{volume}{31}, \bibinfo{number}{4} (\bibinfo{year}{2012}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Dosovitskiy and Brox}{Dosovitskiy and
-  Brox}{2016}]%
-        {dosovitskiy2016inverting}
-\bibfield{author}{\bibinfo{person}{Alexey Dosovitskiy} {and}
-  \bibinfo{person}{Thomas Brox}.} \bibinfo{year}{2016}\natexlab{}.
-\newblock \showarticletitle{Inverting visual representations with convolutional
-  networks}. In \bibinfo{booktitle}{{\em Proceedings of the IEEE Conference on
-  Computer Vision and Pattern Recognition}}. \bibinfo{pages}{4829--4837}.
-\newblock
-
-
 \bibitem[\protect\citeauthoryear{Dubey, Naik, Parikh, Raskar, and
   Hidalgo}{Dubey et~al\mbox{.}}{2016}]%
         {dubey2016deep}
@@ -131,19 +108,6 @@
 \newblock \bibinfo{booktitle}{{\em Measuring urban design: Metrics for livable
   places}}.
 \newblock \bibinfo{publisher}{Island Press}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Gulrajani, Ahmed, Arjovsky, Dumoulin, and
-  Courville}{Gulrajani et~al\mbox{.}}{2017}]%
-        {gulrajani2017improved}
-\bibfield{author}{\bibinfo{person}{Ishaan Gulrajani}, \bibinfo{person}{Faruk
-  Ahmed}, \bibinfo{person}{Martin Arjovsky}, \bibinfo{person}{Vincent
-  Dumoulin}, {and} \bibinfo{person}{Aaron Courville}.}
-  \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{Improved training of wasserstein gans}.
-\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1704.00028\/}}
-  (\bibinfo{year}{2017}).
 \newblock
 
 
@@ -219,6 +183,18 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Quercia, Aiello, Schifanella, and
+  Davies}{Quercia et~al\mbox{.}}{2015}]%
+        {quercia15thedigital}
+\bibfield{author}{\bibinfo{person}{Daniele Quercia},
+  \bibinfo{person}{Luca~Maria Aiello}, \bibinfo{person}{Rossano Schifanella},
+  {and} \bibinfo{person}{Adam Davies}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{The Digital Life of Walkable Streets}}. In
+  \bibinfo{booktitle}{{\em {Proceedings of the 24th ACM Conference on World
+  Wide Web (WWW)}}}. \bibinfo{pages}{875--884}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Quercia, O'Hare, and Cramer}{Quercia
   et~al\mbox{.}}{2014}]%
         {quercia2014aesthetic}
@@ -229,18 +205,6 @@
   beautiful, quiet, and happy?}. In \bibinfo{booktitle}{{\em Proceedings of the
   17th ACM conference on Computer supported cooperative work \& social
   computing}}. ACM, \bibinfo{pages}{945--955}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Radford, Metz, and Chintala}{Radford
-  et~al\mbox{.}}{2015}]%
-        {radford2015unsupervised}
-\bibfield{author}{\bibinfo{person}{Alec Radford}, \bibinfo{person}{Luke Metz},
-  {and} \bibinfo{person}{Soumith Chintala}.} \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Unsupervised representation learning with deep
-  convolutional generative adversarial networks}.
-\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1511.06434\/}}
-  (\bibinfo{year}{2015}).
 \newblock
 
 
@@ -280,6 +244,14 @@
 \newblock \bibinfo{journal}{{\em Royal Society open science\/}}
   \bibinfo{volume}{4}, \bibinfo{number}{7} (\bibinfo{year}{2017}),
   \bibinfo{pages}{170170}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Speck}{Speck}{2012}]%
+        {speck12}
+\bibfield{author}{\bibinfo{person}{J. Speck}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{{Walkable City: How Downtown Can Save America, One
+  Step at a Time}}. In \bibinfo{booktitle}{{\em Farrar, Straus and Giroux}}.
 \newblock
 
 
