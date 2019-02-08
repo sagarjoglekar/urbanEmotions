@@ -1,0 +1,297 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Alexander, Ishikawa, and
+  Silverstein}{Alexander et~al\mbox{.}}{1977}]%
+        {alexander1977pattern}
+\bibfield{author}{\bibinfo{person}{C. Alexander}, \bibinfo{person}{S.
+  Ishikawa}, {and} \bibinfo{person}{M. Silverstein}.}
+  \bibinfo{year}{1977}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {A Pattern Language: Towns, Buildings,
+  Constructions}}}.
+\newblock \bibinfo{publisher}{{Oxford University Press}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Badrinarayanan, Kendall, and
+  Cipolla}{Badrinarayanan et~al\mbox{.}}{2015}]%
+        {badrinarayanan2015segnet}
+\bibfield{author}{\bibinfo{person}{Vijay Badrinarayanan}, \bibinfo{person}{Alex
+  Kendall}, {and} \bibinfo{person}{Roberto Cipolla}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Segnet: A deep convolutional encoder-decoder
+  architecture for image segmentation}.
+\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1511.00561\/}}
+  (\bibinfo{year}{2015}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{De~Botton}{De~Botton}{2008}]%
+        {de2008architecture}
+\bibfield{author}{\bibinfo{person}{A. De~Botton}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {The Architecture of Happiness}}}.
+\newblock \bibinfo{publisher}{Knopf Doubleday Publishing Group}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{De~Nadai, Vieriu, Zen, Dragicevic, Naik,
+  Caraviello, Hidalgo, Sebe, and Lepri}{De~Nadai et~al\mbox{.}}{2016}]%
+        {DeNadai16}
+\bibfield{author}{\bibinfo{person}{Marco De~Nadai},
+  \bibinfo{person}{Radu~Laurentiu Vieriu}, \bibinfo{person}{Gloria Zen},
+  \bibinfo{person}{Stefan Dragicevic}, \bibinfo{person}{Nikhil Naik},
+  \bibinfo{person}{Michele Caraviello}, \bibinfo{person}{Cesar~Augusto
+  Hidalgo}, \bibinfo{person}{Nicu Sebe}, {and} \bibinfo{person}{Bruno Lepri}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{Are Safer Looking Neighborhoods More Lively?: A
+  Multimodal Investigation into Urban Life}}. In \bibinfo{booktitle}{{\em
+  {Proceedings of the ACM on Multimedia Conference (MM)}}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dubey, Naik, Parikh, Raskar, and
+  Hidalgo}{Dubey et~al\mbox{.}}{2016}]%
+        {dubey2016deep}
+\bibfield{author}{\bibinfo{person}{Abhimanyu Dubey}, \bibinfo{person}{Nikhil
+  Naik}, \bibinfo{person}{Devi Parikh}, \bibinfo{person}{Ramesh Raskar}, {and}
+  \bibinfo{person}{C{\'e}sar~A Hidalgo}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Deep learning the city: Quantifying urban
+  perception at a global scale}.
+\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1608.01769\/}}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ewing and Clemente}{Ewing and
+  Clemente}{2013}]%
+        {ewing2013measuring}
+\bibfield{author}{\bibinfo{person}{Reid Ewing} {and} \bibinfo{person}{Otto
+  Clemente}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Measuring urban design: Metrics for livable
+  places}}.
+\newblock \bibinfo{publisher}{Island Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Herbrich, Minka, and Graepel}{Herbrich
+  et~al\mbox{.}}{2007}]%
+        {herbrich2007trueskill}
+\bibfield{author}{\bibinfo{person}{Ralf Herbrich}, \bibinfo{person}{Tom Minka},
+  {and} \bibinfo{person}{Thore Graepel}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{TrueSkill™: a Bayesian skill rating system}. In
+  \bibinfo{booktitle}{{\em Advances in neural information processing systems}}.
+  \bibinfo{pages}{569--576}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jacobs}{Jacobs}{1961}]%
+        {jacobs1961death}
+\bibfield{author}{\bibinfo{person}{J. Jacobs}.}
+  \bibinfo{year}{1961}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em {The Death and Life of Great American
+  Cities}}}.
+\newblock \bibinfo{publisher}{{Random House}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Krizhevsky, Sutskever, and Hinton}{Krizhevsky
+  et~al\mbox{.}}{2012}]%
+        {krizhevsky2012imagenet}
+\bibfield{author}{\bibinfo{person}{Alex Krizhevsky}, \bibinfo{person}{Ilya
+  Sutskever}, {and} \bibinfo{person}{Geoffrey~E Hinton}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Imagenet classification with deep convolutional
+  neural networks}. In \bibinfo{booktitle}{{\em Advances in neural information
+  processing systems}}. \bibinfo{pages}{1097--1105}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lindal and Hartig}{Lindal and Hartig}{2012}]%
+        {lindal2012}
+\bibfield{author}{\bibinfo{person}{Pall~Jakob Lindal} {and}
+  \bibinfo{person}{Terry Hartig}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Architectural variation, building height, and the
+  restorative quality of urban residential streetscapes}.
+\newblock \bibinfo{journal}{{\em Journal of Environmental Psychology\/}}
+  (\bibinfo{year}{2012}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Naik, Kominers, Raskar, Glaeser, and
+  Hidalgo}{Naik et~al\mbox{.}}{2017}]%
+        {naik2017computer}
+\bibfield{author}{\bibinfo{person}{Nikhil Naik}, \bibinfo{person}{Scott~Duke
+  Kominers}, \bibinfo{person}{Ramesh Raskar}, \bibinfo{person}{Edward~L
+  Glaeser}, {and} \bibinfo{person}{C{\'e}sar~A Hidalgo}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Computer vision uncovers predictors of physical
+  urban change}.
+\newblock \bibinfo{journal}{{\em Proceedings of the National Academy of
+  Sciences\/}} \bibinfo{volume}{114}, \bibinfo{number}{29}
+  (\bibinfo{year}{2017}), \bibinfo{pages}{7571--7576}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nguyen, Dosovitskiy, Yosinski, Brox, and
+  Clune}{Nguyen et~al\mbox{.}}{2016}]%
+        {nguyen2016synthesizing}
+\bibfield{author}{\bibinfo{person}{Anh Nguyen}, \bibinfo{person}{Alexey
+  Dosovitskiy}, \bibinfo{person}{Jason Yosinski}, \bibinfo{person}{Thomas
+  Brox}, {and} \bibinfo{person}{Jeff Clune}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Synthesizing the preferred inputs for neurons in
+  neural networks via deep generator networks}. In \bibinfo{booktitle}{{\em
+  Advances in Neural Information Processing Systems}}.
+  \bibinfo{pages}{3387--3395}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Quercia, Aiello, Schifanella, and
+  Davies}{Quercia et~al\mbox{.}}{2015}]%
+        {quercia15thedigital}
+\bibfield{author}{\bibinfo{person}{Daniele Quercia},
+  \bibinfo{person}{Luca~Maria Aiello}, \bibinfo{person}{Rossano Schifanella},
+  {and} \bibinfo{person}{Adam Davies}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{{The Digital Life of Walkable Streets}}. In
+  \bibinfo{booktitle}{{\em {Proceedings of the 24th ACM Conference on World
+  Wide Web (WWW)}}}. \bibinfo{pages}{875--884}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Quercia, O'Hare, and Cramer}{Quercia
+  et~al\mbox{.}}{2014}]%
+        {quercia2014aesthetic}
+\bibfield{author}{\bibinfo{person}{Daniele Quercia},
+  \bibinfo{person}{Neil~Keith O'Hare}, {and} \bibinfo{person}{Henriette
+  Cramer}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Aesthetic capital: what makes London look
+  beautiful, quiet, and happy?}. In \bibinfo{booktitle}{{\em Proceedings of the
+  17th ACM conference on Computer supported cooperative work \& social
+  computing}}. ACM, \bibinfo{pages}{945--955}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Salesses, Schechtner, and Hidalgo}{Salesses
+  et~al\mbox{.}}{2013}]%
+        {salesses2013collaborative}
+\bibfield{author}{\bibinfo{person}{Philip Salesses}, \bibinfo{person}{Katja
+  Schechtner}, {and} \bibinfo{person}{C{\'e}sar~A Hidalgo}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{The collaborative image of the city: mapping the
+  inequality of urban perception}.
+\newblock \bibinfo{journal}{{\em PloS one\/}} \bibinfo{volume}{8},
+  \bibinfo{number}{7} (\bibinfo{year}{2013}), \bibinfo{pages}{e68400}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sampson and Raudenbush}{Sampson and
+  Raudenbush}{2004}]%
+        {sampson04seeing}
+\bibfield{author}{\bibinfo{person}{Robert~J. Sampson} {and}
+  \bibinfo{person}{Stephen~W. Raudenbush}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{{Seeing Disorder: Neighborhood Stigma and the
+  Social Construction of Broken Windows}}.
+\newblock \bibinfo{journal}{{\em {Social Psychology Quarterly}\/}}
+  \bibinfo{volume}{67}, \bibinfo{number}{4} (\bibinfo{year}{2004}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Seresinhe, Preis, and Moat}{Seresinhe
+  et~al\mbox{.}}{2017}]%
+        {seresinhe2017using}
+\bibfield{author}{\bibinfo{person}{Chanuki~Illushka Seresinhe},
+  \bibinfo{person}{Tobias Preis}, {and} \bibinfo{person}{Helen~Susannah Moat}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Using deep learning to quantify the beauty of
+  outdoor places}.
+\newblock \bibinfo{journal}{{\em Royal Society open science\/}}
+  \bibinfo{volume}{4}, \bibinfo{number}{7} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{170170}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Speck}{Speck}{2012}]%
+        {speck12}
+\bibfield{author}{\bibinfo{person}{J. Speck}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{{Walkable City: How Downtown Can Save America, One
+  Step at a Time}}. In \bibinfo{booktitle}{{\em Farrar, Straus and Giroux}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Szegedy, Liu, Jia, Sermanet, Reed, Anguelov,
+  Erhan, Vanhoucke, and Rabinovich}{Szegedy et~al\mbox{.}}{2015}]%
+        {szegedy2015going}
+\bibfield{author}{\bibinfo{person}{Christian Szegedy}, \bibinfo{person}{Wei
+  Liu}, \bibinfo{person}{Yangqing Jia}, \bibinfo{person}{Pierre Sermanet},
+  \bibinfo{person}{Scott Reed}, \bibinfo{person}{Dragomir Anguelov},
+  \bibinfo{person}{Dumitru Erhan}, \bibinfo{person}{Vincent Vanhoucke}, {and}
+  \bibinfo{person}{Andrew Rabinovich}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Going deeper with convolutions}. In
+  \bibinfo{booktitle}{{\em Proceedings of the IEEE conference on computer
+  vision and pattern recognition}}. \bibinfo{pages}{1--9}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vaughn}{Vaughn}{2008}]%
+        {vaughn2008data}
+\bibfield{author}{\bibinfo{person}{Brandon~K Vaughn}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Data analysis using regression and
+  multilevel/hierarchical models, by Gelman, A., \& Hill, J.}
+\newblock \bibinfo{journal}{{\em Journal of Educational Measurement\/}}
+  \bibinfo{volume}{45}, \bibinfo{number}{1} (\bibinfo{year}{2008}),
+  \bibinfo{pages}{94--97}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zhou, Lapedriza, Xiao, Torralba, and
+  Oliva}{Zhou et~al\mbox{.}}{2014}]%
+        {zhou2014learning}
+\bibfield{author}{\bibinfo{person}{Bolei Zhou}, \bibinfo{person}{Agata
+  Lapedriza}, \bibinfo{person}{Jianxiong Xiao}, \bibinfo{person}{Antonio
+  Torralba}, {and} \bibinfo{person}{Aude Oliva}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Learning deep features for scene recognition using
+  places database}. In \bibinfo{booktitle}{{\em Advances in neural information
+  processing systems}}. \bibinfo{pages}{487--495}.
+\newblock
+
+
+\end{thebibliography}

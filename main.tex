@@ -1,18 +1,24 @@
 %\documentclass[a4paper]{article}
-\documentclass[sigconf]{acmart}
+\documentclass[format=acmsmall, review=false, screen=true]{acmart}
+\usepackage{booktabs} % For formal tables
+
+\usepackage[ruled]{algorithm2e} % For algorithms
+\renewcommand{\algorithmcfname}{ALGORITHM}
+\SetAlFnt{\small}
+\SetAlCapFnt{\small}
+\SetAlCapNameFnt{\small}
+\SetAlCapHSkip{0pt}
+\IncMargin{-\parindent}
 
 \input{Sections/0_frontmatter}
 %\usepackage{acm}
-\usepackage{balance}
- 
-\definecolor{comment}{rgb}{0.0, 0.5, 1.0}
 
 %For some reason this format only inserts abstract if it is before begin document :/
 
-\input{Sections/0_abstract}
-
 
 \begin{document}
+\title[FaceLift]{FaceLift: A transparent deep learning framework recreating the urban spaces people intuitively love}
+
 
 \author{Sagar Joglekar}
 \affiliation{%
@@ -22,7 +28,7 @@
 \author{Daniele Quercia}
 \affiliation{%
 	\institution{Nokia Bell Labs, Cambridge, UK}}
-\email{quercia@cantab.net}
+\email{daniele.quercia@gmail.com}
 
 \author{Miriam Redi}
 \affiliation{%
@@ -44,20 +50,24 @@
 \affiliation{%
 	\institution{King's College London, Department of Informatics}}
 \email{nishanth.sastry@kcl.ac.uk}
-%\makeatletter
-%\def\@copyrightspace{\relax}
+\makeatletter
+
+\def\@copyrightspace{\relax}
 %\makeatother
+\keywords{Deep learning, Urban Design,
+	Generative models, Urban beauty, Explainable models}
+
+\begin{abstract}
+	There has been an explosive growth of deep learning technologies and their competency in the recent years, resulting in cross disciplinary use cases of deep learning enabled tools. In the area of computer vision and urban informatics, deep learning techniques have recently been used to predict whether urban scenes are likely to be considered beautiful, and it turns out that these techniques do so quite accurately. However, the technology falls short when it comes to generating actionable insights for AI assisted urban design. To support urban interventions, one needs to go beyond \emph{predicting} beauty, and tackle the challenge of \emph{recreating} beauty and \emph{explaining} the predictors of beauty. \sj{And for these explanations to be of any use to the target audience of such tools, they need to be grounded in the literature and language of the target users.} Unfortunately, deep learning techniques have not been designed with that challenge in mind. Given their ``black-box nature'', they cannot even explain why a scene has been predicted to be beautiful. To partly fix that, we propose a deep learning framework (which we name  FaceLift) that is able to both \emph{beautify} existing Google Street views and \emph{explain} which urban elements make those transformed scenes beautiful, \sj{in the vocabulary of urban design science}. To quantitatively evaluate our framework, we cannot resort to any existing metric (as the research problem at hand has never been faced before) and need to  formulate new ones. These new metrics should ideally capture the presence (or absence) of elements that make urban spaces great. \sj{They ideally should also be computable using current computer vision techniques}. Upon a review of the urban planning literature, we identify \sj{five} main metrics: walkability, green spaces, openness, \sj{landmarks} and visual complexity.  For all the \sj{five} metrics, the beautified scenes meet the expectations set by the literature on what great spaces tend to be made of. The transformations and their explanations are also found to be very helpful in understanding interventions for beautification, which we validate using a 20-participant expert survey. These results suggest that, in the future, as our framework's components are further researched and become better and more sophisticated, it is not hard to imagine technologies that will be able to accurately and efficiently support architects and planners in the design of the spaces we intuitively love.
+\end{abstract}
+
+\keywords{Deep learning, Generative networks, Urban Beauty, Computer Vision}
 
 \maketitle
 
 \input{Sections/1_intro}
-%\input{Sections/motivation}
 \input{Sections/2_related}
 \input{Sections/3_facelift}
-%\input{Sections/pipeline}
-%\input{Sections/bottomUp}
-%\input{Sections/FaceLift}
-%\input{Sections/metrics}
 \input{Sections/4_metrics}
 \input{Sections/5_discussion}
 

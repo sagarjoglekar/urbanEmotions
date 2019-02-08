@@ -1,0 +1,162 @@
+\documentclass{paper}
+
+\usepackage{color}
+\usepackage{url}
+\usepackage{framed}
+\usepackage{enumerate}
+\usepackage{xcolor,colortbl}
+\usepackage{wrapfig}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{mathtools}
+
+\usepackage{balance}
+\usepackage{multirow}
+
+\usepackage{microtype}
+\usepackage{xcolor}
+
+\usepackage{amsmath}
+\usepackage{makecell}
+\usepackage{colortbl}
+\usepackage{xstring}
+
+\usepackage{booktabs}
+
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+
+\definecolor{Gray}{gray}{0.85}
+\newcommand{\mytablesize}{\scriptsize}
+\newcommand{\note}[1]{\textbf{\sf [\underline{SJ}: {\color{red}#1}]}}
+
+\newenvironment{myquote}
+{\definecolor{shadecolor}{rgb}{0.9,0.95,1} \begin{shaded*} \sf \em}
+{\em\end{shaded*}}
+
+\newenvironment{myquoteOrange}
+{\definecolor{shadecolor}{rgb}{1,0.9,0.83} \begin{shaded*} \sf \em}
+{\em\end{shaded*}}
+
+\oddsidemargin = -0pt
+\topmargin = 0pt
+%\textheight = 690pt
+\textwidth = 460pt
+
+\begin{document}
+
+%\begin{quote}
+%{\bf \Large ``} quote here.~{\bf \Large ''}
+%\end{quote}
+
+%\begin{myquoteOrange}
+
+\title{Response to the reviews of ACM-TOMM submission ``FaceLift: A transparent deep learning framework recreating the urban spaces people intuitively love''}
+%\author{(now renamed to ``The Language of Dialogue is Complex'')}
+\maketitle
+
+We would like to express our sincere thanks to the Editors for supporting this process and the reviewers for their very detailed and constructive comments. We have worked to address all their concerns in the revised version of the manuscript. Below, we explain how we have done so.
+
+
+\section*{Summary of reviewer requests}
+
+\begin{myquote}
+
+\noindent Reviewers made certain important points which we try to address in this revision:
+
+\begin{enumerate}
+\item The description of the ``Facelift'' pipeline was not clear enough and missed on the details of the deep learning model
+\item The literature review was not at par. 
+\item Some clear adjustment in the description or over arching vision of the work to be either a Urban scene generator, or a framework to make the ``black-box'' more accessible
+\item Clarity around the scale of the User survey
+\item Over all proof-reading to sort out some spelling mistakes
+\end{enumerate}
+
+\noindent We have thoroughly revised the paper in order to follow the guidance provided. A summary response to the points above:
+
+\begin{enumerate}
+
+\item Change 1 
+\item Change 2
+\item Change 3 
+
+
+\end{enumerate}
+
+\end{myquote}
+
+A detailed breakdown of the actions taken can be found next.
+
+\section*{Requests from Reviewer 2}
+
+
+\begin{myquote}
+\noindent Comment : Related work section is not detailed enough, and I doubt the number of references is enough for a comprehensive literature review.
+\end{myquote}
+\noindent %Address comment here 
+To address this, we did an extra round of literature survey to understand if there are any more related works that we can use to contextualize this paper. 
+The idea of using machine learning models to enrich urban design experience is relatively new. \note{Add some more fluff around which citations were added to the realated work}
+
+
+\begin{myquote}
+\noindent Comment : The description of the framework is not clear enough, and some details are missing, such as the network structure of the deep learning model.
+\end{myquote}
+\noindent %Address comment here
+We added a few more details about both the classifier and the GAN framework in the paper. To that extent Section \note{add some model descriptions for the gan and classifier}
+
+
+\begin{myquote}
+\noindent Comment : Given an input image which is beautiful, does the framework return a more beautiful image or an ugly image? If it is the former, how to measure whether it really becomes more beautiful. 
+\end{myquote}
+
+\noindent %Answer Comment here
+The beautification process happens through activation maximization of the beauty classifier output neuron. If the input images is inherently beautiful, the output neuron corresponding to beauty could be expected to already be in a maximal activation state. In such a setup, the activation maximization would not yield any usable result. For this reason, we test the pipeline only on images which have the Trueskill scores to be in the lower or upper end of the spectrum and transform them to the opposite end. This prevents these situations and ensures that the input images are either inherently un-aesthetic or inherently beautiful
+
+\section*{Requests from Reviewer 3}
+
+
+\begin{myquote}
+\noindent Comment : There are two main contributions at this paper. First is generating better urban scenes and second is able to explain deep learning framework with detail. But I think these two aspects are different, and address both of them will not highlight the main topic or innovation well. Actually, I cannot find, or the authors do not explicitly point out how to make “black-box” of CNN more apparently with detail description. So I suggest the authors only highlight one of them.
+\end{myquote}
+
+\noindent %Answer comment here
+This is a valid concern of the reviewer. And to our end we try to address this by explaining what we mean by addressing the ``black box'' problem. To this end we add section \note{Add stuff in the paper to clarify what Facelift attempts to do with respect to transparency. Mainly about explaining the outputs in the language of the audience.}
+
+
+\begin{myquote}
+\noindent Comment : About “Q4 Do architects and urban planners find it useful?”, as the results shown in Table 6, I find that the rating from “definitely not” to “definitely” without a “neutral” option, and this will lead to bias.
+\end{myquote}
+\noindent %Answer comment here
+
+This is a very valid concern raised by the reviewer. The question of providing a neutral option has been debated for decades, with convincing arguments on both side. We inspired our choice from previous works\cite{moors2008exploring}\cite{Agree2012} around the critique of the neutral choice response. Here the argument against neutral choices conveyed that, neutral choices end up commonly used to express lack of knowledge or indifference. To that extent, all our participants were experts in their respective fields of urban design, data visualization and architecture. Hence we consciously wanted them to express an opinion about the utility of such a tool in their practice. 
+
+To that effect we have added clarification of the choice along with the citations in \textbf{Q4} with the following text 
+
+\begin{myquoteOrange}
+
+\textit{Being experts in their respective fields, we wanted the survey takers to express a clear opinion about the utility of such a technology in their areas of practice. In accordance with this constraint, we designed the survey based on a non neutral response Likert scale, as explored in previous critical studies \cite{Agree2012,moors2008exploring}}
+
+\end{myquoteOrange}
+
+
+\begin{myquote}
+\noindent Comment : In Fig.8 there are five urban design metrics, but in the section of abstract and Table 4, there are only four metrics: walkability, green, openness, and visual complexity. 
+\end{myquote}
+
+\noindent %Answer comment here
+  
+Thank you for pointing this out. We have added back the fifth metric of `landmarks' into the paper. The metric is described in table 4 and referred to when needed. The utility and link of presence of landmarks to the perception of `goodness' and `memorableness' of a city has been explored at a macroscopic level in previous studies \cite{quercia2014aesthetic,lynch1960image}. But our setup was not suitable to do any form of hypothesis testing with landmarks at an urban scene level. Perhaps we would like to extend the study in a follow up
+
+\section*{Some of the positive comments...}
+
+\begin{myquote}
+
+\noindent Reviewers noted many positive aspects about this paper. Common across all three reviews were an appreciation of the usefulness of the work for the community as well as the innovation in this piece of work. We are grateful to Reviewer 1 for nominating this work for best paper and commending the work.  
+
+
+\end{myquote}
+
+We want to express our sincere thanks to the Editors and to the Reviewers for all the positive comments above, and hope they will find the new version of the paper much improved.
+\bibliographystyle{abbrv}
+\bibliography{letter}
+
+\end{document}

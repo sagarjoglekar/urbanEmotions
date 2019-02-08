@@ -1,4 +1,3 @@
-% !TEX root = ../kdd2014.tex
 
 \usepackage{xcolor}
 %\usepackage{amsmath}
@@ -12,17 +11,25 @@
 %%decrease spacing 
 \usepackage{times}
 \usepackage{comment}
+\usepackage{balance}
+\usepackage{longtable}
 %
 %\newtheorem{thm}{Theorem}
 %\newtheorem{corr}{Corollary}
 %\newtheorem{lemma}{Lemma}
 %\newtheorem{pty}{Property}
+\usepackage{array}
+
+\newcommand{\addpic}{\includegraphics[width=10em height=10em]{example-image}}
+\newcolumntype{C}{>{\centering\arraybackslash}m{12em}}
 
 \newcommand{\red}[1]{\textcolor{red}{#1}}
 \newcommand{\blue}[1]{\textcolor{blue}{#1}}
 \newcommand{\green}[1]{\textcolor{green}{#1}}
+\newcommand{\magenta}[1]{\textcolor{magenta}{#1}}
 \newcommand{\mr}[1]{\blue{#1}}
-\newcommand{\sj}[1]{\green{#1}}
+\newcommand{\sj}[1]{\red{#1}}
+\newcommand{\ns}[1]{\magenta{#1}}
 \newcommand\dq[1]{\red{#1}}
 %\newcommand\tabhead[1]{\small\textbf{#1}}
 \newcommand\fref[1]{Figure~\ref{#1}}

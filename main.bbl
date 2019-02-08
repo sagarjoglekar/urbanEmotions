@@ -63,6 +63,20 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Baka, Figgou, and Triga}{Baka
+  et~al\mbox{.}}{2012}]%
+        {Agree2012}
+\bibfield{author}{\bibinfo{person}{Aphrodite Baka}, \bibinfo{person}{Lia
+  Figgou}, {and} \bibinfo{person}{Vasiliki Triga}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{'Neither agree, nor disagree': a critical analysis
+  of the middle answer category in Voting Advice Applications}.
+\newblock \bibinfo{journal}{{\em International Journal of Electronic
+  Governance\/}} \bibinfo{volume}{5}, \bibinfo{number}{3-4}
+  (\bibinfo{year}{2012}), \bibinfo{pages}{244--263}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{De~Botton}{De~Botton}{2008}]%
         {de2008architecture}
 \bibfield{author}{\bibinfo{person}{A. De~Botton}.}
@@ -122,6 +136,21 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Hristova, Aiello, and Quercia}{Hristova
+  et~al\mbox{.}}{2018}]%
+        {10.3389/fphy.2018.00027}
+\bibfield{author}{\bibinfo{person}{Desislava Hristova},
+  \bibinfo{person}{Luca~M. Aiello}, {and} \bibinfo{person}{Daniele Quercia}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The New Urban Success: How Culture Pays}.
+\newblock \bibinfo{journal}{{\em Frontiers in Physics\/}}  \bibinfo{volume}{6}
+  (\bibinfo{year}{2018}), \bibinfo{pages}{27}.
+\newblock
+\showISSN{2296-424X}
+\showDOI{%
+\url{http://dx.doi.org/10.3389/fphy.2018.00027}}
+
+
 \bibitem[\protect\citeauthoryear{Jacobs}{Jacobs}{1961}]%
         {jacobs1961death}
 \bibfield{author}{\bibinfo{person}{J. Jacobs}.}
@@ -152,6 +181,26 @@
   restorative quality of urban residential streetscapes}.
 \newblock \bibinfo{journal}{{\em Journal of Environmental Psychology\/}}
   (\bibinfo{year}{2012}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lynch}{Lynch}{1960}]%
+        {lynch1960image}
+\bibfield{author}{\bibinfo{person}{Kevin Lynch}.}
+  \bibinfo{year}{1960}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em The image of the city}}.
+  Vol.~\bibinfo{volume}{11}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Moors}{Moors}{2008}]%
+        {moors2008exploring}
+\bibfield{author}{\bibinfo{person}{Guy Moors}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Exploring the effect of a middle response category
+  on response style in attitude measurement}.
+\newblock \bibinfo{journal}{{\em Quality and Quantity\/}} \bibinfo{volume}{42},
+  \bibinfo{number}{6} (\bibinfo{year}{2008}), \bibinfo{pages}{779--794}.
 \newblock
 
 
@@ -230,6 +279,19 @@
   Social Construction of Broken Windows}}.
 \newblock \bibinfo{journal}{{\em {Social Psychology Quarterly}\/}}
   \bibinfo{volume}{67}, \bibinfo{number}{4} (\bibinfo{year}{2004}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Seresinhe, Preis, and Moat}{Seresinhe
+  et~al\mbox{.}}{2015}]%
+        {seresinhe2015quantifying}
+\bibfield{author}{\bibinfo{person}{Chanuki~Illushka Seresinhe},
+  \bibinfo{person}{Tobias Preis}, {and} \bibinfo{person}{Helen~Susannah Moat}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Quantifying the impact of scenic environments on
+  health}.
+\newblock \bibinfo{journal}{{\em Scientific reports\/}}  \bibinfo{volume}{5}
+  (\bibinfo{year}{2015}), \bibinfo{pages}{16899}.
 \newblock
 
 

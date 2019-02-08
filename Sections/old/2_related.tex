@@ -1,0 +1,21 @@
+\section{Related Work}
+\label{sec:related}
+Previous work has focused on collecting ground truth data about how people perceive urban spaces, on predicting urban qualities from visual data, and on generating synthetic images that enhance a given quality (e.g., beauty). 
+
+
+%\mbox{}\\
+\noindent
+\textbf{Ground truth of urban perceptions.} So far the most detailed studies of perceptions of urban environments and their visual appearance have relied on personal interviews and observation of city streets: for example, some researchers relied on annotations of video recordings by experts~\cite{sampson04seeing}, while others have used participant ratings of simulated (rather than existing) street scenes~\cite{lindal2012}. The web has recently been used to survey a large number of individuals. Place Pulse is a website that asks a series of binary perception questions (such as `Which place looks safer [between the two]?') across a large number of geo-tagged images~\cite{salesses2013collaborative}. In a similar way, Quercia \emph{et al.} collected pairwise judgments about the extent to which urban scenes are considered quiet, beautiful and happy~\cite{quercia2014aesthetic}. They were then able to analyze the scenes together with their ratings using image-processing tools, and found that the amount of greenery in any given scene was associated with all three attributes and that cars and fortress-like buildings were associated with sadness. Taken all together, their results pointed in the same direction: urban elements that hinder social interactions were undesirable, while elements that increase interactions were the ones that should be integrated by urban planners to retrofit cities for greater happiness. 
+
+%\mbox{}\\
+\noindent
+\textbf{Deep learning and the city.} Computer vision techniques have increasingly become more sophisticated. Deep learning techniques, in particular, have been recently used to accurately predict urban beauty~\cite{dubey2016deep,seresinhe2017using}, urban change~\cite{naik2017computer}, and even crime~\cite{DeNadai16}.
+
+%\mbox{}\\
+\noindent
+\textbf{Generative models.} Deep learning has recently been used not only to analyze existing images but also to generate new ones. Ngyuen \emph{et al.}~\cite{nguyen2016synthesizing} used generative networks to create a natural-looking image that maximizes a specific neuron. In theory, the resulting image is the one that ``best activates'' the neuron under consideration (e.g., that associated with urban beauty). In practice, it is still a synthetic template that needs further processing to look realistic. \mbox{} \\
+
+%\mbox{}
+To sum up, a lot of work has gone into collecting ground truth data about how people tend to perceive urban spaces, and into building accurate predictions models of urban qualities. However,  little work has gone into models that generate realistic urban scenes and that offer human-interpretable explanations of what they generate. 
+
+

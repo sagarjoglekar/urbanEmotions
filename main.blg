@@ -5,9 +5,13 @@ The style file: ACMbib.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: urbanEmotions.bib
-Repeated entry---line 250 of file urbanEmotions.bib
+Repeated entry---line 316 of file urbanEmotions.bib
  : @book{alexander1977pattern
  :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 369 of file urbanEmotions.bib
+ : @article{salesses2013collaborative
+ :                                   ,
 I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty address in alexander1977pattern
@@ -27,6 +31,8 @@ Warning--empty publisher in krizhevsky2012imagenet
 Warning--empty address in krizhevsky2012imagenet
 Warning--no number and no volume in lindal2012
 Warning--page numbers missing in both pages and numpages fields in lindal2012
+Warning--empty publisher in lynch1960image
+Warning--empty address in lynch1960image
 Warning--empty publisher in nguyen2016synthesizing
 Warning--empty address in nguyen2016synthesizing
 Warning--empty publisher in quercia15thedigital
@@ -41,45 +47,45 @@ Warning--empty publisher in szegedy2015going
 Warning--empty address in szegedy2015going
 Warning--empty publisher in zhou2014learning
 Warning--empty address in zhou2014learning
-You've used 21 entries,
+You've used 26 entries,
             5580 wiz_defined-function locations,
-            1404 strings with 19220 characters,
-and the built_in function-call counts, 21507 in all, are:
-= -- 2544
-> -- 999
+            1439 strings with 20033 characters,
+and the built_in function-call counts, 26484 in all, are:
+= -- 3319
+> -- 1162
 < -- 0
-+ -- 306
-- -- 332
-* -- 1647
-:= -- 2445
-add.period$ -- 107
-call.type$ -- 21
-change.case$ -- 157
-chr.to.int$ -- 21
-cite$ -- 52
-duplicate$ -- 1734
-empty$ -- 1242
-format.name$ -- 400
-if$ -- 5158
++ -- 354
+- -- 384
+* -- 1983
+:= -- 2945
+add.period$ -- 133
+call.type$ -- 26
+change.case$ -- 188
+chr.to.int$ -- 26
+cite$ -- 59
+duplicate$ -- 2117
+empty$ -- 1520
+format.name$ -- 464
+if$ -- 6466
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 85
-newline$ -- 199
-num.names$ -- 168
-pop$ -- 789
+missing$ -- 103
+newline$ -- 241
+num.names$ -- 208
+pop$ -- 923
 preamble$ -- 1
-purify$ -- 262
+purify$ -- 318
 quote$ -- 0
-skip$ -- 488
+skip$ -- 612
 stack$ -- 0
-substring$ -- 1362
-swap$ -- 163
+substring$ -- 1710
+swap$ -- 208
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 270
-warning$ -- 31
-while$ -- 141
+type$ -- 334
+warning$ -- 33
+while$ -- 177
 width$ -- 0
-write$ -- 382
-(There was 1 error message)
+write$ -- 469
+(There were 2 error messages)

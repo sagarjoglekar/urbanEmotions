@@ -1,0 +1,146 @@
+% !TEX root = ../kdd2014.tex
+
+\usepackage{xcolor}
+%\usepackage{amsmath}
+%\usepackage{verbatim}
+%\usepackage{graphics}
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{multicol}
+\usepackage{url}
+%%decrease spacing 
+\usepackage{times}
+\usepackage{comment}
+\usepackage{balance}
+%
+%\newtheorem{thm}{Theorem}
+%\newtheorem{corr}{Corollary}
+%\newtheorem{lemma}{Lemma}
+%\newtheorem{pty}{Property}
+ 
+%\definecolor{comment}{rgb}{0.0, 0.5, 1.0}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\green}[1]{\textcolor{green}{#1}}
+\newcommand{\ns}[1]{\green{#1}}
+\newcommand{\mr}[1]{\blue{#1}}
+\newcommand{\sj}[1]{\green{#1}}
+\newcommand\dq[1]{\red{#1}}
+%\newcommand\tabhead[1]{\small\textbf{#1}}
+\newcommand\fref[1]{Figure~\ref{#1}}
+\newcommand\tref[1]{Table~\ref{#1}}
+\newcommand\Sref[1]{\S\ref{#1}}
+\newcommand\etal{~\textsl{et al.}} % use as Sastry\etal~\cite{xxx}
+\newcommand\tabhead[1]{\small\textbf{#1}}
+\newcommand{\rotate}[1]{\rotatebox[origin=c]{90}{#1}}
+
+\newcommand*{\thead}[1]{\multicolumn{1}{c}{\bfseries #1}}
+
+
+%Numbers
+\newcommand{\one}{({\it i}\/)}
+\newcommand{\two}{({\it ii}\/)}
+\newcommand{\three}{({\it iii}\/)}
+\newcommand{\four}{({\it iv}\/)}
+\newcommand{\five}{({\it v}\/)}
+\newcommand{\six}{({\it vi}\/)}
+\newcommand{\seven}{({\em vi}\/)}
+
+\let\olditemize\itemize
+\renewcommand{\itemize}{
+  \olditemize
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}
+\let\olddescription\description
+\renewcommand{\description}{
+  \olddescription
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}
+\let\oldenumerate\enumerate
+\renewcommand{\enumerate}{
+  \oldenumerate
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}
+
+%
+% --- Author Metadata here ---
+%\conferenceinfo{WOODSTOCK}{'97 El Paso, Texas USA}
+%\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
+%\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
+%% --- End of Author Metadata ---
+
+
+%\permission{Copyright is held by the International World Wide Web Conference Committee (IW3C2). IW3C2 reserves the right to provide a hyperlink to the author's site if the Material is used in electronic media.}
+%\conferenceinfo{WWW 2016,}{Apr 3--7, 2016, Perth, Australia.} 
+%\copyrightetc{ACM \the\acmcopyr}
+%\crdata{978-1-4503-3469-3/15/05. \\
+%http://dx.doi.org/10.1145/2736277.2741671}
+
+\clubpenalty=10000 
+\widowpenalty = 10000
+
+
+% \author{Sagar Joglekar}
+% \orcid{1234-5678-9012-3456}
+% \affiliation{%
+% 	\institution{King's College}
+% 	\department{Department of Informatics}
+% 	\city{London}
+% 	\country{United Kingdom}}
+
+% \author{Miriam Redi}
+% \affiliation{%
+% 	\institution{Nokia Bell Labs}
+% 	\city{Cambridge}
+% 	\country{United Kingdom}}
+
+% \author{Nishanth Sastry}
+% \affiliation{%
+% 	\institution{King's College}
+% 	\department{Department of Informatics}
+% 	\city{London}
+% 	\country{United Kingdom}}
+
+
+%\numberofauthors{3}
+%
+%
+%\author{
+%\alignauthor
+%Sagar Joglekar\\\affaddr{King's College London, UK}\\
+%\affaddr{sagar.joglekar@kcl.ac.uk}
+%\alignauthor
+% Nishanth Sastry\\\affaddr{King's College London, UK}\\
+%\affaddr{nishanth.sastry@kcl.ac.uk}
+%\alignauthor
+%Miriam Redi\\\affaddr{Bell Labs, UK}\\
+%\affaddr{miriam.redi@nokia.com}
+%}
+%
+%
+%\def\sharedaffiliation{%
+%\end{tabular}
+%\begin{tabular}{c}}
+%
+%\author{
+% \alignauthor Sagar Joglekar \\
+%% \email{firstname.lastname}@kcl.ac.uk \\
+% \affaddr{King's College London, UK}\\ 
+% \alignauthor Nishanth Sastry \\
+%% \email{firstname.lastname}@kcl.ac.uk \\
+%% \sharedaffiliation
+% \affaddr{King's College London, UK}\\ 
+% 
+% \alignauthor Miriam Redi \\
+%% \email{firstname.lastname}@nokia.com\\
+% \affaddr{Bell Labs, UK}\\
+%}
+
+

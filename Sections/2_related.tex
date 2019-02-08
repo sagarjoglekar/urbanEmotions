@@ -1,5 +1,6 @@
 \section{Related Work}
 \label{sec:related}
+%\ns{This needs more work.}
 Previous work has focused on collecting ground truth data about how people perceive urban spaces, on predicting urban qualities from visual data, and on generating synthetic images that enhance a given quality (e.g., beauty). 
 
 
@@ -9,11 +10,11 @@ Previous work has focused on collecting ground truth data about how people perce
 
 \mbox{}\\
 \noindent
-\textbf{Deep learning and the city.} Computer vision techniques have increasingly become more sophisticated. Deep learning techniques, in particular, have been recently used to accurately predict urban beauty~\cite{dubey2016deep,seresinhe2017using}, urban change~\cite{naik2017computer}, and even crime~\cite{DeNadai16}.
+\textbf{Deep learning and the city.} Computer vision techniques have increasingly become more sophisticated. Deep learning techniques, in particular, have been recently used to accurately predict urban beauty~\cite{dubey2016deep,seresinhe2017using}, urban change~\cite{naik2017computer}, and even crime~\cite{DeNadai16}. These works also did some interesting analysis of the data to understand how safety, depression, beauty and other such dimensions are perceived across urban spaces.  \cite{dubey2016deep} also utilized deep learning methods to train models capable of comparing two urban images for their perception values in terms of beauty et.al. However even these works did not dive into the reasoning aspect of these models.
 
 \mbox{}\\
 \noindent
-\textbf{Generative models.} Deep learning has recently been used not only to analyze existing images but also to generate new ones. Ngyuen \emph{et al.}~\cite{nguyen2016synthesizing} used generative networks to create a natural-looking image that maximizes a specific neuron. In theory, the resulting image is the one that ``best activates'' the neuron under consideration (e.g., that associated with urban beauty). In practice, it is still a synthetic template that needs further processing to look realistic. \mbox{} \\
+\textbf{Generative models.} Deep learning has recently been used not only to analyze existing images but also to generate new ones. n the past couple of years, there have been papers which exploit generative version of neural nets to delve into the aspects of explainability. Nguyen \emph{et al.}~\cite{nguyen2016synthesizing} used generative networks to create a natural-looking image that maximizes a specific neuron. In theory, the resulting image is the one that ``best activates'' the neuron under consideration (e.g., that associated with urban beauty). In practice, it is still a synthetic template that needs further processing to look realistic. \mbox{} \\
 
 \mbox{}
 To sum up, a lot of work has gone into collecting ground truth data about how people tend to perceive urban spaces, and into building accurate predictions models of urban qualities. However,  little work has gone into models that generate realistic urban scenes and that offer human-interpretable explanations of what they generate. 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  8 MAR 2018 23:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  8 FEB 2019 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -25,8 +25,10 @@ Package acmart Info: Not using screen mode on input line 69.
 Package acmart Info: Not using review mode on input line 77.
 Package acmart Info: Not using authorversion mode on input line 85.
 Package acmart Info: Not using anonymous mode on input line 103.
-Class acmart Info: Using format sigconf, number 4 on input line 112.
-Class acmart Info: Using fontsize 9pt on input line 168.
+Package acmart Info: Not using review mode on input line 112.
+Package acmart Info: Using screen mode on input line 112.
+Class acmart Info: Using format acmsmall, number 1 on input line 112.
+Class acmart Info: Using fontsize 10pt on input line 168.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsart.cls
 Document Class: amsart 2015/03/04 v2.20.2
@@ -288,6 +290,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 384.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -631,7 +635,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@ACM@badge@skip=\skip57
 Class acmart Info: Printing CCS on input line 1049.
 Class acmart Info: Printing bibformat on input line 1049.
-Class acmart Info: Suppressing folios on input line 1056.
+Class acmart Info: Printing folios on input line 1054.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
@@ -660,8 +664,8 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \@folio@voffset=\dimen141
 \c@theorem=\count124
 
-Special comment 'acks' Excluding comment 'screenonly'
-Include comment 'printonly' Include comment 'anonsuppress'
+Special comment 'acks' Include comment 'screenonly'
+Excluding comment 'printonly' Include comment 'anonsuppress'
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-TLF on 
 input line 2193.
 
@@ -671,55 +675,125 @@ File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
 nuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 2193.
+(Font)              scaled to size 10.0pt on input line 2193.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen142
+\lightrulewidth=\dimen143
+\cmidrulewidth=\dimen144
+\belowrulesep=\dimen145
+\belowbottomsep=\dimen146
+\aboverulesep=\dimen147
+\abovetopsep=\dimen148
+\cmidrulesep=\dimen149
+\cmidrulekern=\dimen150
+\defaultaddspace=\dimen151
+\@cmidla=\count125
+\@cmidlb=\count126
+\@aboverulesep=\dimen152
+\@belowrulesep=\dimen153
+\@thisruleclass=\count127
+\@lastruleclass=\count128
+\@thisrulewidth=\dimen154
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count129
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip68
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+LaTeX Info: Redefining \larger on input line 150.
+LaTeX Info: Redefining \smaller on input line 151.
+)
+********************************************************
+Package `algorithm2e' Release 5.1 -- october 19 2015 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
+********************************************************
+\skiptotal=\skip69
+\skiplinenumber=\skip70
+\skiprule=\skip71
+\skiphlne=\skip72
+\skiptext=\skip73
+\skiplength=\skip74
+\algomargin=\skip75
+\skipalgocfslide=\skip76
+\algowidth=\dimen155
+\inoutsize=\dimen156
+\inoutindent=\dimen157
+\interspacetitleruled=\dimen158
+\interspacealgoruled=\dimen159
+\interspacetitleboxruled=\dimen160
+\algocf@ruledwidth=\skip77
+\algocf@inoutbox=\box34
+\algocf@inputbox=\box35
+\AlCapSkip=\skip78
+\AlCapHSkip=\skip79
+\algoskipindent=\skip80
+\algocf@nlbox=\box36
+\algocf@hangingbox=\box37
+\algocf@untilbox=\box38
+\algocf@skipuntil=\skip81
+\algocf@capbox=\box39
+\algoheightruledefault=\skip82
+\algoheightrule=\skip83
+\algotitleheightruledefault=\skip84
+\algotitleheightrule=\skip85
+\c@algocfline=\count130
+\c@algocfproc=\count131
+\c@algocf=\count132
+\algocf@algoframe=\box40
+\algocf@algobox=\box41
 ) (./Sections/0_frontmatter.tex
 (/usr/local/texlive/2017/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count125
-\sf@farskip=\skip68
-\sf@captopadj=\dimen142
-\sf@capskip=\skip69
-\sf@nearskip=\skip70
-\c@subfigure=\count126
-\c@subfigure@save=\count127
-\c@lofdepth=\count128
-\c@subtable=\count129
-\c@subtable@save=\count130
-\c@lotdepth=\count131
-\sf@top=\skip71
-\sf@bottom=\skip72
+\c@KVtest=\count133
+\sf@farskip=\skip86
+\sf@captopadj=\dimen161
+\sf@capskip=\skip87
+\sf@nearskip=\skip88
+\c@subfigure=\count134
+\c@subfigure@save=\count135
+\c@lofdepth=\count136
+\c@subtable=\count137
+\c@subtable@save=\count138
+\c@lotdepth=\count139
+\sf@top=\skip89
+\sf@bottom=\skip90
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count132
-\mult@box=\box34
-\multicol@leftmargin=\dimen143
-\c@unbalance=\count133
-\c@collectmore=\count134
-\doublecol@number=\count135
-\multicoltolerance=\count136
-\multicolpretolerance=\count137
-\full@width=\dimen144
-\page@free=\dimen145
-\premulticols=\dimen146
-\postmulticols=\dimen147
-\multicolsep=\skip73
-\multicolbaselineskip=\skip74
-\partial@page=\box35
-\last@line=\box36
-\maxbalancingoverflow=\dimen148
-\mult@rightbox=\box37
-\mult@grightbox=\box38
-\mult@gfirstbox=\box39
-\mult@firstbox=\box40
-\@tempa=\box41
-\@tempa=\box42
-\@tempa=\box43
-\@tempa=\box44
-\@tempa=\box45
-\@tempa=\box46
-\@tempa=\box47
-\@tempa=\box48
+\c@tracingmulticols=\count140
+\mult@box=\box42
+\multicol@leftmargin=\dimen162
+\c@unbalance=\count141
+\c@collectmore=\count142
+\doublecol@number=\count143
+\multicoltolerance=\count144
+\multicolpretolerance=\count145
+\full@width=\dimen163
+\page@free=\dimen164
+\premulticols=\dimen165
+\postmulticols=\dimen166
+\multicolsep=\skip91
+\multicolbaselineskip=\skip92
+\partial@page=\box43
+\last@line=\box44
+\maxbalancingoverflow=\dimen167
+\mult@rightbox=\box45
+\mult@grightbox=\box46
+\mult@gfirstbox=\box47
+\mult@firstbox=\box48
 \@tempa=\box49
 \@tempa=\box50
 \@tempa=\box51
@@ -729,81 +803,114 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box55
 \@tempa=\box56
 \@tempa=\box57
-\c@columnbadness=\count138
-\c@finalcolumnbadness=\count139
-\last@try=\dimen149
-\multicolovershoot=\dimen150
-\multicolundershoot=\dimen151
-\mult@nat@firstbox=\box58
-\colbreak@box=\box59
-\mc@col@check@num=\count140
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\c@columnbadness=\count146
+\c@finalcolumnbadness=\count147
+\last@try=\dimen168
+\multicolovershoot=\dimen169
+\multicolundershoot=\dimen170
+\mult@nat@firstbox=\box66
+\colbreak@box=\box67
+\mc@col@check@num=\count148
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
-)) (./balance.sty
+) (./balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
-\oldvsize=\dimen152
-) (./Sections/0_abstract.tex) (./main.aux)
+\oldvsize=\dimen171
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip93
+\LTright=\skip94
+\LTpre=\skip95
+\LTpost=\skip96
+\LTchunksize=\count149
+\LTcapwidth=\dimen172
+\LT@head=\box68
+\LT@firsthead=\box69
+\LT@foot=\box70
+\LT@lastfoot=\box71
+\LT@cols=\count150
+\LT@rows=\count151
+\c@LT@tables=\count152
+\c@LT@chunks=\count153
+\LT@p@ftn=\toks32
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen173
+\extrarowheight=\dimen174
+\NC@list=\toks33
+\extratabsurround=\skip97
+\backup@length=\skip98
+)) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 15.
-LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 15
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 19.
+LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 19
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 15.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 19.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 19.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 15
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 19
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 19.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 1
-5.
+9.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 15.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 19.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on
- input line 15.
+ input line 19.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.
 fd
@@ -811,37 +918,39 @@ File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 15.
+(Font)              scaled to size 8.0pt on input line 19.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 15.
-LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+(Font)              scaled to size 6.2pt on input line 19.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 5.5pt on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 15.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 19.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 15.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 19.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 15.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 19.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Info: Redefining \microtypecontext on input line 15.
+LaTeX Info: Redefining \microtypecontext on input line 19.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -856,8 +965,8 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 15.
+\AtBeginShipoutBox=\box72
+Package hyperref Info: Link coloring ON on input line 19.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -865,11 +974,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count141
+\c@section@level=\count154
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -878,17 +987,17 @@ LaTeX Info: Redefining \nameref on input line 15.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count142
-\scratchdimen=\dimen153
-\scratchbox=\box61
-\nofMPsegments=\count143
-\nofMParguments=\count144
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count145
-\MPscratchDim=\dimen154
-\MPnumerator=\count146
-\makeMPintoPDFobject=\count147
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count155
+\scratchdimen=\dimen175
+\scratchbox=\box73
+\nofMPsegments=\count156
+\nofMParguments=\count157
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count158
+\MPscratchDim=\dimen176
+\MPnumerator=\count159
+\makeMPintoPDFobject=\count160
+\everyMPtoPDFconversion=\toks35
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -914,22 +1023,22 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot twoside 
-* h-part:(L,W,R)=(54.0pt, 506.295pt, 54.0pt)
-* v-part:(T,H,B)=(57.0pt, 664.96999pt, 73.0pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=506.295pt
-* \textheight=625.96999pt
-* \oddsidemargin=-18.26999pt
-* \evensidemargin=-18.26999pt
-* \topmargin=-15.26999pt
+* h-part:(L,W,R)=(46.0pt, 395.8225pt, 46.0pt)
+* v-part:(T,H,B)=(58.0pt, 620.7pt, 44.0pt)
+* \paperwidth=487.8225pt
+* \paperheight=722.7pt
+* \textwidth=395.8225pt
+* \textheight=569.7pt
+* \oddsidemargin=-26.26999pt
+* \evensidemargin=-26.26999pt
+* \topmargin=-14.26999pt
 * \headheight=13.0pt
 * \headsep=14.0pt
 * \topskip=10.0pt
-* \footskip=12.0pt
+* \footskip=24.0pt
 * \marginparwidth=90.0pt
 * \marginparsep=11.0pt
-* \columnsep=24.0pt
+* \columnsep=10.0pt
 * \skip\footins=7.0pt plus 11.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -940,8 +1049,8 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count148
-\c@mv@boldtabular=\count149
+\c@mv@tabular=\count161
+\c@mv@boldtabular=\count162
 (/usr/local/texlive/2017/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
@@ -949,8 +1058,13 @@ tim
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 51.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 66.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -959,12 +1073,19 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 66.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 51.
+(Font)              scaled to size 9.0pt on input line 66.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 66.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -972,198 +1093,275 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 51.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 51.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 51.
-
 (./Sections/1_intro.tex
-Underfull \vbox (badness 1394) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 14.
-)
-(./Sections/2_related.tex
-Underfull \vbox (badness 5667) has occurred while \output is active []
+(Font)              scaled to size 10.0pt on input line 5.
+ [1.1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (
+./Sections/2_related.tex
+Underfull \vbox (badness 5431) has occurred while \output is active []
 
- [1.1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
+
+Package Fancyhdr Warning: \headheight is too small (13.0pt): 
+ Make it at least 22.95502pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2.2]
+Underfull \hbox (badness 10000) in paragraph at lines 15--18
 
  []
 
 ) (./Sections/3_facelift.tex
-<Plot/Trueskill.png, id=68, 981.6675pt x 719.68875pt>
-File: Plot/Trueskill.png Graphic file (type png)
- <use Plot/Trueskill.png>
-Package pdftex.def Info: Plot/Trueskill.png used on input line 39.
-(pdftex.def)             Requested size: 168.8025pt x 123.7511pt.
+<Plot/facelift-pipeline-2x.png, id=82, 5721.375pt x 1564.84625pt>
+File: Plot/facelift-pipeline-2x.png Graphic file (type png)
 
-<Plot/rotationalSim.png, id=70, 432.61626pt x 435.6275pt>
+<use Plot/facelift-pipeline-2x.png>
+Package pdftex.def Info: Plot/facelift-pipeline-2x.png used on input line 32.
+(pdftex.def)             Requested size: 395.8225pt x 108.26103pt.
+ [3.3] [4.4 <./Plot/facelift-pipeline-2x.png
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Plot/facelift-pipeline-2x.
+png): large interlaced PNG might cause out of memory (use non-interlaced PNG to
+ fix this)
+>] <Plot/Trueskill.png, id=116, 981.6675pt x 719.68875pt>
+File: Plot/Trueskill.png Graphic file (type png)
+
+<use Plot/Trueskill.png>
+Package pdftex.def Info: Plot/Trueskill.png used on input line 66.
+(pdftex.def)             Requested size: 277.07452pt x 203.12576pt.
+
+<Plot/rotationalSim.png, id=117, 432.61626pt x 435.6275pt>
 File: Plot/rotationalSim.png Graphic file (type png)
 
 <use Plot/rotationalSim.png>
-Package pdftex.def Info: Plot/rotationalSim.png used on input line 56.
-(pdftex.def)             Requested size: 253.1488pt x 227.61772pt.
- <Plot/transSim.png, id=71, 433.62pt x 435.6275pt>
-File: Plot/transSim.png Graphic file (type png)
+Package pdftex.def Info: Plot/rotationalSim.png used on input line 78.
+(pdftex.def)             Requested size: 197.9101pt x 227.61772pt.
 
-<use Plot/transSim.png>
-Package pdftex.def Info: Plot/transSim.png used on input line 60.
-(pdftex.def)             Requested size: 253.14728pt x 227.61772pt.
- [2.2 <./Plot/Trueskill.png>]
-<Plot/SimilarityPlacesPrevalence.png, id=100, 1814.78pt x 1643.13875pt>
+<Plot/transSim.png, id=118, 433.62pt x 435.6275pt>
+File: Plot/transSim.png Graphic file (type png)
+ <use Plot/transSim.png>
+Package pdftex.def Info: Plot/transSim.png used on input line 82.
+(pdftex.def)             Requested size: 197.91273pt x 227.61772pt.
+
+<Plot/SimilarityPlacesPrevalence.png, id=119, 1814.78pt x 1643.13875pt>
 File: Plot/SimilarityPlacesPrevalence.png Graphic file (type png)
 
 <use Plot/SimilarityPlacesPrevalence.png>
 Package pdftex.def Info: Plot/SimilarityPlacesPrevalence.png used on input line
- 76.
-(pdftex.def)             Requested size: 241.14749pt x 218.32912pt.
+ 92.
+(pdftex.def)             Requested size: 395.8225pt x 358.38269pt.
+ [5.5 <./Plot/Trueskill.png>] [6.6 <./Plot/rotationalSim.png> <./Plot/transSim.
+png>] [7.7 <./Plot/SimilarityPlacesPrevalence.png>] <Plot/examples/u_9.png, id=
+156, 231.264pt x 231.264pt>
+File: Plot/examples/u_9.png Graphic file (type png)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use Plot/examples/u_9.png>
+Package pdftex.def Info: Plot/examples/u_9.png used on input line 176.
+(pdftex.def)             Requested size: 110.0pt x 109.99974pt.
 
- [3.3 <./Plot/rotationalSim.png> <./Plot/transSim.png> <./Plot/SimilarityPlaces
-Prevalence.png>] <Plot/Example.png, id=122, 1428.33624pt x 375.4025pt>
-File: Plot/Example.png Graphic file (type png)
+<Plot/examples/t_9.png, id=157, 246.6816pt x 251.9814pt>
+File: Plot/examples/t_9.png Graphic file (type png)
 
-<use Plot/Example.png>
-Package pdftex.def Info: Plot/Example.png used on input line 147.
-(pdftex.def)             Requested size: 506.295pt x 133.06546pt.
+<use Plot/examples/t_9.png>
+Package pdftex.def Info: Plot/examples/t_9.png used on input line 176.
+(pdftex.def)             Requested size: 110.0pt x 112.36014pt.
+
+<Plot/examples/b_9.png, id=158, 231.264pt x 231.264pt>
+File: Plot/examples/b_9.png Graphic file (type png)
+
+<use Plot/examples/b_9.png>
+Package pdftex.def Info: Plot/examples/b_9.png used on input line 176.
+(pdftex.def)             Requested size: 110.0pt x 109.99974pt.
+
+<Plot/examples/u_4.jpeg, id=159, 481.8pt x 481.8pt>
+File: Plot/examples/u_4.jpeg Graphic file (type jpg)
+
+<use Plot/examples/u_4.jpeg>
+Package pdftex.def Info: Plot/examples/u_4.jpeg used on input line 180.
+(pdftex.def)             Requested size: 110.0pt x 109.99562pt.
+
+<Plot/examples/t_4.jpeg, id=160, 227.85126pt x 227.85126pt>
+File: Plot/examples/t_4.jpeg Graphic file (type jpg)
+
+<use Plot/examples/t_4.jpeg>
+Package pdftex.def Info: Plot/examples/t_4.jpeg used on input line 180.
+(pdftex.def)             Requested size: 110.0pt x 110.00012pt.
+
+<Plot/examples/b_4.jpeg, id=161, 481.8pt x 481.8pt>
+File: Plot/examples/b_4.jpeg Graphic file (type jpg)
+
+<use Plot/examples/b_4.jpeg>
+Package pdftex.def Info: Plot/examples/b_4.jpeg used on input line 180.
+(pdftex.def)             Requested size: 110.0pt x 109.99562pt.
+
+<Plot/examples/u_5.jpeg, id=162, 481.8pt x 481.8pt>
+File: Plot/examples/u_5.jpeg Graphic file (type jpg)
+
+<use Plot/examples/u_5.jpeg>
+Package pdftex.def Info: Plot/examples/u_5.jpeg used on input line 181.
+(pdftex.def)             Requested size: 110.0pt x 109.99562pt.
+
+<Plot/examples/t_5.jpeg, id=163, 227.85126pt x 227.85126pt>
+File: Plot/examples/t_5.jpeg Graphic file (type jpg)
+
+<use Plot/examples/t_5.jpeg>
+Package pdftex.def Info: Plot/examples/t_5.jpeg used on input line 181.
+(pdftex.def)             Requested size: 110.0pt x 110.00012pt.
+
+<Plot/examples/b_5.jpeg, id=164, 481.8pt x 481.8pt>
+File: Plot/examples/b_5.jpeg Graphic file (type jpg)
+
+<use Plot/examples/b_5.jpeg>
+Package pdftex.def Info: Plot/examples/b_5.jpeg used on input line 181.
+(pdftex.def)             Requested size: 110.0pt x 109.99562pt.
+
+<Plot/examples/u_7.jpeg, id=165, 481.8pt x 481.8pt>
+File: Plot/examples/u_7.jpeg Graphic file (type jpg)
+
+<use Plot/examples/u_7.jpeg>
+Package pdftex.def Info: Plot/examples/u_7.jpeg used on input line 183.
+(pdftex.def)             Requested size: 110.0pt x 109.99562pt.
+
+<Plot/examples/t_7.jpeg, id=166, 227.85126pt x 227.85126pt>
+File: Plot/examples/t_7.jpeg Graphic file (type jpg)
+
+<use Plot/examples/t_7.jpeg>
+Package pdftex.def Info: Plot/examples/t_7.jpeg used on input line 183.
+(pdftex.def)             Requested size: 110.0pt x 110.00012pt.
+
+<Plot/examples/b_7.jpeg, id=167, 481.8pt x 481.8pt>
+File: Plot/examples/b_7.jpeg Graphic file (type jpg)
+
+<use Plot/examples/b_7.jpeg>
+Package pdftex.def Info: Plot/examples/b_7.jpeg used on input line 183.
+(pdftex.def)             Requested size: 110.0pt x 109.99562pt.
+
+<Plot/examples/u_8.jpeg, id=168, 481.8pt x 481.8pt>
+File: Plot/examples/u_8.jpeg Graphic file (type jpg)
+
+<use Plot/examples/u_8.jpeg>
+Package pdftex.def Info: Plot/examples/u_8.jpeg used on input line 184.
+(pdftex.def)             Requested size: 110.0pt x 109.99562pt.
+
+<Plot/examples/t_8.jpeg, id=169, 227.85126pt x 227.85126pt>
+File: Plot/examples/t_8.jpeg Graphic file (type jpg)
+
+<use Plot/examples/t_8.jpeg>
+Package pdftex.def Info: Plot/examples/t_8.jpeg used on input line 184.
+(pdftex.def)             Requested size: 110.0pt x 110.00012pt.
+
+<Plot/examples/b_8.jpeg, id=170, 481.8pt x 481.8pt>
+File: Plot/examples/b_8.jpeg Graphic file (type jpg)
+
+<use Plot/examples/b_8.jpeg>
+Package pdftex.def Info: Plot/examples/b_8.jpeg used on input line 184.
+(pdftex.def)             Requested size: 110.0pt x 109.99562pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Float too large for page by 70.92465pt on input line 189.
 
-) (./Sections/4_metrics.tex
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Plot/taxonomyCount.png, id=137, 855.195pt x 638.385pt>
+) (./Sections/4_metrics.tex [8.8] [9.9 <./Plot/examples/u_9.png> <./Plot/exampl
+es/t_9.png> <./Plot/examples/b_9.png> <./Plot/examples/u_4.jpeg> <./Plot/exampl
+es/t_4.jpeg> <./Plot/examples/b_4.jpeg> <./Plot/examples/u_5.jpeg> <./Plot/exam
+ples/t_5.jpeg> <./Plot/examples/b_5.jpeg> <./Plot/examples/u_7.jpeg> <./Plot/ex
+amples/t_7.jpeg> <./Plot/examples/b_7.jpeg> <./Plot/examples/u_8.jpeg> <./Plot/
+examples/t_8.jpeg> <./Plot/examples/b_8.jpeg>]
+<Plot/taxonomyCount.png, id=204, 855.195pt x 638.385pt>
 File: Plot/taxonomyCount.png Graphic file (type png)
 
 <use Plot/taxonomyCount.png>
 Package pdftex.def Info: Plot/taxonomyCount.png used on input line 57.
-(pdftex.def)             Requested size: 241.14749pt x 180.00316pt.
- [4.4]
-<Plot/walkable_taxonomy.png, id=151, 1803.73875pt x 1411.2725pt>
-File: Plot/walkable_taxonomy.png Graphic file (type png)
-
-<use Plot/walkable_taxonomy.png>
-Package pdftex.def Info: Plot/walkable_taxonomy.png used on input line 65.
-(pdftex.def)             Requested size: 241.14749pt x 188.66162pt.
+(pdftex.def)             Requested size: 395.8225pt x 295.47247pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5.5 <./Plot/Example.png> <./Plot/taxonomyCount.png> <./Plot/walkable_taxonomy.
-png>] <Plot/BinnedPlot.png, id=169, 1075.01625pt x 717.68124pt>
+<Plot/walkable_taxonomy.png, id=205, 1803.73875pt x 1411.2725pt>
+File: Plot/walkable_taxonomy.png Graphic file (type png)
+
+<use Plot/walkable_taxonomy.png>
+Package pdftex.def Info: Plot/walkable_taxonomy.png used on input line 65.
+(pdftex.def)             Requested size: 395.8225pt x 309.68414pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10.10] <Plot/BinnedPlot.png, id=223, 1075.01625pt x 717.68124pt>
 File: Plot/BinnedPlot.png Graphic file (type png)
 
 <use Plot/BinnedPlot.png>
 Package pdftex.def Info: Plot/BinnedPlot.png used on input line 94.
-(pdftex.def)             Requested size: 227.8269pt x 142.2634pt.
+(pdftex.def)             Requested size: 178.10818pt x 142.2634pt.
 
-<Plot/binnedPlot_complexity.png, id=170, 1086.0575pt x 717.68124pt>
+<Plot/binnedPlot_complexity.png, id=224, 1086.0575pt x 717.68124pt>
 File: Plot/binnedPlot_complexity.png Graphic file (type png)
 
 <use Plot/binnedPlot_complexity.png>
 Package pdftex.def Info: Plot/binnedPlot_complexity.png used on input line 98.
-(pdftex.def)             Requested size: 227.83022pt x 142.2634pt.
+(pdftex.def)             Requested size: 178.11458pt x 142.2634pt.
+ [11.11 <./Plot/taxonomyCount.png>]
 
-<Plot/DecisionMaking.png, id=182, 602.25pt x 372.39125pt>
-File: Plot/DecisionMaking.png Graphic file (type png)
+LaTeX Warning: Text page 12 contains only floats.
 
-<use Plot/DecisionMaking.png>
-Package pdftex.def Info: Plot/DecisionMaking.png used on input line 180.
-(pdftex.def)             Requested size: 151.89003pt x 93.91582pt.
-
-<Plot/ParticipationUrbanPlanning.png, id=183, 584.1825pt x 372.39125pt>
-File: Plot/ParticipationUrbanPlanning.png Graphic file (type png)
-
-<use Plot/ParticipationUrbanPlanning.png>
-Package pdftex.def Info: Plot/ParticipationUrbanPlanning.png used on input line
- 184.
-(pdftex.def)             Requested size: 151.89003pt x 96.81943pt.
-
-<Plot/PromoteGreenCities.png, id=184, 602.25pt x 372.39125pt>
-File: Plot/PromoteGreenCities.png Graphic file (type png)
-
-<use Plot/PromoteGreenCities.png>
-Package pdftex.def Info: Plot/PromoteGreenCities.png used on input line 188.
-(pdftex.def)             Requested size: 151.89003pt x 93.91582pt.
-
-<Plot/UI.png, id=185, 599.23875pt x 630.355pt>
+[12.12 <./Plot/walkable_taxonomy.png> <./Plot/BinnedPlot.png> <./Plot/binnedPlo
+t_complexity.png>] <Plot/UI.png, id=253, 599.23875pt x 630.355pt>
 File: Plot/UI.png Graphic file (type png)
- <use Plot/UI.png>
-Package pdftex.def Info: Plot/UI.png used on input line 198.
-(pdftex.def)             Requested size: 241.14749pt x 253.66685pt.
+
+<use Plot/UI.png>
+Package pdftex.def Info: Plot/UI.png used on input line 220.
+(pdftex.def)             Requested size: 395.8225pt x 416.38185pt.
+ [13.13] [14.14 <./Plot/UI.png>]) (./Sections/5_discussion.tex) (./main.bbl
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 151.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-(./Sections/5_discussion.tex [6.6]) (./main.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package microtype Info: Loading generic settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-
-Underfull \vbox (badness 6032) has occurred while \output is active []
-
-
-Overfull \vbox (9.33344pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (9.33344pt too high) has occurred while \output is active []
-
-
-[7.7 <./Plot/BinnedPlot.png> <./Plot/binnedPlot_complexity.png> <./Plot/Decisio
-nMaking.png (PNG copy)> <./Plot/ParticipationUrbanPlanning.png (PNG copy)> <./P
-lot/PromoteGreenCities.png (PNG copy)> <./Plot/UI.png>]
-Underfull \hbox (badness 1783) in paragraph at lines 274--282
-[]\T1/ptm/m/n/7 (+20) Brandon K Vaughn. 2008.  Data anal-y-sis us-ing re-gres-s
-ion and mul-ti-
- []
-
-)
-Overfull \vbox (1.13098pt too high) has occurred while \output is active []
-
-
-[8.8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
+[15.15]) [16.16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B6D9FD66320D5AEF22A570F1DC7DA34B;775.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
- ) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 1061 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 17902 strings out of 492995
- 265858 string characters out of 6132703
- 394599 words of memory out of 5000000
- 20560 multiletter control sequences out of 15000+600000
- 112872 words of font info for 357 fonts, out of 8000000 for 9000
+ 19193 strings out of 492995
+ 286289 string characters out of 6132703
+ 424091 words of memory out of 5000000
+ 21785 multiletter control sequences out of 15000+600000
+ 115132 words of font info for 369 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,12n,94p,2965b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc
-}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/u
-sr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/newtx/fxlri-7letters.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
-rw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
-s/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on main.pdf (8 pages, 2509936 bytes).
+ 60i,17n,94p,2526b,3133s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
+}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}</us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/newtx/fxlri-7letters.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
+mr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
+Output written on main.pdf (16 pages, 7464968 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 232 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 42618 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 50358 words of extra memory for PDF output out of 51595 (max. 10000000)
 
