@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  6 FEB 2019 09:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  8 FEB 2019 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -497,6 +497,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
 
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
 Missing character: There is no ‚ in font cmssi10!
 Missing character: There is no Ä in font cmssi10!
 Missing character: There is no ú in font cmssi10!
@@ -527,37 +528,38 @@ Missing character: There is no ú in font cmssi10!
 Missing character: There is no ‚ in font cmssi10!
 Missing character: There is no Ä in font cmssi10!
 Missing character: There is no ù in font cmssi10!
-
-[2] (./LetterReferees.bbl [3])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+ [3] (./LetterReferees.bbl [4])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (./LetterReferees.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
 Package rerunfilecheck Info: File `LetterReferees.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
  ) 
 Here is how much of TeX's memory you used:
- 9219 strings out of 492995
- 138160 string characters out of 6132703
- 279337 words of memory out of 5000000
- 12564 multiletter control sequences out of 15000+600000
- 12193 words of font info for 69 fonts, out of 8000000 for 9000
+ 9241 strings out of 492995
+ 138423 string characters out of 6132703
+ 280463 words of memory out of 5000000
+ 12567 multiletter control sequences out of 15000+600000
+ 12607 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,8n,38p,721b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,38p,1038b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on LetterReferees.pdf (4 pages, 101937 bytes).
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on LetterReferees.pdf (5 pages, 129098 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 29 named destinations out of 1000 (max. 500000)
  21505 words of extra memory for PDF output out of 24883 (max. 10000000)
 

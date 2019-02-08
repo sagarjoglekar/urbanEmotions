@@ -7,6 +7,12 @@ A.~Baka, L.~Figgou, and V.~Triga.
 \newblock {\em International Journal of Electronic Governance},
   5(3-4):244--263, 2012.
 
+\bibitem{krizhevsky2012imagenet}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1097--1105, 2012.
+
 \bibitem{lynch1960image}
 K.~Lynch.
 \newblock {\em The image of the city}, volume~11.
@@ -18,11 +24,25 @@ G.~Moors.
   in attitude measurement.
 \newblock {\em Quality and Quantity}, 42(6):779--794, 2008.
 
+\bibitem{nguyen2016synthesizing}
+A.~Nguyen, A.~Dosovitskiy, J.~Yosinski, T.~Brox, and J.~Clune.
+\newblock Synthesizing the preferred inputs for neurons in neural networks via
+  deep generator networks.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  3387--3395, 2016.
+
 \bibitem{quercia2014aesthetic}
 D.~Quercia, N.~K. O'Hare, and H.~Cramer.
 \newblock Aesthetic capital: what makes london look beautiful, quiet, and
   happy?
 \newblock In {\em Proceedings of the 17th ACM conference on Computer supported
   cooperative work \& social computing}, pages 945--955. ACM, 2014.
+
+\bibitem{szegedy2015going}
+C.~Szegedy, W.~Liu, Y.~Jia, P.~Sermanet, S.~Reed, D.~Anguelov, D.~Erhan,
+  V.~Vanhoucke, and A.~Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1--9, 2015.
 
 \end{thebibliography}

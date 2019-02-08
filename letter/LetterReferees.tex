@@ -75,9 +75,12 @@ We would like to express our sincere thanks to the Editors for supporting this p
 
 \begin{enumerate}
 
-\item Change 1 
-\item Change 2
-\item Change 3 
+\item We added some more references to contextualize our work
+\item We added some more clarity around the pipeline specifics
+\item We clarified the beautification process and the required constraints which might have caused confusion as rightly pointed out.
+\item We clarified what we mean by ``explaining black-box inferences'' in the context of urban beauty models. We also reshaped our introduction to reflect the said clarifications.
+\item We tried to addressed the concern about non-neutral postion in the likert scale, but citing some works around this scale as well as specifying our motivation for this choice in the paper. 
+\item We addressed some minor misses.
 
 
 \end{enumerate}
@@ -101,7 +104,17 @@ The idea of using machine learning models to enrich urban design experience is r
 \noindent Comment : The description of the framework is not clear enough, and some details are missing, such as the network structure of the deep learning model.
 \end{myquote}
 \noindent %Address comment here
-We added a few more details about both the classifier and the GAN framework in the paper. To that extent Section \note{add some model descriptions for the gan and classifier}
+
+In this paper, we are training a couple of tried and tested network architectures on our data. 
+We draw the reader's attention to the details through the relevant citations seen in the following statements in the section \textbf{ Training a beauty classifier} and section \textbf{Generating a synthetic beautified scene}
+
+\begin{myquoteOrange}
+    We use the CaffeNet architecture, a modified version of AlexNet~\cite{krizhevsky2012imagenet,szegedy2015going}. The training is done on a 70\% split of the data, and the testing on the remaining 30\%. All this is done on increasingly augmented sets of data.
+\end{myquoteOrange}
+
+\begin{myquoteOrange}
+    The technique does so using the ``Deep Generator Network for Activation Maximization'' (\emph{DGN-AM}) \cite{nguyen2016synthesizing}. Given an input image $I_i$, \emph{DGN-AM} iteratively re-calculates the color of $I_i$'s pixels in  a way  the output image $\hat{I_j}$  both maximizes  the  activation of neuron $y_j$ (e.g., the ``beauty neuron'') and looks ``photo realistic'',  which is done by conditioning the maximization to an ``image prior''.
+\end{myquoteOrange}
 
 
 \begin{myquote}
@@ -109,7 +122,12 @@ We added a few more details about both the classifier and the GAN framework in t
 \end{myquote}
 
 \noindent %Answer Comment here
-The beautification process happens through activation maximization of the beauty classifier output neuron. If the input images is inherently beautiful, the output neuron corresponding to beauty could be expected to already be in a maximal activation state. In such a setup, the activation maximization would not yield any usable result. For this reason, we test the pipeline only on images which have the Trueskill scores to be in the lower or upper end of the spectrum and transform them to the opposite end. This prevents these situations and ensures that the input images are either inherently un-aesthetic or inherently beautiful
+The beautification process happens through activation maximization of the beauty classifier output neuron. If the input images is inherently beautiful, the output neuron corresponding to beauty could be expected to already be in a maximal activation state. In such a setup, the activation maximization would not yield any usable result. For this reason, we test the pipeline only on images which have the Trueskill scores to be in the lower or upper end of the spectrum (as mentioned in the caption for Fig.2 ) and transform them to the opposite end. This prevents these situations and ensures that the input images are either inherently un-aesthetic or inherently beautiful. To clarify this caveat, we have added the below extension to the section \textbf{Generating a synthetic beautified scene}
+
+\begin{myquoteOrange}
+The legibility of the transformed image is highly dependent on the initial state of the neural activation that you are trying to maximize. Maximizing beauty of an already beautiful image, would yield in a saturated, illegible template $\hat{I_j}$. For this reason, to generate an image, that maximizes the beauty neuron in the classifier $C$ , you need to supply an apriori image that most definitely lies in the class $y_i$. The constraint is reverse for maximizing for class $y_j$
+\end{myquoteOrange}
+
 
 \section*{Requests from Reviewer 3}
 
@@ -119,8 +137,9 @@ The beautification process happens through activation maximization of the beauty
 \end{myquote}
 
 \noindent %Answer comment here
-This is a valid concern of the reviewer. And to our end we try to address this by explaining what we mean by addressing the ``black box'' problem. To this end we add section \note{Add stuff in the paper to clarify what Facelift attempts to do with respect to transparency. Mainly about explaining the outputs in the language of the audience.}
+This is a valid concern of the reviewer. And to our end we try to address this by explaining what we mean by addressing the ``black box'' problem. We try to clarify what we mean by `explaining' the deep learning inference in the \textbf{Introduction} section of the paper. Through this paper we are rationalizing the way facelift generates beautified scenes, through the lens of urban metrics. That way, when facelift presents the user with a `beautified' version of an input google street view, it presents them with the different variations in the 5 metrics which happen in the due course of the transformation. We also do a statistical analysis of a large sample set of images `beautified' through this process, and test certain hypothesis, which were inspired from urban design, and urban vitality literature. These steps, when articulated in the right way, provide a more transparent picture of the Generative pipeline to the users, as noted by several participants of the expert-survey. 
 
+We hope the modifications to the introduction addresses the reviewer's question about the postion of this paper.
 
 \begin{myquote}
 \noindent Comment : About “Q4 Do architects and urban planners find it useful?”, as the results shown in Table 6, I find that the rating from “definitely not” to “definitely” without a “neutral” option, and this will lead to bias.

@@ -147,7 +147,8 @@ where:
 \item $C_j(G(f))$ is the activation value of neuron $y_j$ in the scene classifier $C$ (the value to be maximized);
 \item $\lambda$ is a $L_2$ regularization term.
 \end{itemize}
-Here the initialization of $f$ is key. If $f$ were to be initialized with random noise, then the resulting $G(f)$ would be the average representation of category $y_j$ (of, e.g., beauty). Instead, since $f$ is initialized with $I_i$, then the resulting $G(f)$ is $I_i$'s version ``morphed to become more beautiful''. 
+Here the initialization of $f$ is key. If $f$ were to be initialized with random noise, then the resulting $G(f)$ would be the average representation of category $y_j$ (of, e.g., beauty). Instead, since $f$ is initialized with $I_i$, then the resulting $G(f)$ is $I_i$'s version ``morphed to become more beautiful''.
+\sj{The legibility of the transformed image is highly dependent on the initial state of the neural activation that you are trying to maximize. Maximizing beauty of an already beautiful image, would yield in a saturated, illegible template $\hat{I_j}$. For this reason, to generate an image, that maximizes the beauty neuron in the classifier $C$ , you need to supply an apriori image that most definitely lies in the class $y_i$. The constraint is reverse for maximizing for class $y_i$} 
 %Figure \ref{fig:BeautyExample} shows the activation maximization output in the center.
 
 %****************************************
