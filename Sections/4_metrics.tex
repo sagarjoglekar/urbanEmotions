@@ -39,7 +39,7 @@ To answer that question, we need to understand what makes a space great. After a
 			\hline
 			Privacy-Openness &  A sense of privacy (as opposed to a sense of openness) impacts a place's perception~\cite{ewing2013measuring}.\\ 
 			\hline
-			Visual Complexity & Visual complexity is a measure of how diverse a urban scene is in terms of design materials, textures, and objects~\cite{ewing2013measuring}.  \\
+			Visual Complexity & Visual complexity is a measure of how diverse a urban scene is in terms of design materials, textures, and objects~\cite{ewing2013measuring}. \sj{We perceive complexity in an `inverted-U' fashion, which means we prefer medium complexity over too little or too much for finding a place pleasant\cite{ulrich1983aesthetic}} \\
 			\hline
 	\end{tabular}}
 	\caption{Urban Design Metrics}
@@ -114,13 +114,13 @@ To  test hypothesis \emph{H3}, we count the fraction of pixels that Segnet label
 \mbox{ } \\
 %**************************************************
 \noindent
-\emph{H4 Beautified scenes tend to be visually rich.}
+\emph{H4 Beautified scenes tend to be visually rich}
 To quantify to which extent scenes are visually rich, we measure their visual complexity~\cite{ewing2013measuring} as  the amount of disorder in terms of distribution of (Segnet) urban elements in the scene: 
 \begin{equation}
 H(X) = -\sum p(i)\log p(i)
 \label{eq:entropy} 
 \end{equation}
-where $i$ is the $i^{th}$ Segnet's label. The total number of labels is twelve. The higher $H(X)$, the  higher the scene's entropy, that is, the higher the scene's complexity. To test hypothesis \emph{H4}, we show the percentage of scenes that fall into a complexity bin  (Figure~\ref{fig:complexity}): beautified scenes are of low to medium complexity, while uglified ones are of high complexity.
+where $i$ is the $i^{th}$ Segnet's label. The total number of labels is twelve. The higher $H(X)$, the  higher the scene's entropy, that is, the higher the scene's complexity. \sj{It has been proposed, that the perception of aesthetics or pleasantness follows an `inverted U' shape\cite{ulrich1983aesthetic}.} To test hypothesis \emph{H4}, we show the percentage of scenes that fall into a complexity bin  (Figure~\ref{fig:complexity}): beautified scenes are of low to medium complexity, while uglified ones are of high complexity.
 
 
 
