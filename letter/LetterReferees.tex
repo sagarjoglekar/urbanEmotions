@@ -75,12 +75,12 @@ We would like to express our sincere thanks to the Editors for supporting this p
 
 \begin{enumerate}
 
-\item We added some more references to contextualize our work
-\item We added some more clarity around the pipeline specifics
+\item We added some more references to contextualize our work along with a section to link our work with the field of urban aesthetics and design
+\item We added some more clarity around the pipeline specifics along with the description of the architecture of the deep learning blocks
 \item We clarified the beautification process and the required constraints which might have caused confusion as rightly pointed out.
-\item We clarified what we mean by ``explaining black-box inferences'' in the context of urban beauty models. We also reshaped our introduction to reflect the said clarifications.
+\item We clarified what we mean by ``explaining black-box inferences'' in the context of urban beauty models. 
 \item We tried to addressed the concern about non-neutral postion in the likert scale, but citing some works around this scale as well as specifying our motivation for this choice in the paper. 
-\item We addressed some minor misses.
+\item We addressed some other minor misses.
 
 
 \end{enumerate}
@@ -97,7 +97,7 @@ A detailed breakdown of the actions taken can be found next.
 \end{myquote}
 \noindent %Address comment here 
 To address this, we did an extra round of literature survey to understand if there are any more related works that we can use to contextualize this paper. 
-The idea of using machine learning models to enrich urban design experience is relatively new. \note{Add some more fluff around which citations were added to the realated work}
+The idea of using machine learning models to enrich urban design experience is relatively new. Hence we first link the and motivate our work using works done in the field of urban aesthetics and design. 
 
 
 \begin{myquote}
@@ -105,7 +105,8 @@ The idea of using machine learning models to enrich urban design experience is r
 \end{myquote}
 \noindent %Address comment here
 
-In this paper, we are training a couple of tried and tested network architectures on our data. 
+In this paper, we are training a couple of deep learning models. 
+To that extent we added a detailed description of the deeplearning models along with the architecture of the generative as well as classifier blocks. We also clarified the utility and functioning of the generative model by adding examples of generative frameworks in action. We then added text to describe in detail, how a generative model and a classifier model , when connected in tandem can be utilized to maximize beauty in the urban image. 
 We draw the reader's attention to the details through the relevant citations seen in the following statements in the section \textbf{ Training a beauty classifier} and section \textbf{Generating a synthetic beautified scene}
 
 \begin{myquoteOrange}
@@ -137,18 +138,16 @@ The legibility of the transformed image is highly dependent on the initial state
 \end{myquote}
 
 \noindent %Answer comment here
-This is a valid concern of the reviewer. And to our end we try to address this by explaining what we mean by addressing the ``black box'' problem. We try to clarify what we mean by `explaining' the deep learning inference in the \textbf{Introduction} section of the paper. Through this paper we are rationalizing the way facelift generates beautified scenes, through the lens of urban metrics. That way, when facelift presents the user with a `beautified' version of an input google street view, it presents them with the different variations in the 5 metrics which happen in the due course of the transformation. We also do a statistical analysis of a large sample set of images `beautified' through this process, and test certain hypothesis, which were inspired from urban design, and urban vitality literature. These steps, when articulated in the right way, provide a more transparent picture of the Generative pipeline to the users, as noted by several participants of the expert-survey. 
+This is a valid concern of the reviewer. And to our end we try to address this by explaining what we mean by addressing the ``black box'' problem. We try to clarify what we mean by `explaining' the deep learning inference in the \textbf{Introduction} section of the paper. Through this paper we are rationalizing the way facelift generates beautified scenes, through the lens of urban metrics. That way, when facelift presents the user with a `beautified' version of an input google street view, it presents them with the different variations in the 5 metrics which happen in the due course of the transformation. We also do a statistical analysis of a large sample set of images `beautified' through this process, and test certain hypothesis, which were inspired from urban design, and urban vitality literature. These steps, when articulated in the right way, provide a more transparent picture of the notion of `beauty' learnt by the deep learning classifier, to the users, as noted by several participants of the expert-survey. To that end, the aim of this work was to make the deep learning pipeline more transparent to the target audience of this tool, which are urban designers, architects and urban policy experts. And we sincerely hope that this work is a step in that direction.
 
-We hope the modifications to the introduction addresses the reviewer's question about the postion of this paper.
+We hope the modifications to the introduction and the clarification above, addresses the reviewer's question about the position of this paper.
 
 \begin{myquote}
 \noindent Comment : About “Q4 Do architects and urban planners find it useful?”, as the results shown in Table 6, I find that the rating from “definitely not” to “definitely” without a “neutral” option, and this will lead to bias.
 \end{myquote}
 \noindent %Answer comment here
 
-This is a very valid concern raised by the reviewer. The question of providing a neutral option has been debated for decades, with convincing arguments on both side. We inspired our choice from previous works\cite{moors2008exploring}\cite{Agree2012} around the critique of the neutral choice response. Here the argument against neutral choices conveyed that, neutral choices end up commonly used to express lack of knowledge or indifference. To that extent, all our participants were experts in their respective fields of urban design, data visualization and architecture. Hence we consciously wanted them to express an opinion about the utility of such a tool in their practice. 
-
-To that effect we have added clarification of the choice along with the citations in \textbf{Q4} with the following text 
+This is a very valid concern raised by the reviewer. The question of providing a neutral option has been debated for decades, with convincing arguments on both side. We inspired our choice from previous works\cite{moors2008exploring}\cite{Agree2012} around the critique of the neutral choice response. Here the argument against neutral choices conveyed that, neutral choices end up commonly used to express \textbf{lack of knowledge or indifference}. To that extent, all our participants were experts in their respective fields of urban design, data visualization and architecture. Hence we consciously wanted them to express an opinion about the utility of such a tool in their practice. We have added clarification of the choice along with the citations in \textbf{Q4} with the following text 
 
 \begin{myquoteOrange}
 
@@ -174,7 +173,7 @@ Thank you for pointing this out. We have added back the fifth metric of `landmar
 
 \end{myquote}
 
-We want to express our sincere thanks to the Editors and to the Reviewers for all the positive comments above, and hope they will find the new version of the paper much improved.
+We want to express our sincere thanks to the Editors and to the Reviewers for all the constructive feedback as well as the positive comments above, and hope they will find the new version of the paper much improved.
 \bibliographystyle{abbrv}
 \bibliography{letter}
 

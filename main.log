@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  20 FEB 2019 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  4 MAR 2019 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,7 +1098,7 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 5.
  [1.1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (
 ./Sections/2_related.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--12
+Underfull \hbox (badness 10000) in paragraph at lines 6--15
 
  []
 
@@ -1113,17 +1113,17 @@ Package Fancyhdr Warning: \headheight is too small (13.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2.2]
-Underfull \hbox (badness 10000) in paragraph at lines 13--18
+Underfull \hbox (badness 10000) in paragraph at lines 16--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--23
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--28
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
 
  []
 
@@ -1423,11 +1423,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19337 strings out of 492995
- 289205 string characters out of 6132703
+ 19340 strings out of 492995
+ 289229 string characters out of 6132703
  420399 words of memory out of 5000000
  21864 multiletter control sequences out of 15000+600000
- 120962 words of font info for 395 fonts, out of 8000000 for 9000
+ 121092 words of font info for 397 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,17n,94p,2526b,3163s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
@@ -1445,7 +1445,7 @@ ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on main.pdf (19 pages, 10389776 bytes).
+Output written on main.pdf (19 pages, 10389783 bytes).
 PDF statistics:
  466 PDF objects out of 1000 (max. 8388607)
  365 compressed objects within 4 object streams
