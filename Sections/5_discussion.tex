@@ -1,7 +1,7 @@
 \section{Conclusion}
 \label{sec:discussion}
 
-FaceLift is a transparent framework that beautifies existing urban scenes. This translates into two main technical advancements. First, FaceLift is able to generate realistic scenes as opposed to existing approaches based on  Generative Adversarial Networks whose final transformations are quite coarse as they still take the form of synthetic templates.  Second, it augments the deep learning black-box with a module that offers explanations on what has been transformed, making that box more transparent. 
+FaceLift is a transparent framework that beautifies urban scenes. This translates into two main technical advancements. First, FaceLift is able to generate realistic beautified scenes based on existing approaches of  Generative Adversarial Networks and deep convolutional networks. This is done so by implementing an activation maximization pipeline, that allows us to generate a maximized version of an originally un-attractive urban scene.  Second, it augments the deep learning methodology with a module that offers explanations on what has been transformed and what are the predictors of the resulting beauty, in the language of practitioners. This makes such a methodology more understandable and adoptable as per our survey. 
 
 There are still important limitations though. One is data bias. The framework is as good as its training data, and more work has to go into collecting reliable ground truth of human perceptions. This data should ideally be stratified according to the people's characteristics that  impact their perceptions. The other main limitation is that generative models are hard to control, and more work has to go into offering principled ways of fine-tuning the generative process.
 

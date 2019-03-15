@@ -4,7 +4,7 @@
 The goal of FaceLift is to transform existing urban scenes into versions that: \emph{i)} people perceive more beautiful; \emph{ii)} contain urban elements typical of great urban spaces; \emph{iii)} are easy to interpret; and \emph{iv)} architects and urban planners find useful. To ascertain whether FaceLift meets that composite goal, we answer the following questions next: 
 
 \begin{description}
-\item{\textbf{Q1}} Do individuals perceive``FaceLifted'' scenes to be beautiful?
+\item{\textbf{Q1}} Do individuals perceive ``FaceLifted'' scenes to be beautiful?
 
 \item{\textbf{Q2}}  Does our framework produce scenes that possess urban elements typical of great spaces?
 
@@ -22,7 +22,6 @@ To ascertain whether FaceLifted scenes are perceived by individuals as they are 
 \subsection*{Q2 Are beautified scenes great urban spaces?}
 To answer that question, we need to understand what makes a space great. After a careful review of the urban planning literature, we identify four factors~\cite{ewing2013measuring,alexander1977pattern} (summarized in Table~\ref{tab:Design_metrics}): great places mainly tend to be walkable, offer greenery, feel cozy, and be visually rich. 
 
-
 \begin{table*}[h]
 	\centering
 	
@@ -35,11 +34,11 @@ To answer that question, we need to understand what makes a space great. After a
 			\hline
 			Green Spaces & The presence of greenery has repeatedly been found to impact people's well being \cite{alexander1977pattern}. Under certain conditions, it could also promote social interactions~\cite{quercia2014aesthetic}. This suggest that not all greenery has to be considered in the same way though: dense forests or unkempt greens might well have a negative impact~\cite{jacobs1961death}. \\
 			\hline		
-			\sj{Landmarks} & \sj{Loosing a bearing in the city is not a very pleasant experience. Hence presence of recognisable and  guiding landmarks influences the perception of an urban space \cite{lynch1960image,quercia2014aesthetic,ewing2013measuring}.}\\
+			Landmarks & Losing a bearing in the city is not a very pleasant experience. Hence presence of recognisable and  guiding landmarks influences the perception of an urban space \cite{lynch1960image,quercia2014aesthetic,ewing2013measuring}.\\
 			\hline
 			Privacy-Openness &  A sense of privacy (as opposed to a sense of openness) impacts a place's perception~\cite{ewing2013measuring}.\\ 
 			\hline
-			Visual Complexity & Visual complexity is a measure of how diverse a urban scene is in terms of design materials, textures, and objects~\cite{ewing2013measuring}. \sj{We perceive complexity in an `inverted-U' fashion, which means we prefer medium complexity over too little or too much for finding a place pleasant\cite{ulrich1983aesthetic}} \\
+			Visual Complexity & Visual complexity is a measure of how diverse a urban scene is in terms of design materials, textures, and objects~\cite{ewing2013measuring}. We perceive complexity in an `inverted-U' fashion, which means we prefer medium complexity over too little or too much for finding a place pleasant\cite{ulrich1983aesthetic} \\
 			\hline
 	\end{tabular}}
 	\caption{Urban Design Metrics}
@@ -120,7 +119,7 @@ To quantify to which extent scenes are visually rich, we measure their visual co
 H(X) = -\sum p(i)\log p(i)
 \label{eq:entropy} 
 \end{equation}
-where $i$ is the $i^{th}$ Segnet's label. The total number of labels is twelve. The higher $H(X)$, the  higher the scene's entropy, that is, the higher the scene's complexity. \sj{It has been proposed, that the perception of aesthetics or pleasantness follows an `inverted U' shape\cite{ulrich1983aesthetic}.} To test hypothesis \emph{H4}, we show the percentage of scenes that fall into a complexity bin  (Figure~\ref{fig:complexity}): beautified scenes are of low to medium complexity, while uglified ones are of high complexity.
+where $i$ is the $i^{th}$ Segnet's label. The total number of labels is twelve. The higher $H(X)$, the  higher the scene's entropy, that is, the higher the scene's complexity. It has been proposed, that the perception of aesthetics or pleasantness follows an `inverted U' shape\cite{ulrich1983aesthetic}. To test hypothesis \emph{H4}, we show the percentage of scenes that fall into a complexity bin  (Figure~\ref{fig:complexity}): beautified scenes are of low to medium complexity, while uglified ones are of high complexity.
 
 
 
@@ -224,7 +223,7 @@ Since we are using logistic regressions, the quantitative interpretation of the 
 
 
 
-To ascertain whether practitioners find FaceLift potentially useful, we built an interactive map of the city of Boston in which, for  selected points, we showed pairs of urban scenes before/after beautification (Figure~\ref{facelift-UI}). We then sent that map along with a survey to 20 experts in architecture, urban planning, and data visualization around the world. \sj{Being experts in their respective fields, we wanted the survey takers to express a clear opinion about the utility of such a technology in their areas of practice. In accordance with this constraint, we designed the survey based on a non neutral response Likert scale, as explored in previous studies \cite{Agree2012,moors2008exploring}.}  The experts had to complete tasks in which they rated FaceLift based on how well it supports decision making, participatory urbanism, and promotion of green spaces among the general public. The results are show in Table~\ref{tab:useCases} according to our experts, the tool can very probably supports decision making, probably support participatory urbanism, and definitely promote green spaces.  These results are  qualitatively supported by our experts' comments, which include: ``\textit{The maps reveal patterns that might not otherwise be apparent}'',  ``\textit{The tool helps focusing on parameters to identify beauty in the city while exploring it}'',  and ``\textit{The metrics are nice. It made me think more about beautiful places needing a combination of criteria, rather than a high score on one or two dimensions. It made me realize that these criteria are probably spatially correlated}''.
+To ascertain whether practitioners find FaceLift potentially useful, we built an interactive map of the city of Boston in which, for  selected points, we showed pairs of urban scenes before/after beautification (Figure~\ref{facelift-UI}). We then sent that map along with a survey to 20 experts in architecture, urban planning, and data visualization around the world. Being experts in their respective fields, we wanted the survey takers to express a clear opinion about the utility of such a technology in their areas of practice, rather than express a non-committal neutral response. In accordance with this constraint, we designed the survey based on a non neutral response Likert scale, as explored in previous studies \cite{Agree2012,moors2008exploring}. The experts had to complete tasks in which they rated FaceLift based on how well it supports decision making, participatory urbanism, and promotion of green spaces among the general public. The results are show in Table~\ref{tab:useCases} according to our experts, the tool can very probably supports decision making, probably support participatory urbanism, and definitely promote green spaces.  These results are  qualitatively supported by our experts' comments, which include: ``\textit{The maps reveal patterns that might not otherwise be apparent}'',  ``\textit{The tool helps focusing on parameters to identify beauty in the city while exploring it}'',  and ``\textit{The metrics are nice. It made me think more about beautiful places needing a combination of criteria, rather than a high score on one or two dimensions. It made me realize that these criteria are probably spatially correlated}''.
 
 
 

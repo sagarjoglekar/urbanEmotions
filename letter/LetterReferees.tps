@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=49
-NormalPos.right=2054
-NormalPos.bottom=1027
+NormalPos.right=1615
+NormalPos.bottom=1052
 Class=LaTeXView
 Document=LetterReferees.tex
 
 [Frame0_View0,0]
-TopLine=36
-Cursor=1163
+TopLine=239
+Cursor=11903
 
 [SessionInfo]
 FrameCount=1

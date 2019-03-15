@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  4 MAR 2019 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  15 MAR 2019 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1064,7 +1064,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 66.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 65.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1073,19 +1073,19 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 66.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 65.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 66.
+(Font)              scaled to size 9.0pt on input line 65.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 66.
+(Font)              scaled to size 7.3pt on input line 65.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1098,37 +1098,14 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 5.
  [1.1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (
 ./Sections/2_related.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--15
-
- []
-
-
-Underfull \vbox (badness 5431) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (13.0pt): 
  Make it at least 22.95502pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2.2]
-Underfull \hbox (badness 10000) in paragraph at lines 16--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--35
-
- []
-
-[3.3]) (./Sections/3_facelift.tex
-<Plot/facelift-pipeline-2x.png, id=118, 5721.375pt x 1564.84625pt>
+[2.2] [3.3]) (./Sections/3_facelift.tex
+<Plot/facelift-pipeline-2x.png, id=127, 5721.375pt x 1564.84625pt>
 File: Plot/facelift-pipeline-2x.png Graphic file (type png)
 
 <use Plot/facelift-pipeline-2x.png>
@@ -1139,27 +1116,27 @@ Package pdftex.def Info: Plot/facelift-pipeline-2x.png used on input line 32.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Plot/facelift-pipeline-2x.
 png): large interlaced PNG might cause out of memory (use non-interlaced PNG to
  fix this)
->] [5.5] <Plot/Trueskill.png, id=154, 981.6675pt x 719.68875pt>
+>] [5.5] <Plot/Trueskill.png, id=165, 981.6675pt x 719.68875pt>
 File: Plot/Trueskill.png Graphic file (type png)
 
 <use Plot/Trueskill.png>
 Package pdftex.def Info: Plot/Trueskill.png used on input line 67.
 (pdftex.def)             Requested size: 277.07452pt x 203.12576pt.
 
-<Plot/rotationalSim.png, id=155, 432.61626pt x 435.6275pt>
+<Plot/rotationalSim.png, id=166, 432.61626pt x 435.6275pt>
 File: Plot/rotationalSim.png Graphic file (type png)
 
 <use Plot/rotationalSim.png>
 Package pdftex.def Info: Plot/rotationalSim.png used on input line 79.
 (pdftex.def)             Requested size: 197.9101pt x 227.61772pt.
 
-<Plot/transSim.png, id=156, 433.62pt x 435.6275pt>
+<Plot/transSim.png, id=167, 433.62pt x 435.6275pt>
 File: Plot/transSim.png Graphic file (type png)
  <use Plot/transSim.png>
 Package pdftex.def Info: Plot/transSim.png used on input line 83.
 (pdftex.def)             Requested size: 197.91273pt x 227.61772pt.
 
-<Plot/SimilarityPlacesPrevalence.png, id=157, 1814.78pt x 1643.13875pt>
+<Plot/SimilarityPlacesPrevalence.png, id=168, 1814.78pt x 1643.13875pt>
 File: Plot/SimilarityPlacesPrevalence.png Graphic file (type png)
 
 <use Plot/SimilarityPlacesPrevalence.png>
@@ -1167,48 +1144,48 @@ Package pdftex.def Info: Plot/SimilarityPlacesPrevalence.png used on input line
  93.
 (pdftex.def)             Requested size: 395.8225pt x 358.38269pt.
  [6.6 <./Plot/Trueskill.png>]
-<Plot/AM_arch.pdf, id=173, 794.97pt x 351.3125pt>
+<Plot/AM_arch.pdf, id=185, 794.97pt x 351.3125pt>
 File: Plot/AM_arch.pdf Graphic file (type pdf)
  <use Plot/AM_arch.pdf>
 Package pdftex.def Info: Plot/AM_arch.pdf used on input line 147.
 (pdftex.def)             Requested size: 395.8225pt x 174.92677pt.
 
-<Plot/GAN_examples/orig_1.png, id=176, 228.855pt x 229.35687pt>
+<Plot/GAN_examples/orig_1.png, id=188, 228.855pt x 229.35687pt>
 File: Plot/GAN_examples/orig_1.png Graphic file (type png)
 
 <use Plot/GAN_examples/orig_1.png>
 Package pdftex.def Info: Plot/GAN_examples/orig_1.png used on input line 157.
 (pdftex.def)             Requested size: 110.0pt x 110.24052pt.
 
-<Plot/GAN_examples/gan_1.png, id=177, 228.855pt x 229.85875pt>
+<Plot/GAN_examples/gan_1.png, id=189, 228.855pt x 229.85875pt>
 File: Plot/GAN_examples/gan_1.png Graphic file (type png)
 
 <use Plot/GAN_examples/gan_1.png>
 Package pdftex.def Info: Plot/GAN_examples/gan_1.png used on input line 157.
 (pdftex.def)             Requested size: 110.0pt x 110.48175pt.
 
-<Plot/GAN_examples/orig_2.png, id=178, 228.855pt x 228.35312pt>
+<Plot/GAN_examples/orig_2.png, id=190, 228.855pt x 228.35312pt>
 File: Plot/GAN_examples/orig_2.png Graphic file (type png)
 
 <use Plot/GAN_examples/orig_2.png>
 Package pdftex.def Info: Plot/GAN_examples/orig_2.png used on input line 158.
 (pdftex.def)             Requested size: 110.0pt x 109.75807pt.
 
-<Plot/GAN_examples/gan_2.png, id=179, 226.8475pt x 228.855pt>
+<Plot/GAN_examples/gan_2.png, id=191, 226.8475pt x 228.855pt>
 File: Plot/GAN_examples/gan_2.png Graphic file (type png)
 
 <use Plot/GAN_examples/gan_2.png>
 Package pdftex.def Info: Plot/GAN_examples/gan_2.png used on input line 158.
 (pdftex.def)             Requested size: 110.0pt x 110.97357pt.
 
-<Plot/GAN_examples/orig_3.png, id=180, 228.855pt x 228.855pt>
+<Plot/GAN_examples/orig_3.png, id=192, 228.855pt x 228.855pt>
 File: Plot/GAN_examples/orig_3.png Graphic file (type png)
 
 <use Plot/GAN_examples/orig_3.png>
 Package pdftex.def Info: Plot/GAN_examples/orig_3.png used on input line 159.
 (pdftex.def)             Requested size: 110.0pt x 109.9993pt.
 
-<Plot/GAN_examples/gan_3.png, id=181, 228.35312pt x 229.35687pt>
+<Plot/GAN_examples/gan_3.png, id=193, 228.35312pt x 229.35687pt>
 File: Plot/GAN_examples/gan_3.png Graphic file (type png)
 
 <use Plot/GAN_examples/gan_3.png>
@@ -1216,115 +1193,118 @@ Package pdftex.def Info: Plot/GAN_examples/gan_3.png used on input line 159.
 (pdftex.def)             Requested size: 110.0pt x 110.48201pt.
  [7.7 <./Plot/rotationalSim.png> <./Plot/transSim.png>] [8.8 <./Plot/Similarity
 PlacesPrevalence.png>]
-<Plot/examples/u_9.png, id=212, 231.264pt x 231.264pt>
+<Plot/examples/u_9.png, id=223, 231.264pt x 231.264pt>
 File: Plot/examples/u_9.png Graphic file (type png)
 
 <use Plot/examples/u_9.png>
-Package pdftex.def Info: Plot/examples/u_9.png used on input line 207.
+Package pdftex.def Info: Plot/examples/u_9.png used on input line 206.
 (pdftex.def)             Requested size: 110.0pt x 109.99974pt.
 
-<Plot/examples/t_9.png, id=213, 246.6816pt x 251.9814pt>
+<Plot/examples/t_9.png, id=224, 246.6816pt x 251.9814pt>
 File: Plot/examples/t_9.png Graphic file (type png)
 
 <use Plot/examples/t_9.png>
-Package pdftex.def Info: Plot/examples/t_9.png used on input line 207.
+Package pdftex.def Info: Plot/examples/t_9.png used on input line 206.
 (pdftex.def)             Requested size: 110.0pt x 112.36014pt.
 
-<Plot/examples/b_9.png, id=214, 231.264pt x 231.264pt>
+<Plot/examples/b_9.png, id=225, 231.264pt x 231.264pt>
 File: Plot/examples/b_9.png Graphic file (type png)
 
 <use Plot/examples/b_9.png>
-Package pdftex.def Info: Plot/examples/b_9.png used on input line 207.
+Package pdftex.def Info: Plot/examples/b_9.png used on input line 206.
 (pdftex.def)             Requested size: 110.0pt x 109.99974pt.
 
-<Plot/examples/u_4.jpeg, id=215, 481.8pt x 481.8pt>
+<Plot/examples/u_4.jpeg, id=226, 481.8pt x 481.8pt>
 File: Plot/examples/u_4.jpeg Graphic file (type jpg)
 
 <use Plot/examples/u_4.jpeg>
-Package pdftex.def Info: Plot/examples/u_4.jpeg used on input line 211.
+Package pdftex.def Info: Plot/examples/u_4.jpeg used on input line 210.
 (pdftex.def)             Requested size: 110.0pt x 109.99562pt.
 
-<Plot/examples/t_4.jpeg, id=216, 227.85126pt x 227.85126pt>
+<Plot/examples/t_4.jpeg, id=227, 227.85126pt x 227.85126pt>
 File: Plot/examples/t_4.jpeg Graphic file (type jpg)
 
 <use Plot/examples/t_4.jpeg>
-Package pdftex.def Info: Plot/examples/t_4.jpeg used on input line 211.
+Package pdftex.def Info: Plot/examples/t_4.jpeg used on input line 210.
 (pdftex.def)             Requested size: 110.0pt x 110.00012pt.
 
-<Plot/examples/b_4.jpeg, id=217, 481.8pt x 481.8pt>
+<Plot/examples/b_4.jpeg, id=228, 481.8pt x 481.8pt>
 File: Plot/examples/b_4.jpeg Graphic file (type jpg)
 
 <use Plot/examples/b_4.jpeg>
-Package pdftex.def Info: Plot/examples/b_4.jpeg used on input line 211.
+Package pdftex.def Info: Plot/examples/b_4.jpeg used on input line 210.
 (pdftex.def)             Requested size: 110.0pt x 109.99562pt.
 
-<Plot/examples/u_5.jpeg, id=218, 481.8pt x 481.8pt>
+<Plot/examples/u_5.jpeg, id=229, 481.8pt x 481.8pt>
 File: Plot/examples/u_5.jpeg Graphic file (type jpg)
 
 <use Plot/examples/u_5.jpeg>
-Package pdftex.def Info: Plot/examples/u_5.jpeg used on input line 212.
+Package pdftex.def Info: Plot/examples/u_5.jpeg used on input line 211.
 (pdftex.def)             Requested size: 110.0pt x 109.99562pt.
 
-<Plot/examples/t_5.jpeg, id=219, 227.85126pt x 227.85126pt>
+<Plot/examples/t_5.jpeg, id=230, 227.85126pt x 227.85126pt>
 File: Plot/examples/t_5.jpeg Graphic file (type jpg)
 
 <use Plot/examples/t_5.jpeg>
-Package pdftex.def Info: Plot/examples/t_5.jpeg used on input line 212.
+Package pdftex.def Info: Plot/examples/t_5.jpeg used on input line 211.
 (pdftex.def)             Requested size: 110.0pt x 110.00012pt.
 
-<Plot/examples/b_5.jpeg, id=220, 481.8pt x 481.8pt>
+<Plot/examples/b_5.jpeg, id=231, 481.8pt x 481.8pt>
 File: Plot/examples/b_5.jpeg Graphic file (type jpg)
 
 <use Plot/examples/b_5.jpeg>
-Package pdftex.def Info: Plot/examples/b_5.jpeg used on input line 212.
+Package pdftex.def Info: Plot/examples/b_5.jpeg used on input line 211.
 (pdftex.def)             Requested size: 110.0pt x 109.99562pt.
 
-<Plot/examples/u_7.jpeg, id=221, 481.8pt x 481.8pt>
+<Plot/examples/u_7.jpeg, id=232, 481.8pt x 481.8pt>
 File: Plot/examples/u_7.jpeg Graphic file (type jpg)
 
 <use Plot/examples/u_7.jpeg>
-Package pdftex.def Info: Plot/examples/u_7.jpeg used on input line 214.
+Package pdftex.def Info: Plot/examples/u_7.jpeg used on input line 213.
 (pdftex.def)             Requested size: 110.0pt x 109.99562pt.
 
-<Plot/examples/t_7.jpeg, id=222, 227.85126pt x 227.85126pt>
+<Plot/examples/t_7.jpeg, id=233, 227.85126pt x 227.85126pt>
 File: Plot/examples/t_7.jpeg Graphic file (type jpg)
 
 <use Plot/examples/t_7.jpeg>
-Package pdftex.def Info: Plot/examples/t_7.jpeg used on input line 214.
+Package pdftex.def Info: Plot/examples/t_7.jpeg used on input line 213.
 (pdftex.def)             Requested size: 110.0pt x 110.00012pt.
 
-<Plot/examples/b_7.jpeg, id=223, 481.8pt x 481.8pt>
+<Plot/examples/b_7.jpeg, id=234, 481.8pt x 481.8pt>
 File: Plot/examples/b_7.jpeg Graphic file (type jpg)
 
 <use Plot/examples/b_7.jpeg>
-Package pdftex.def Info: Plot/examples/b_7.jpeg used on input line 214.
+Package pdftex.def Info: Plot/examples/b_7.jpeg used on input line 213.
 (pdftex.def)             Requested size: 110.0pt x 109.99562pt.
 
-<Plot/examples/u_8.jpeg, id=224, 481.8pt x 481.8pt>
+<Plot/examples/u_8.jpeg, id=235, 481.8pt x 481.8pt>
 File: Plot/examples/u_8.jpeg Graphic file (type jpg)
 
 <use Plot/examples/u_8.jpeg>
-Package pdftex.def Info: Plot/examples/u_8.jpeg used on input line 215.
+Package pdftex.def Info: Plot/examples/u_8.jpeg used on input line 214.
 (pdftex.def)             Requested size: 110.0pt x 109.99562pt.
 
-<Plot/examples/t_8.jpeg, id=225, 227.85126pt x 227.85126pt>
+<Plot/examples/t_8.jpeg, id=236, 227.85126pt x 227.85126pt>
 File: Plot/examples/t_8.jpeg Graphic file (type jpg)
 
 <use Plot/examples/t_8.jpeg>
-Package pdftex.def Info: Plot/examples/t_8.jpeg used on input line 215.
+Package pdftex.def Info: Plot/examples/t_8.jpeg used on input line 214.
 (pdftex.def)             Requested size: 110.0pt x 110.00012pt.
 
-<Plot/examples/b_8.jpeg, id=226, 481.8pt x 481.8pt>
+<Plot/examples/b_8.jpeg, id=237, 481.8pt x 481.8pt>
 File: Plot/examples/b_8.jpeg Graphic file (type jpg)
 
 <use Plot/examples/b_8.jpeg>
-Package pdftex.def Info: Plot/examples/b_8.jpeg used on input line 215.
+Package pdftex.def Info: Plot/examples/b_8.jpeg used on input line 214.
 (pdftex.def)             Requested size: 110.0pt x 109.99562pt.
 
 
-LaTeX Warning: Float too large for page by 70.92465pt on input line 220.
+LaTeX Warning: Float too large for page by 70.92465pt on input line 219.
 
-) (./Sections/4_metrics.tex [9.9 <./Plot/AM_arch.pdf>]
+) (./Sections/4_metrics.tex
+Underfull \vbox (badness 1354) has occurred while \output is active []
+
+ [9.9 <./Plot/AM_arch.pdf>]
 Underfull \vbox (badness 6001) has occurred while \output is active []
 
  [10.10 <./Plot/GAN_examples/orig_1.png> <./Plot/GAN_examples/gan_1.png> <./Plo
@@ -1335,49 +1315,51 @@ t/GAN_examples/orig_2.png> <./Plot/GAN_examples/gan_2.png> <./Plot/GAN_examples
 > <./Plot/examples/t_5.jpeg> <./Plot/examples/b_5.jpeg> <./Plot/examples/u_7.jp
 eg> <./Plot/examples/t_7.jpeg> <./Plot/examples/b_7.jpeg> <./Plot/examples/u_8.
 jpeg> <./Plot/examples/t_8.jpeg> <./Plot/examples/b_8.jpeg>]
-<Plot/taxonomyCount.png, id=303, 855.195pt x 638.385pt>
+<Plot/taxonomyCount.png, id=314, 855.195pt x 638.385pt>
 File: Plot/taxonomyCount.png Graphic file (type png)
 
 <use Plot/taxonomyCount.png>
-Package pdftex.def Info: Plot/taxonomyCount.png used on input line 57.
+Package pdftex.def Info: Plot/taxonomyCount.png used on input line 56.
 (pdftex.def)             Requested size: 395.8225pt x 295.47247pt.
  [12.12]
-<Plot/walkable_taxonomy.png, id=316, 1803.73875pt x 1411.2725pt>
+<Plot/walkable_taxonomy.png, id=327, 1803.73875pt x 1411.2725pt>
 File: Plot/walkable_taxonomy.png Graphic file (type png)
 
 <use Plot/walkable_taxonomy.png>
-Package pdftex.def Info: Plot/walkable_taxonomy.png used on input line 65.
+Package pdftex.def Info: Plot/walkable_taxonomy.png used on input line 64.
 (pdftex.def)             Requested size: 395.8225pt x 309.68414pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13.13 <./Plot/taxonomyCount.png>]
-<Plot/BinnedPlot.png, id=329, 1075.01625pt x 717.68124pt>
+<Plot/BinnedPlot.png, id=340, 1075.01625pt x 717.68124pt>
 File: Plot/BinnedPlot.png Graphic file (type png)
 
 <use Plot/BinnedPlot.png>
-Package pdftex.def Info: Plot/BinnedPlot.png used on input line 94.
+Package pdftex.def Info: Plot/BinnedPlot.png used on input line 93.
 (pdftex.def)             Requested size: 178.10818pt x 142.2634pt.
 
-<Plot/binnedPlot_complexity.png, id=330, 1086.0575pt x 717.68124pt>
+<Plot/binnedPlot_complexity.png, id=341, 1086.0575pt x 717.68124pt>
 File: Plot/binnedPlot_complexity.png Graphic file (type png)
 
 <use Plot/binnedPlot_complexity.png>
-Package pdftex.def Info: Plot/binnedPlot_complexity.png used on input line 98.
+Package pdftex.def Info: Plot/binnedPlot_complexity.png used on input line 97.
 (pdftex.def)             Requested size: 178.11458pt x 142.2634pt.
  [14.14 <./Plot/walkable_taxonomy.png>]
 [15.15 <./Plot/BinnedPlot.png> <./Plot/binnedPlot_complexity.png>]
-<Plot/UI.png, id=364, 599.23875pt x 630.355pt>
+<Plot/UI.png, id=375, 599.23875pt x 630.355pt>
 File: Plot/UI.png Graphic file (type png)
  <use Plot/UI.png>
-Package pdftex.def Info: Plot/UI.png used on input line 220.
+Package pdftex.def Info: Plot/UI.png used on input line 219.
 (pdftex.def)             Requested size: 395.8225pt x 416.38185pt.
 )
-(./Sections/5_discussion.tex [16.16]) (./main.bbl [17.17 <./Plot/UI.png>]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 220.
+(./Sections/5_discussion.tex [16.16]) (./main.bbl
+Underfull \vbox (badness 1888) has occurred while \output is active []
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
+ [17.17 <./Plot/UI.png>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 237.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Package microtype Info: Loading generic settings for font family
@@ -1385,20 +1367,20 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1590) in paragraph at lines 287--298
+Underfull \hbox (badness 1590) in paragraph at lines 304--315
 []\T1/ptm/m/n/8 (+20) Stephen Law, Chanuki Il-lushka Seresinhe, Yao Shen, and M
 ario Gutierrez-Roig. 2018.  Street-Frontage-
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 287--298
+Underfull \hbox (badness 1509) in paragraph at lines 304--315
 \T1/ptm/m/n/8 (+20) Net: ur-ban im-age clas-si-fi-ca-tion us-ing deep con-vo-lu
 -tional neu-ral net-works.  \T1/ptm/m/it/8 (+20) In-ter-na-tional Jour-nal of G
 e-
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 287--298
+Underfull \hbox (badness 1297) in paragraph at lines 304--315
 \T1/ptm/m/it/8 (+20) o-graph-i-cal In-for-ma-tion Sci-ence \T1/ptm/m/n/8 (+20) 
 0, 0 (2018), 1--27.  \T1/pcr/m/n/8 DOI:[][]$\T1/ptm/m/n/8 (+20) http : / / dx .
  doi . org / 10 . 1080 / 13658816 . 2018 . 1555832$[][]
@@ -1409,27 +1391,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18.18])
 [19.19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F9172A9486BD9537050EC96C997946D8;775.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: EBEA9C336530DC4A41053B6FED5117CD;782
+(rerunfilecheck)             After:  F9172A9486BD9537050EC96C997946D8;775.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19340 strings out of 492995
- 289229 string characters out of 6132703
- 420399 words of memory out of 5000000
- 21864 multiletter control sequences out of 15000+600000
- 121092 words of font info for 397 fonts, out of 8000000 for 9000
+ 19393 strings out of 492995
+ 290105 string characters out of 6132703
+ 419648 words of memory out of 5000000
+ 21883 multiletter control sequences out of 15000+600000
+ 125430 words of font info for 416 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,17n,94p,2526b,3163s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,94p,2536b,3158s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
 }{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}</us
@@ -1443,12 +1432,13 @@ mf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
-mr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on main.pdf (19 pages, 10389783 bytes).
+mr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
+Output written on main.pdf (19 pages, 10398894 bytes).
 PDF statistics:
- 466 PDF objects out of 1000 (max. 8388607)
- 365 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
- 50905 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 481 PDF objects out of 1000 (max. 8388607)
+ 379 compressed objects within 4 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 55001 words of extra memory for PDF output out of 61914 (max. 10000000)
 

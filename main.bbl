@@ -38,15 +38,32 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[\protect\citeauthoryear{Alexander, Ishikawa, and
-  Silverstein}{Alexander et~al\mbox{.}}{1977}]%
+\bibitem[\protect\citeauthoryear{Alexander, Ishikawa, Silverstein, i~Rami{\'o},
+  Jacobson, and Fiksdahl-King}{Alexander et~al\mbox{.}}{1977}]%
         {alexander1977pattern}
-\bibfield{author}{\bibinfo{person}{C. Alexander}, \bibinfo{person}{S.
-  Ishikawa}, {and} \bibinfo{person}{M. Silverstein}.}
+\bibfield{author}{\bibinfo{person}{Christopher Alexander},
+  \bibinfo{person}{Sara Ishikawa}, \bibinfo{person}{Murray Silverstein},
+  \bibinfo{person}{Joaquim~Romaguera i Rami{\'o}}, \bibinfo{person}{Max
+  Jacobson}, {and} \bibinfo{person}{Ingrid Fiksdahl-King}.}
   \bibinfo{year}{1977}\natexlab{}.
 \newblock \bibinfo{booktitle}{{\em {A Pattern Language: Towns, Buildings,
   Constructions}}}.
 \newblock \bibinfo{publisher}{{Oxford University Press}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Alhaija, Mustikovela, Mescheder, Geiger, and
+  Rother}{Alhaija et~al\mbox{.}}{2018}]%
+        {alhaija2018augmented}
+\bibfield{author}{\bibinfo{person}{Hassan~Abu Alhaija},
+  \bibinfo{person}{Siva~Karthik Mustikovela}, \bibinfo{person}{Lars Mescheder},
+  \bibinfo{person}{Andreas Geiger}, {and} \bibinfo{person}{Carsten Rother}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Augmented reality meets computer vision: Efficient
+  data generation for urban driving scenes}.
+\newblock \bibinfo{journal}{{\em International Journal of Computer Vision\/}}
+  \bibinfo{volume}{126}, \bibinfo{number}{9} (\bibinfo{year}{2018}),
+  \bibinfo{pages}{961--972}.
 \newblock
 
 
@@ -346,6 +363,19 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Ma, Sun, Georgoulis, Van~Gool, Schiele, and
+  Fritz}{Ma et~al\mbox{.}}{2018}]%
+        {ma2018disentangled}
+\bibfield{author}{\bibinfo{person}{Liqian Ma}, \bibinfo{person}{Qianru Sun},
+  \bibinfo{person}{Stamatios Georgoulis}, \bibinfo{person}{Luc Van~Gool},
+  \bibinfo{person}{Bernt Schiele}, {and} \bibinfo{person}{Mario Fritz}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Disentangled person image generation}. In
+  \bibinfo{booktitle}{{\em Proceedings of the IEEE Conference on Computer
+  Vision and Pattern Recognition}}. \bibinfo{pages}{99--108}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Moors}{Moors}{2008}]%
         {moors2008exploring}
 \bibfield{author}{\bibinfo{person}{Guy Moors}.}
@@ -411,15 +441,28 @@
 
 
 \bibitem[\protect\citeauthoryear{Quercia, O'Hare, and Cramer}{Quercia
-  et~al\mbox{.}}{2014}]%
+  et~al\mbox{.}}{2014a}]%
         {quercia2014aesthetic}
 \bibfield{author}{\bibinfo{person}{Daniele Quercia},
   \bibinfo{person}{Neil~Keith O'Hare}, {and} \bibinfo{person}{Henriette
-  Cramer}.} \bibinfo{year}{2014}\natexlab{}.
+  Cramer}.} \bibinfo{year}{2014}\natexlab{a}.
 \newblock \showarticletitle{Aesthetic capital: what makes London look
   beautiful, quiet, and happy?}. In \bibinfo{booktitle}{{\em Proceedings of the
   17th ACM conference on Computer supported cooperative work \& social
   computing}}. ACM, \bibinfo{pages}{945--955}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Quercia, Schifanella, and Aiello}{Quercia
+  et~al\mbox{.}}{2014b}]%
+        {quercia2014shortest}
+\bibfield{author}{\bibinfo{person}{Daniele Quercia}, \bibinfo{person}{Rossano
+  Schifanella}, {and} \bibinfo{person}{Luca~Maria Aiello}.}
+  \bibinfo{year}{2014}\natexlab{b}.
+\newblock \showarticletitle{The shortest path to happiness: Recommending
+  beautiful, quiet, and happy routes in the city}. In \bibinfo{booktitle}{{\em
+  Proceedings of the 25th ACM conference on Hypertext and social media}}. ACM,
+  \bibinfo{pages}{116--125}.
 \newblock
 
 
@@ -527,6 +570,17 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Taigman, Polyak, and Wolf}{Taigman
+  et~al\mbox{.}}{2016}]%
+        {taigman2016unsupervised}
+\bibfield{author}{\bibinfo{person}{Yaniv Taigman}, \bibinfo{person}{Adam
+  Polyak}, {and} \bibinfo{person}{Lior Wolf}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Unsupervised cross-domain image generation}.
+\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1611.02200\/}}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Ulrich}{Ulrich}{1983}]%
         {ulrich1983aesthetic}
 \bibfield{author}{\bibinfo{person}{Roger~S Ulrich}.}
@@ -547,6 +601,18 @@
 \newblock \bibinfo{journal}{{\em Journal of Educational Measurement\/}}
   \bibinfo{volume}{45}, \bibinfo{number}{1} (\bibinfo{year}{2008}),
   \bibinfo{pages}{94--97}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yan, Yang, Sohn, and Lee}{Yan
+  et~al\mbox{.}}{2015}]%
+        {yan2015attribute2image}
+\bibfield{author}{\bibinfo{person}{Xinchen Yan}, \bibinfo{person}{Jimei Yang},
+  \bibinfo{person}{Kihyuk Sohn}, {and} \bibinfo{person}{Honglak Lee}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{title}{Attribute2image: Conditional image generation from
+  visual attributes. CoRR abs/1512.00570}.
+\newblock   (\bibinfo{year}{2015}).
 \newblock
 
 
