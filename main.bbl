@@ -38,15 +38,28 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[\protect\citeauthoryear{Alexander, Ishikawa, and
-  Silverstein}{Alexander et~al\mbox{.}}{1977}]%
+\bibitem[\protect\citeauthoryear{Alexander}{Alexander}{1977}]%
         {alexander1977pattern}
-\bibfield{author}{\bibinfo{person}{C. Alexander}, \bibinfo{person}{S.
-  Ishikawa}, {and} \bibinfo{person}{M. Silverstein}.}
+\bibfield{author}{\bibinfo{person}{Christopher Alexander}.}
   \bibinfo{year}{1977}\natexlab{}.
 \newblock \bibinfo{booktitle}{{\em {A Pattern Language: Towns, Buildings,
   Constructions}}}.
 \newblock \bibinfo{publisher}{{Oxford University Press}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Alhaija, Mustikovela, Mescheder, Geiger, and
+  Rother}{Alhaija et~al\mbox{.}}{2018}]%
+        {alhaija2018augmented}
+\bibfield{author}{\bibinfo{person}{Hassan~Abu Alhaija},
+  \bibinfo{person}{Siva~Karthik Mustikovela}, \bibinfo{person}{Lars Mescheder},
+  \bibinfo{person}{Andreas Geiger}, {and} \bibinfo{person}{Carsten Rother}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Augmented reality meets computer vision: Efficient
+  data generation for urban driving scenes}.
+\newblock \bibinfo{journal}{{\em International Journal of Computer Vision\/}}
+  \bibinfo{volume}{126}, \bibinfo{number}{9} (\bibinfo{year}{2018}),
+  \bibinfo{pages}{961--972}.
 \newblock
 
 
@@ -58,8 +71,8 @@
   Agrawala}.} \bibinfo{year}{2014}\natexlab{}.
 \newblock \showarticletitle{City forensics: Using visual elements to predict
   non-visual city attributes}.
-\newblock \bibinfo{journal}{{\em IEEE transactions on visualization and
-  computer graphics\/}} \bibinfo{volume}{20}, \bibinfo{number}{12}
+\newblock \bibinfo{journal}{{\em {IEEE Transactions on Visualization and
+  Computer Graphics}\/}} \bibinfo{volume}{20}, \bibinfo{number}{12}
   (\bibinfo{year}{2014}), \bibinfo{pages}{2624--2633}.
 \newblock
 
@@ -83,7 +96,7 @@
 \bibfield{author}{\bibinfo{person}{Aphrodite Baka}, \bibinfo{person}{Lia
   Figgou}, {and} \bibinfo{person}{Vasiliki Triga}.}
   \bibinfo{year}{2012}\natexlab{}.
-\newblock \showarticletitle{'Neither agree, nor disagree': a critical analysis
+\newblock \showarticletitle{`Neither agree, nor disagree': a critical analysis
   of the middle answer category in Voting Advice Applications}.
 \newblock \bibinfo{journal}{{\em International Journal of Electronic
   Governance\/}} \bibinfo{volume}{5}, \bibinfo{number}{3-4}
@@ -100,8 +113,9 @@
 \newblock \showarticletitle{Perceived environmental aesthetics and convenience
   and company are associated with walking for exercise among Australian
   adults}.
-\newblock \bibinfo{journal}{{\em Preventive medicine\/}} \bibinfo{volume}{33},
-  \bibinfo{number}{5} (\bibinfo{year}{2001}), \bibinfo{pages}{434--440}.
+\newblock \bibinfo{journal}{{\em {Journal of Preventive Medicine}\/}}
+  \bibinfo{volume}{33}, \bibinfo{number}{5} (\bibinfo{year}{2001}),
+  \bibinfo{pages}{434--440}.
 \newblock
 
 
@@ -135,8 +149,8 @@
 \bibfield{author}{\bibinfo{person}{Alexey Dosovitskiy} {and}
   \bibinfo{person}{Thomas Brox}.} \bibinfo{year}{2016}\natexlab{}.
 \newblock \showarticletitle{Generating images with perceptual similarity
-  metrics based on deep networks}. In \bibinfo{booktitle}{{\em Advances in
-  Neural Information Processing Systems}}. \bibinfo{pages}{658--666}.
+  metrics based on deep networks}. In \bibinfo{booktitle}{{\em {Advances in
+  Neural Information Processing Systems}}}. \bibinfo{pages}{658--666}.
 \newblock
 
 
@@ -158,8 +172,8 @@
         {ewing2013measuring}
 \bibfield{author}{\bibinfo{person}{Reid Ewing} {and} \bibinfo{person}{Otto
   Clemente}.} \bibinfo{year}{2013}\natexlab{}.
-\newblock \bibinfo{booktitle}{{\em Measuring urban design: Metrics for livable
-  places}}.
+\newblock \bibinfo{booktitle}{{\em {Measuring Urban Design: Metrics for livable
+  places}}}.
 \newblock \bibinfo{publisher}{Island Press}.
 \newblock
 
@@ -174,7 +188,7 @@
   \bibinfo{person}{Robert~J Donovan}.} \bibinfo{year}{2005}\natexlab{}.
 \newblock \showarticletitle{Increasing walking: how important is distance to,
   attractiveness, and size of public open space?}
-\newblock \bibinfo{journal}{{\em American journal of preventive medicine\/}}
+\newblock \bibinfo{journal}{{\em {American Journal of Preventive Medicine}\/}}
   \bibinfo{volume}{28}, \bibinfo{number}{2} (\bibinfo{year}{2005}),
   \bibinfo{pages}{169--176}.
 \newblock
@@ -189,8 +203,8 @@
   \bibinfo{person}{Aaron Courville}, {and} \bibinfo{person}{Yoshua Bengio}.}
   \bibinfo{year}{2014}\natexlab{}.
 \newblock \showarticletitle{Generative adversarial nets}. In
-  \bibinfo{booktitle}{{\em Advances in neural information processing systems}}.
-  \bibinfo{pages}{2672--2680}.
+  \bibinfo{booktitle}{{\em {Advances in Neural Information Processing
+  Systems}}}. \bibinfo{pages}{2672--2680}.
 \newblock
 
 
@@ -199,25 +213,10 @@
         {herbrich2007trueskill}
 \bibfield{author}{\bibinfo{person}{Ralf Herbrich}, \bibinfo{person}{Tom Minka},
   {and} \bibinfo{person}{Thore Graepel}.} \bibinfo{year}{2007}\natexlab{}.
-\newblock \showarticletitle{TrueSkill™: a Bayesian skill rating system}. In
-  \bibinfo{booktitle}{{\em Advances in neural information processing systems}}.
-  \bibinfo{pages}{569--576}.
+\newblock \showarticletitle{TrueSkill: a Bayesian skill rating system}. In
+  \bibinfo{booktitle}{{\em {Advances in Neural Information Processing
+  Systems}}}. \bibinfo{pages}{569--576}.
 \newblock
-
-
-\bibitem[\protect\citeauthoryear{Hristova, Aiello, and Quercia}{Hristova
-  et~al\mbox{.}}{2018}]%
-        {10.3389/fphy.2018.00027}
-\bibfield{author}{\bibinfo{person}{Desislava Hristova},
-  \bibinfo{person}{Luca~M. Aiello}, {and} \bibinfo{person}{Daniele Quercia}.}
-  \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{The New Urban Success: How Culture Pays}.
-\newblock \bibinfo{journal}{{\em Frontiers in Physics\/}}  \bibinfo{volume}{6}
-  (\bibinfo{year}{2018}), \bibinfo{pages}{27}.
-\newblock
-\showISSN{2296-424X}
-\showDOI{%
-\url{http://dx.doi.org/10.3389/fphy.2018.00027}}
 
 
 \bibitem[\protect\citeauthoryear{Jacobs}{Jacobs}{1961}]%
@@ -261,8 +260,8 @@
   Sutskever}, {and} \bibinfo{person}{Geoffrey~E Hinton}.}
   \bibinfo{year}{2012}\natexlab{}.
 \newblock \showarticletitle{Imagenet classification with deep convolutional
-  neural networks}. In \bibinfo{booktitle}{{\em Advances in neural information
-  processing systems}}. \bibinfo{pages}{1097--1105}.
+  neural networks}. In \bibinfo{booktitle}{{\em {Advances in Neural Information
+  Processing Systems}}}. \bibinfo{pages}{1097--1105}.
 \newblock
 
 
@@ -286,15 +285,11 @@
   \bibinfo{person}{Chanuki~Illushka Seresinhe}, \bibinfo{person}{Yao Shen},
   {and} \bibinfo{person}{Mario Gutierrez-Roig}.}
   \bibinfo{year}{2018}\natexlab{b}.
-\newblock \showarticletitle{Street-Frontage-Net: urban image classification
-  using deep convolutional neural networks}.
-\newblock \bibinfo{journal}{{\em International Journal of Geographical
-  Information Science\/}} \bibinfo{volume}{0}, \bibinfo{number}{0}
-  (\bibinfo{year}{2018}), \bibinfo{pages}{1--27}.
+\newblock \showarticletitle{{Street-Frontage-Net: urban image classification
+  using deep convolutional neural networks}}.
+\newblock \bibinfo{journal}{{\em {International Journal of Geographical
+  Information Science}\/}} (\bibinfo{year}{2018}), \bibinfo{pages}{1--27}.
 \newblock
-\showDOI{%
-\url{http://dx.doi.org/10.1080/13658816.2018.1555832}}
-\showeprint{https://doi.org/10.1080/13658816.2018.1555832}
 
 
 \bibitem[\protect\citeauthoryear{Ledig, Theis, Husz{\'a}r, Caballero,
@@ -308,8 +303,8 @@
   \bibinfo{person}{Johannes Totz}, \bibinfo{person}{Zehan Wang}, {and}
   \bibinfo{person}{others}.} \bibinfo{year}{2017}\natexlab{}.
 \newblock \showarticletitle{Photo-realistic single image super-resolution using
-  a generative adversarial network}. In \bibinfo{booktitle}{{\em Proceedings of
-  the IEEE conference on computer vision and pattern recognition}}.
+  a generative adversarial network}. In \bibinfo{booktitle}{{\em {Proceedings
+  of the IEEE Conference on Computer Vision and Pattern Recognition}}}.
   \bibinfo{pages}{4681--4690}.
 \newblock
 
@@ -325,24 +320,24 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Luc, Couprie, Chintala, and Verbeek}{Luc
-  et~al\mbox{.}}{2016}]%
-        {luc2016semantic}
-\bibfield{author}{\bibinfo{person}{Pauline Luc}, \bibinfo{person}{Camille
-  Couprie}, \bibinfo{person}{Soumith Chintala}, {and} \bibinfo{person}{Jakob
-  Verbeek}.} \bibinfo{year}{2016}\natexlab{}.
-\newblock \showarticletitle{Semantic segmentation using adversarial networks}.
-\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1611.08408\/}}
-  (\bibinfo{year}{2016}).
-\newblock
-
-
 \bibitem[\protect\citeauthoryear{Lynch}{Lynch}{1960}]%
         {lynch1960image}
 \bibfield{author}{\bibinfo{person}{Kevin Lynch}.}
   \bibinfo{year}{1960}\natexlab{}.
 \newblock \bibinfo{booktitle}{{\em The image of the city}}.
-  Vol.~\bibinfo{volume}{11}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ma, Sun, Georgoulis, Van~Gool, Schiele, and
+  Fritz}{Ma et~al\mbox{.}}{2018}]%
+        {ma2018disentangled}
+\bibfield{author}{\bibinfo{person}{Liqian Ma}, \bibinfo{person}{Qianru Sun},
+  \bibinfo{person}{Stamatios Georgoulis}, \bibinfo{person}{Luc Van~Gool},
+  \bibinfo{person}{Bernt Schiele}, {and} \bibinfo{person}{Mario Fritz}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Disentangled person image generation}. In
+  \bibinfo{booktitle}{{\em {Proceedings of the IEEE Conference on Computer
+  Vision and Pattern Recognition}}}. \bibinfo{pages}{99--108}.
 \newblock
 
 
@@ -380,7 +375,7 @@
   Brox}, {and} \bibinfo{person}{Jeff Clune}.} \bibinfo{year}{2016}\natexlab{}.
 \newblock \showarticletitle{Synthesizing the preferred inputs for neurons in
   neural networks via deep generator networks}. In \bibinfo{booktitle}{{\em
-  Advances in Neural Information Processing Systems}}.
+  {Advances in Neural Information Processing Systems}}}.
   \bibinfo{pages}{3387--3395}.
 \newblock
 
@@ -393,8 +388,8 @@
   Darrell}, {and} \bibinfo{person}{Alexei~A Efros}.}
   \bibinfo{year}{2016}\natexlab{}.
 \newblock \showarticletitle{Context encoders: Feature learning by inpainting}.
-  In \bibinfo{booktitle}{{\em Proceedings of the IEEE conference on computer
-  vision and pattern recognition}}. \bibinfo{pages}{2536--2544}.
+  In \bibinfo{booktitle}{{\em {Proceedings of the IEEE Conference on Computer
+  Vision and Pattern Recognition}}}. \bibinfo{pages}{2536--2544}.
 \newblock
 
 
@@ -417,9 +412,34 @@
   \bibinfo{person}{Neil~Keith O'Hare}, {and} \bibinfo{person}{Henriette
   Cramer}.} \bibinfo{year}{2014}\natexlab{}.
 \newblock \showarticletitle{Aesthetic capital: what makes London look
-  beautiful, quiet, and happy?}. In \bibinfo{booktitle}{{\em Proceedings of the
-  17th ACM conference on Computer supported cooperative work \& social
-  computing}}. ACM, \bibinfo{pages}{945--955}.
+  beautiful, quiet, and happy?}. In \bibinfo{booktitle}{{\em {Proceedings of
+  the 17th ACM Conference on Computer Supported Cooperative Work and Social
+  Computing (CSCW)}}}. \bibinfo{pages}{945--955}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Quercia, Pesce, Almeida, and
+  Crowcroft}{Quercia et~al\mbox{.}}{2013}]%
+        {quercia13maps}
+\bibfield{author}{\bibinfo{person}{Daniele Quercia},
+  \bibinfo{person}{Joao~Paulo Pesce}, \bibinfo{person}{Virgilio Almeida}, {and}
+  \bibinfo{person}{Jon Crowcroft}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{{Psychological Maps 2.0: A web gamification
+  enterprise starting in London}}. In \bibinfo{booktitle}{{\em {Proceedings of
+  ACM International Conference on World Wide Web (WWW)}}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Quercia, Schifanella, and Aiello}{Quercia
+  et~al\mbox{.}}{2014}]%
+        {quercia2014shortest}
+\bibfield{author}{\bibinfo{person}{Daniele Quercia}, \bibinfo{person}{Rossano
+  Schifanella}, {and} \bibinfo{person}{Luca~Maria Aiello}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{The shortest path to happiness: Recommending
+  beautiful, quiet, and happy routes in the city}. In \bibinfo{booktitle}{{\em
+  {Proceedings of the 25th ACM Conference on Hypertext and Social Media}}}.
+  \bibinfo{pages}{116--125}.
 \newblock
 
 
@@ -464,19 +484,6 @@
 
 
 \bibitem[\protect\citeauthoryear{Seresinhe, Preis, and Moat}{Seresinhe
-  et~al\mbox{.}}{2015}]%
-        {seresinhe2015quantifying}
-\bibfield{author}{\bibinfo{person}{Chanuki~Illushka Seresinhe},
-  \bibinfo{person}{Tobias Preis}, {and} \bibinfo{person}{Helen~Susannah Moat}.}
-  \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Quantifying the impact of scenic environments on
-  health}.
-\newblock \bibinfo{journal}{{\em Scientific reports\/}}  \bibinfo{volume}{5}
-  (\bibinfo{year}{2015}), \bibinfo{pages}{16899}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Seresinhe, Preis, and Moat}{Seresinhe
   et~al\mbox{.}}{2017}]%
         {seresinhe2017using}
 \bibfield{author}{\bibinfo{person}{Chanuki~Illushka Seresinhe},
@@ -484,7 +491,7 @@
   \bibinfo{year}{2017}\natexlab{}.
 \newblock \showarticletitle{Using deep learning to quantify the beauty of
   outdoor places}.
-\newblock \bibinfo{journal}{{\em Royal Society open science\/}}
+\newblock \bibinfo{journal}{{\em {Royal Society Open Science}\/}}
   \bibinfo{volume}{4}, \bibinfo{number}{7} (\bibinfo{year}{2017}),
   \bibinfo{pages}{170170}.
 \newblock
@@ -522,8 +529,19 @@
   \bibinfo{person}{Dumitru Erhan}, \bibinfo{person}{Vincent Vanhoucke}, {and}
   \bibinfo{person}{Andrew Rabinovich}.} \bibinfo{year}{2015}\natexlab{}.
 \newblock \showarticletitle{Going deeper with convolutions}. In
-  \bibinfo{booktitle}{{\em Proceedings of the IEEE conference on computer
-  vision and pattern recognition}}. \bibinfo{pages}{1--9}.
+  \bibinfo{booktitle}{{\em {Proceedings of the IEEE Conference on Computer
+  Vision and Pattern Recognition}}}. \bibinfo{pages}{1--9}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Taigman, Polyak, and Wolf}{Taigman
+  et~al\mbox{.}}{2016}]%
+        {taigman2016unsupervised}
+\bibfield{author}{\bibinfo{person}{Yaniv Taigman}, \bibinfo{person}{Adam
+  Polyak}, {and} \bibinfo{person}{Lior Wolf}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Unsupervised cross-domain image generation}.
+\newblock \bibinfo{journal}{{\em arXiv preprint arXiv:1611.02200\/}}
+  (\bibinfo{year}{2016}).
 \newblock
 
 
@@ -533,7 +551,7 @@
   \bibinfo{year}{1983}\natexlab{}.
 \newblock \showarticletitle{Aesthetic and affective response to natural
   environment}.
-\newblock In \bibinfo{booktitle}{{\em Behavior and the natural environment}}.
+\newblock In \bibinfo{booktitle}{{\em {Behavior and the Natural Environment}}}.
   \bibinfo{publisher}{Springer}, \bibinfo{pages}{85--125}.
 \newblock
 
@@ -543,10 +561,22 @@
 \bibfield{author}{\bibinfo{person}{Brandon~K Vaughn}.}
   \bibinfo{year}{2008}\natexlab{}.
 \newblock \showarticletitle{Data analysis using regression and
-  multilevel/hierarchical models, by Gelman, A., \& Hill, J.}
-\newblock \bibinfo{journal}{{\em Journal of Educational Measurement\/}}
+  multilevel/hierarchical models}.
+\newblock \bibinfo{journal}{{\em {Journal of Educational Measurement}\/}}
   \bibinfo{volume}{45}, \bibinfo{number}{1} (\bibinfo{year}{2008}),
   \bibinfo{pages}{94--97}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yan, Yang, Sohn, and Lee}{Yan
+  et~al\mbox{.}}{2015}]%
+        {yan2015attribute2image}
+\bibfield{author}{\bibinfo{person}{Xinchen Yan}, \bibinfo{person}{Jimei Yang},
+  \bibinfo{person}{Kihyuk Sohn}, {and} \bibinfo{person}{Honglak Lee}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{title}{Attribute2image: Conditional image generation from
+  visual attributes. CoRR abs/1512.00570}.
+\newblock   (\bibinfo{year}{2015}).
 \newblock
 
 
@@ -558,8 +588,8 @@
   Torralba}, {and} \bibinfo{person}{Aude Oliva}.}
   \bibinfo{year}{2014}\natexlab{}.
 \newblock \showarticletitle{Learning deep features for scene recognition using
-  places database}. In \bibinfo{booktitle}{{\em Advances in neural information
-  processing systems}}. \bibinfo{pages}{487--495}.
+  places database}. In \bibinfo{booktitle}{{\em {Advances in Neural Information
+  Processing Systems}}}. \bibinfo{pages}{487--495}.
 \newblock
 
 

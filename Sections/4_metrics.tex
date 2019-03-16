@@ -4,7 +4,7 @@
 The goal of FaceLift is to transform existing urban scenes into versions that: \emph{i)} people perceive more beautiful; \emph{ii)} contain urban elements typical of great urban spaces; \emph{iii)} are easy to interpret; and \emph{iv)} architects and urban planners find useful. To ascertain whether FaceLift meets that composite goal, we answer the following questions next: 
 
 \begin{description}
-\item{\textbf{Q1}} Do individuals perceive``FaceLifted'' scenes to be beautiful?
+\item{\textbf{Q1}} Do individuals perceive ``FaceLifted'' scenes to be beautiful?
 
 \item{\textbf{Q2}}  Does our framework produce scenes that possess urban elements typical of great spaces?
 
@@ -16,12 +16,10 @@ The goal of FaceLift is to transform existing urban scenes into versions that: \
 
 
 \subsection*{Q1 People's perceptions of beautified scenes}
-To ascertain whether FaceLifted scenes are perceived by individuals as they are supposed to, we run a crowd-sourcing experiment on Amazon Mechanical Turk.  We randomly select 200 scenes, 100 beautiful and 100 ugly  (taken at the bottom 10 and top 10 percentiles of the Trueskill's score distribution of Figure~\ref{fig:Trueskill}). Our framework then transforms each ugly scene into its beautified version, and each beautiful scene into its corresponding `uglified'. These scenes are arranged into pairs, each of which contains the original scene and its beautified or uglified version. On  Mechanical Turk, we only select verified masters for our crowd-sourcing workers (those with an approval rate above 90\% during the past 30 days), pay them \$0.1 per  task,  and ask each of them to choose the beautiful scene for given pairs.  We make sure to have at least 3 votes for each scene pair. Overall, our workers end up selecting the scenes that are actually beautiful 77.5\% of the times, suggesting that FaceLifted scenes are correctly perceived most of the times.
-
+To ascertain whether ``FaceLifted'' scenes are perceived by individuals as they are supposed to, we run a crowd-sourcing experiment on Amazon Mechanical Turk.  We randomly select 200 scenes, 100 beautiful and 100 ugly  (taken at the bottom 10 and top 10 percentiles of the Trueskill's score distribution of Figure~\ref{fig:Trueskill}). Our framework then transforms each ugly scene into its beautified version, and each beautiful scene into its corresponding `uglified'. These scenes are arranged into pairs, each of which contains the original scene and its beautified or uglified version. On  Mechanical Turk, we only select verified masters as our crowd-sourcing workers (those with an approval rate above 90\% during the past 30 days), pay them \$0.1 per  task,  and ask each of them to choose the most beautiful scene for each given pair.  We make sure to have at least 3 votes for each scene pair. Overall, our workers end up selecting the scenes that are actually beautiful 77.5\% of the times, suggesting that ``FaceLifted'' scenes are indeed perceived to be more beautiful by people. 
 
 \subsection*{Q2 Are beautified scenes great urban spaces?}
-To answer that question, we need to understand what makes a space great. After a careful review of the urban planning literature, we identify four factors~\cite{ewing2013measuring,alexander1977pattern} (summarized in Table~\ref{tab:Design_metrics}): great places mainly tend to be walkable, offer greenery, feel cozy, and be visually rich. 
-
+To answer that question, we need to understand what makes a space great. After reviewing the literature in urban planning, we identify four factors associated with  great places~\cite{ewing2013measuring,alexander1977pattern} (Table~\ref{tab:Design_metrics}): they mainly tend to be walkable, offer greenery, feel cozy, and be visually rich. 
 
 \begin{table*}[h]
 	\centering
@@ -31,15 +29,15 @@ To answer that question, we need to understand what makes a space great. After a
 			\hline
 			\textbf{Metric} & \textbf{Description}\\
 			\hline
-			Walkability  & Walkable streets increase the social capital of a place,  and they appeal to the exploring nature of the human psyche~\cite{ewing2013measuring,quercia15thedigital,speck12}.\\
+			Walkability  & Walkable streets support people's natural tendency to explore spaces~\cite{ewing2013measuring,quercia15thedigital,speck12}.\\
 			\hline
-			Green Spaces & The presence of greenery has repeatedly been found to impact people's well being \cite{alexander1977pattern}. Under certain conditions, it could also promote social interactions~\cite{quercia2014aesthetic}. This suggest that not all greenery has to be considered in the same way though: dense forests or unkempt greens might well have a negative impact~\cite{jacobs1961death}. \\
+			Green Spaces & The presence of greenery has repeatedly been found to impact people's well-being \cite{alexander1977pattern}. Under certain conditions, it could also promote social interactions~\cite{quercia2014aesthetic}. Not all types of greenery have to be considered the same though: dense forests or unkempt greens might well have a negative impact~\cite{jacobs1961death}. \\
 			\hline		
-			\sj{Landmarks} & \sj{Loosing a bearing in the city is not a very pleasant experience. Hence presence of recognisable and  guiding landmarks influences the perception of an urban space \cite{lynch1960image,quercia2014aesthetic,ewing2013measuring}.}\\
+			Landmarks & Feeling lost is not a pleasant experience, and the presence of landmarks  have been shown to contribute to the legibility and navigability of spaces~\cite{lynch1960image,quercia2014aesthetic,ewing2013measuring,quercia13maps}.\\
 			\hline
-			Privacy-Openness &  A sense of privacy (as opposed to a sense of openness) impacts a place's perception~\cite{ewing2013measuring}.\\ 
+			Privacy-Openness & The sense of privacy conveyed by a place's structure (as opposed to a sense of openness) impacts its perception~\cite{ewing2013measuring}.\\ 
 			\hline
-			Visual Complexity & Visual complexity is a measure of how diverse a urban scene is in terms of design materials, textures, and objects~\cite{ewing2013measuring}. \sj{We perceive complexity in an `inverted-U' fashion, which means we prefer medium complexity over too little or too much for finding a place pleasant\cite{ulrich1983aesthetic}} \\
+			Visual Complexity & Visual complexity is a measure of how diverse an urban scene is in terms of design materials, textures, and objects~\cite{ewing2013measuring}. The relationship between complexity and preferences generally follows an  `inverted-U' shape: we prefer places of medium complexity rather than places of low or high complexity~\cite{ulrich1983aesthetic}. \\
 			\hline
 	\end{tabular}}
 	\caption{Urban Design Metrics}
@@ -98,7 +96,7 @@ We manually select only the PlacesNet labels that are related to greenery. These
 	}
 \vspace{-0.4cm}
 \label{fig:bin_figures}
-\caption{The percentage of scenes ($y$-axis): (a) having an increasing presence of sky (on the $x$-axis); and (b) having an increasing level of visual richness  (on the $x$-axis). The error bars represent standard errors obtained by random re-sampling of the data for 500 iterations. }
+\caption{The percentage of beautified scenes ($y$-axis): (a) having an increasing presence of sky (on the $x$-axis); and (b) having an increasing level of visual richness  (on the $x$-axis). The error bars represent standard errors obtained by random re-sampling of the data for 500 iterations. }
 \vspace{-0.4cm}
 \end{figure*}
 
@@ -114,13 +112,13 @@ To  test hypothesis \emph{H3}, we count the fraction of pixels that Segnet label
 \mbox{ } \\
 %**************************************************
 \noindent
-\emph{H4 Beautified scenes tend to be visually rich}
+\emph{H4 Beautified scenes tend to be visually rich.}
 To quantify to which extent scenes are visually rich, we measure their visual complexity~\cite{ewing2013measuring} as  the amount of disorder in terms of distribution of (Segnet) urban elements in the scene: 
 \begin{equation}
 H(X) = -\sum p(i)\log p(i)
 \label{eq:entropy} 
 \end{equation}
-where $i$ is the $i^{th}$ Segnet's label. The total number of labels is twelve. The higher $H(X)$, the  higher the scene's entropy, that is, the higher the scene's complexity. \sj{It has been proposed, that the perception of aesthetics or pleasantness follows an `inverted U' shape\cite{ulrich1983aesthetic}.} To test hypothesis \emph{H4}, we show the percentage of scenes that fall into a complexity bin  (Figure~\ref{fig:complexity}): beautified scenes are of low to medium complexity, while uglified ones are of high complexity.
+where $i$ is the $i^{th}$ Segnet's label. The total number of labels is twelve. The higher $H(X)$, the  higher the scene's entropy, that is, the higher the scene's complexity. It has been suggested that the relationship between complexity and  pleasantness follows an `inverted U' shape~\cite{ulrich1983aesthetic}: we prefer places of medium complexity rather than places of low or high complexity. To test that, we show the percentage of beautified scenes that fall into each complexity bin  (Figure~\ref{fig:complexity}):  we do not find a strong evidence of the `inverted U' shape hypothesis, in that, beautified scenes are of low to medium complexity, while uglified ones are of high complexity.
 
 
 
@@ -160,10 +158,10 @@ To determine which urban elements are the best predictors of urban beauty and th
 Pr(\textrm{beautiful}) = logit^{-1}(\alpha + \beta_1 * V_1 + \beta_2 * V_2  + \beta_3 * V_{1}.V_{2} )
 \label{eq:regression} 
 \end{equation}
-where $V1$ is the fraction of the scene's pixels marked with one Segnet's label, say, ``buildings'' (over the total number of pixels),  and $V2$ is the fraction of the scene's pixels marked with another label, say, ``trees''. The result consists of three beta coefficients: $\beta_1$ reflects $V1$'s contribution in predicting beauty,  $\beta_2$ reflects $V2$'s contribution, and $\beta_3$ is the interaction effect, that is, it reflects the contribution of the dependency of $V1$ and $V2$ in predicting beauty. We run logistic regressions on the five factors that have been found to be most predictive of urban beauty~\cite{quercia2014aesthetic, ewing2013measuring, alexander1977pattern}, and show the results in Table~\ref{tab:regressioncoef}.
+where $V1$ is the fraction of the scene's pixels marked with one Segnet's label, say, ``buildings'' (over the total number of pixels),  and $V2$ is the fraction of the scene's pixels marked with another label, say, ``trees''. The result consists of three beta coefficients: $\beta_1$ reflects $V1$'s contribution in predicting beauty,  $\beta_2$ reflects $V2$'s contribution, and $\beta_3$ is the interaction effect, that is, it reflects the contribution of the dependency between $V1$ and $V2$ in predicting beauty. We run logistic regressions on the five factors that have been found to be most predictive of urban beauty~\cite{quercia2014aesthetic, ewing2013measuring, alexander1977pattern}, and show the results in Table~\ref{tab:regressioncoef}.
 
 
-Since we are using logistic regressions, the quantitative interpretation of the beta coefficients is eased by the ``divide by 4 rule''~\cite{vaughn2008data}: we can take $\beta$ coefficients and ``divide them by 4 to get an upper bound of the predictive difference corresponding to a unit difference'' in beauty~\cite{vaughn2008data}. For example, take the results in the first row of Table~\ref{tab:regressioncoef}. In the model $Pr(beautiful) = logit^{-1}(\alpha - 0.032 \cdot buildings + 0.084 \cdot trees + 0.005 \cdot  buildings \cdot trees)$, we can divide - 0.032/4 to get -0.008: a difference of 1 in the fraction of pixels being buildings corresponds to no more than a 0.8\% \emph{negative} difference in the probability of the scene being beautiful. In a similar way, a difference of 1 in the fraction of pixels being trees corresponds to no more than a 0.021\% \emph{positive} difference in the probability of the scene being beautiful. By considering the remaining results in Table~\ref{tab:regressioncoef}, we find that, across all pairwise comparisons, trees is the most positive element associated with beauty, while roads and buildings are the most negative ones. Since these results go in the direction one would expect, one might conclude that the scenes beautified by our framework are in line with previous literature, adding further external validity to our work. 
+Since we are using logistic regressions, the quantitative interpretation of the beta coefficients is eased by the ``divide by 4 rule''~\cite{vaughn2008data}: we can take the $\beta$ coefficients and ``divide them by 4 to get an upper bound of the predictive difference corresponding to a unit difference'' in beauty~\cite{vaughn2008data}. For example, take the results in the first row of Table~\ref{tab:regressioncoef}. In the model $Pr(beautiful) = logit^{-1}(\alpha - 0.032 \cdot buildings + 0.084 \cdot trees + 0.005 \cdot  buildings \cdot trees)$, we can divide - 0.032/4 to get -0.008: a difference of 1 in the fraction of pixels being buildings corresponds to no more than a 0.8\% \emph{negative} difference in the probability of the scene being beautiful. In a similar way, a difference of 1 in the fraction of pixels being trees corresponds to no more than a 0.021\% \emph{positive} difference in the probability of the scene being beautiful. By considering the remaining results in Table~\ref{tab:regressioncoef}, we find that, across all pairwise comparisons, trees is the most positive element associated with beauty, while roads and buildings are the most negative ones. These results match previous literature in urban design of what makes spaces great, adding further external validity to our framework's beautification. 
 
 
 
@@ -223,8 +221,7 @@ Since we are using logistic regressions, the quantitative interpretation of the 
 \end{figure}
 
 
-
-To ascertain whether practitioners find FaceLift potentially useful, we built an interactive map of the city of Boston in which, for  selected points, we showed pairs of urban scenes before/after beautification (Figure~\ref{facelift-UI}). We then sent that map along with a survey to 20 experts in architecture, urban planning, and data visualization around the world. \sj{Being experts in their respective fields, we wanted the survey takers to express a clear opinion about the utility of such a technology in their areas of practice. In accordance with this constraint, we designed the survey based on a non neutral response Likert scale, as explored in previous studies \cite{Agree2012,moors2008exploring}.}  The experts had to complete tasks in which they rated FaceLift based on how well it supports decision making, participatory urbanism, and promotion of green spaces among the general public. The results are show in Table~\ref{tab:useCases} according to our experts, the tool can very probably supports decision making, probably support participatory urbanism, and definitely promote green spaces.  These results are  qualitatively supported by our experts' comments, which include: ``\textit{The maps reveal patterns that might not otherwise be apparent}'',  ``\textit{The tool helps focusing on parameters to identify beauty in the city while exploring it}'',  and ``\textit{The metrics are nice. It made me think more about beautiful places needing a combination of criteria, rather than a high score on one or two dimensions. It made me realize that these criteria are probably spatially correlated}''.
+To ascertain whether practitioners find FaceLift potentially useful, we build an interactive map of the city of Boston in which, for  selected points, we show pairs of urban scenes before/after beautification (Figure~\ref{facelift-UI}). We then send that map along with a survey to 20 experts in architecture, urban planning, and data visualization around the world. Questions were asked with a non-neutral response Likert scale (Table~\ref{tab:useCases}). That is because previous work~\cite{Agree2012,moors2008exploring} has shown that such a scale: \emph{(i)} pushes respondents to ``take a stance'', given the absence of a neutral response; and \emph{(ii)} works best if respondents are experts in the subject matter of the survey as responses of the ``I don't know'' type tend to be rare (as it is has been the case for our survey). The experts had to complete tasks in which they rated FaceLift based on how well it supports decision making, participatory urbanism, and the promotion of green spaces. According to our experts (Table~\ref{tab:useCases}), the tool can very probably supports decision making, probably support participatory urbanism, and definitely promote green spaces.  These results are  also qualitatively supported by our experts' comments, which include: ``\textit{The maps reveal patterns that might not otherwise be apparent}'',  ``\textit{The tool helps focusing on parameters to identify beauty in the city while exploring it}'',  and ``\textit{The metrics are nice. It made me think more about beautiful places needing a combination of criteria, rather than a high score on one or two dimensions. It made me realize that these criteria are probably spatially correlated}''.
 
 
 
