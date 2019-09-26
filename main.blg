@@ -1,105 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-The style file: ACMbib.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+The style file: RS.bst
 Database file #1: urbanEmotions.bib
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty address in alexander1977pattern
-Warning--no number and no volume in badrinarayanan2015segnet
-Warning--page numbers missing in both pages and numpages fields in badrinarayanan2015segnet
-Warning--empty address in de2008architecture
-Warning--empty publisher in DeNadai16
-Warning--empty address in DeNadai16
-Warning--page numbers missing in both pages and numpages fields in DeNadai16
-Warning--empty publisher in dosovitskiy2016generating
-Warning--empty address in dosovitskiy2016generating
-Warning--no number and no volume in dubey2016deep
-Warning--page numbers missing in both pages and numpages fields in dubey2016deep
-Warning--empty address in ewing2013measuring
-Warning--empty publisher in goodfellow2014generative
-Warning--empty address in goodfellow2014generative
-Warning--empty publisher in herbrich2007trueskill
-Warning--empty address in herbrich2007trueskill
-Warning--empty address in jacobs1961death
-Warning--empty address in kaplan1989experience
-Warning--empty publisher in krizhevsky2012imagenet
-Warning--empty address in krizhevsky2012imagenet
-Warning--no number and no volume in law2018take
-Warning--page numbers missing in both pages and numpages fields in law2018take
-Warning--no number and no volume in frontage
-Warning--empty publisher in ledig2017photo
-Warning--empty address in ledig2017photo
-Warning--no number and no volume in lindal2012
-Warning--page numbers missing in both pages and numpages fields in lindal2012
 Warning--empty publisher in lynch1960image
-Warning--empty address in lynch1960image
-Warning--empty publisher in ma2018disentangled
-Warning--empty address in ma2018disentangled
-Warning--empty publisher in nguyen2016synthesizing
-Warning--empty address in nguyen2016synthesizing
-Warning--empty publisher in pathak2016context
-Warning--empty address in pathak2016context
-Warning--empty publisher in quercia15thedigital
-Warning--empty address in quercia15thedigital
-Warning--empty publisher in quercia2014aesthetic
-Warning--empty address in quercia2014aesthetic
-Warning--empty publisher in quercia13maps
-Warning--empty address in quercia13maps
-Warning--page numbers missing in both pages and numpages fields in quercia13maps
-Warning--empty publisher in quercia2014shortest
-Warning--empty address in quercia2014shortest
-Warning--page numbers missing in both pages and numpages fields in sampson04seeing
-Warning--empty publisher in speck12
-Warning--empty address in speck12
-Warning--page numbers missing in both pages and numpages fields in speck12
-Warning--empty publisher in szegedy2015going
-Warning--empty address in szegedy2015going
-Warning--no number and no volume in taigman2016unsupervised
-Warning--page numbers missing in both pages and numpages fields in taigman2016unsupervised
-Warning--empty address in ulrich1983aesthetic
-Warning--empty publisher in zhou2014learning
-Warning--empty address in zhou2014learning
-You've used 44 entries,
-            5580 wiz_defined-function locations,
-            1528 strings with 23893 characters,
-and the built_in function-call counts, 47250 in all, are:
-= -- 5861
-> -- 2203
-< -- 0
-+ -- 685
-- -- 728
-* -- 3645
-:= -- 5307
-add.period$ -- 223
-call.type$ -- 44
-change.case$ -- 339
-chr.to.int$ -- 43
-cite$ -- 99
-duplicate$ -- 3700
-empty$ -- 2663
-format.name$ -- 871
-if$ -- 11467
+You've used 43 entries,
+            2202 wiz_defined-function locations,
+            743 strings with 12433 characters,
+and the built_in function-call counts, 20069 in all, are:
+= -- 2002
+> -- 1040
+< -- 28
++ -- 327
+- -- 318
+* -- 1749
+:= -- 3294
+add.period$ -- 50
+call.type$ -- 43
+change.case$ -- 330
+chr.to.int$ -- 42
+cite$ -- 44
+duplicate$ -- 812
+empty$ -- 1365
+format.name$ -- 371
+if$ -- 4195
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 173
-newline$ -- 375
-num.names$ -- 351
-pop$ -- 1597
+missing$ -- 48
+newline$ -- 137
+num.names$ -- 129
+pop$ -- 425
 preamble$ -- 1
-purify$ -- 558
+purify$ -- 373
 quote$ -- 0
-skip$ -- 1068
+skip$ -- 632
 stack$ -- 0
-substring$ -- 3172
-swap$ -- 372
-text.length$ -- 0
+substring$ -- 1293
+swap$ -- 225
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 580
-warning$ -- 55
-while$ -- 307
+type$ -- 246
+warning$ -- 1
+while$ -- 152
 width$ -- 0
-write$ -- 761
-(There were 55 warnings)
+write$ -- 380
+(There was 1 warning)

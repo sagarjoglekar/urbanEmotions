@@ -1,78 +1,153 @@
 %\documentclass[a4paper]{article}
-\documentclass[format=acmsmall, review=false, screen=true]{acmart}
-\usepackage{booktabs} % For formal tables
+\documentclass[]{rsos}%%%%where rsos is the template name
 
-\usepackage[ruled]{algorithm2e} % For algorithms
-\renewcommand{\algorithmcfname}{ALGORITHM}
-\SetAlFnt{\small}
-\SetAlCapFnt{\small}
-\SetAlCapNameFnt{\small}
-\SetAlCapHSkip{0pt}
-\IncMargin{-\parindent}
+%%%% *** Do not adjust lengths that control margins, column widths, etc. ***
 
-\input{Sections/0_frontmatter}
+%%%%%%%%%%% Defining Enunciations  %%%%%%%%%%%
+\newtheorem{theorem}{\bf Theorem}[section]
+\newtheorem{condition}{\bf Condition}[section]
+\newtheorem{corollary}{\bf Corollary}[section]
+
+\usepackage{xcolor}
+%\usepackage{amsmath}
+%\usepackage{verbatim}
+%\usepackage{graphics}
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{multicol}
+\usepackage{url}
+%%decrease spacing 
+\usepackage{times}
+\usepackage{comment}
+\usepackage{balance}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+
+%\newcommand{\addpic}{\includegraphics[width=10em height=10em]{example-image}}
+\newcolumntype{C}{>{\centering\arraybackslash}m{15em}}
+
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\green}[1]{\textcolor{green}{#1}}
+\newcommand{\magenta}[1]{\textcolor{magenta}{#1}}
+\newcommand{\mr}[1]{\blue{#1}}
+\newcommand{\sj}[1]{\red{#1}}
+\newcommand{\ns}[1]{\magenta{#1}}
+\newcommand\dq[1]{\red{#1}}
+%\newcommand\tabhead[1]{\small\textbf{#1}}
+\newcommand\fref[1]{Figure~\ref{#1}}
+\newcommand\tref[1]{Table~\ref{#1}}
+\newcommand\Sref[1]{\S\ref{#1}}
+\newcommand\etal{~\textsl{et al.}} % use as Sastry\etal~\cite{xxx}
+
+\newcommand*{\thead}[1]{\multicolumn{1}{c}{\bfseries #1}}
+
+
+%Numbers
+\newcommand{\one}{({\it i}\/)}
+\newcommand{\two}{({\it ii}\/)}
+\newcommand{\three}{({\it iii}\/)}
+\newcommand{\four}{({\it iv}\/)}
+\newcommand{\five}{({\it v}\/)}
+\newcommand{\six}{({\it vi}\/)}
+\newcommand{\seven}{({\em vi}\/)}
+
+\let\olditemize\itemize
+\renewcommand{\itemize}{
+    \olditemize
+    \setlength{\itemsep}{1pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}
+}
+\let\olddescription\description
+\renewcommand{\description}{
+    \olddescription
+    \setlength{\itemsep}{1pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}
+}
+\let\oldenumerate\enumerate
+\renewcommand{\enumerate}{
+    \oldenumerate
+    \setlength{\itemsep}{1pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}
+}
+
+\clubpenalty=10000 
+\widowpenalty = 10000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%\usepackage{booktabs} % For formal tables
+%
+%\usepackage[ruled]{algorithm2e} % For algorithms
+%\renewcommand{\algorithmcfname}{ALGORITHM}
+%\SetAlFnt{\small}
+%\SetAlCapFnt{\small}
+%\SetAlCapNameFnt{\small}
+%\SetAlCapHSkip{0pt}
+%\IncMargin{-\parindent}
+%
+%\input{Sections/0_frontmatter}
 %\usepackage{acm}
 
 %For some reason this format only inserts abstract if it is before begin document :/
 
 
 \begin{document}
-\title[FaceLift]{FaceLift: A transparent deep learning framework beautifying urban scenes}
+\title[FaceLift]{FaceLift: A transparent deep learning framework to beautify urban scenes}
 
 
-\author{Sagar Joglekar}
-\affiliation{%
-	\institution{King's College London, Department of Informatics}}
-\email{sagar.joglekar@kcl.ac.uk}
 
-\author{Daniele Quercia}
-\affiliation{%
-	\institution{Nokia Bell Labs, Cambridge, UK}}
-\email{daniele.quercia@gmail.com}
+\author{%%%% Author details
+    Sagar Joglekar$^{1}$ , Daniele Quercia$^{2}$ , Miriam Redi$^{2}$ ,Luca Maria Aiello$^{2}$ , Tobias Kauer$^{2}$ and Nishanth Sastry$^{1}$ }
 
-\author{Miriam Redi}
-\affiliation{%
-	\institution{Nokia Bell Labs, Cambridge, UK}}
-\email{miriam.redi@gmail.com}
 
-\author{Luca Maria Aiello}
-\affiliation{%
-	\institution{Nokia Bell Labs, Cambridge, UK}}
-\email{luca.aiello@nokia-bell-labs.com}
+%%%%%%%%% Insert author address here
+\address{$^{1}$King's College, London, UK\\
+        $^{2}$Nokia Bell labs, Cambridge, UK}
 
-\author{Tobias Kauer}
-\affiliation{%
-	\institution{Nokia Bell Labs, Cambridge, UK}}
-\email{tobias.kauer@fh-potsdam.de}
+%%%% Subject entries to be placed here %%%%
+\subject{Urban Informatics, Machine learning, Computer Science}
 
-\author{Nishanth Sastry}
-\affiliation{%
-	\institution{King's College London, Department of Informatics}}
-\email{nishanth.sastry@kcl.ac.uk}
-\makeatletter
-
-\def\@copyrightspace{\relax}
-%\makeatother
+%%%% Keyword entries to be placed here %%%%
 \keywords{Deep learning, Urban Design,
-	Generative models, Urban beauty, Explainable models}
+    Generative models, Urban beauty, Explainable models}
+
+%%%% Insert corresponding author and its email address}
+\corres{Sagar Joglekar\\
+    \email{sagar.joglekar@kcl.ac.uk}}
 
 \begin{abstract}
-In the area of computer vision, deep learning techniques have recently been used to predict whether urban scenes are likely to be considered beautiful:  it turns out that these techniques are able to make accurate predictions. Yet they fall short when it comes to generating actionable insights for urban design. To support urban interventions, one needs to go beyond \emph{predicting} beauty, and tackle the challenge of \emph{recreating} beauty. Unfortunately, deep learning techniques have not been designed with that challenge in mind. Given their ``black-box nature'', these models cannot be directly used to explain why a particular urban scene is deemed to be beautiful. To partly fix that, we propose a deep learning framework (which we name  FaceLift) that is able to both \emph{beautify} existing Google Street views and \emph{explain} which urban elements make those transformed scenes beautiful. To quantitatively evaluate our framework, we cannot resort to any existing metric (as the research problem at hand has never been tackled before) and need to  formulate new ones. These new metrics should ideally capture the presence (or absence) of elements that make urban spaces great.  Upon a review of the urban planning literature, we identify \textsl{five} main metrics: walkability, green spaces, openness, landmarks and visual complexity.  We find that, across all the five metrics, the beautified scenes meet the expectations set by the literature on what great spaces tend to be made of. This result is further confirmed by a 20-participant expert survey in which FaceLift have been found to be effective in promoting citizen participation. These results suggest that, in the future, as our framework's components are further researched and become better and more sophisticated, it is not hard to imagine technologies that will be able to accurately and efficiently support architects and planners in the design of the spaces we intuitively love.
+In the area of computer vision, deep learning techniques have recently been used to predict whether urban scenes are likely to be considered beautiful:  it turns out that these techniques are able to make accurate predictions. Yet they fall short when it comes to generating actionable insights for urban design. To support urban interventions, one needs to go beyond \emph{predicting} beauty, and tackle the challenge of \emph{recreating} beauty. Unfortunately, deep learning techniques have not been designed with that challenge in mind. Given their ``black-box nature'', these models cannot be directly used to explain why a particular urban scene is deemed to be beautiful. To partly fix that, we propose a deep learning framework (which we name  FaceLift) that is able to both \emph{beautify} existing urban scenes (Google Street views) and \emph{explain} which urban elements make those transformed scenes beautiful. To quantitatively evaluate our framework, we cannot resort to any existing metric (as the research problem at hand has never been tackled before) and need to  formulate new ones. These new metrics should ideally capture the presence (or absence) of elements that make urban spaces great.  Upon a review of the urban planning literature, we identify \textsl{five} main metrics: walkability, green spaces, openness, landmarks and visual complexity.  We find that, across all the five metrics, the beautified scenes meet the expectations set by the literature on what great spaces tend to be made of. This result is further confirmed by a 20-participant expert survey in which FaceLift have been found to be effective in promoting citizen participation. All this suggests that, in the future, as our framework's components are further researched and become better and more sophisticated, it is not hard to imagine technologies that will be able to accurately and efficiently support architects and planners in the design of the spaces we intuitively love.
 \end{abstract}
 
-\keywords{Deep learning, Generative networks, Urban Beauty, Computer Vision}
-
+%\begin{fmtext}
 \maketitle
-
 \input{Sections/1_intro}
 \input{Sections/2_related}
 \input{Sections/3_facelift}
 \input{Sections/4_metrics}
 \input{Sections/5_discussion}
 
-\balance
-\bibliographystyle{ACMbib}
-\bibliography{urbanEmotions} 
+\section*{Data accessibility statement}
+Aggregated versions of the data and the best performing models are available at \url{https://dataverse.harvard.edu/dataverse/Facelift}. The code for training the generator can be found at \url{https://github.com/sagarjoglekar/synthesizing}. The code for analysis of data can be found at \url{https://github.com/sagarjoglekar/ExplainingUrbanEmotions}.
+
+\section*{Competing interests statement}
+
+We declare we have no competing interests.
+
+\section*{Authors' contributions statement}
+
+\textsl{SJ} carried out the design and development of the framework, did the data analysis, generated results and contributed in writing of the article; \textsl{DQ}, \textsl{MR} and \textsl{LMA} conceived the study, provided insights and valuable direction to the analysis and contributed to the writing of the article; \textsl{TK} developed the data visualization for the results and conducted the expert survey; \textsl{NS} gave feedbacks  on the manuscript. All authors gave final approval for publication.
+
+\bibliographystyle{RS} %%%% .BST file
+\bibliography{urbanEmotions} %%%%% .Bib file
 
 
 \end{document}

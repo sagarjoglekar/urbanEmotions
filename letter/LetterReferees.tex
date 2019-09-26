@@ -42,7 +42,10 @@
 %\textheight = 690pt
 \textwidth = 460pt
 
-\newcommand{\ns}[1]{\textcolor{red}{NS: #1}}
+
+\newcommand{\sj}[1]{\textcolor{red}{Sagar: #1}}
+\newcommand{\la}[1]{\textcolor{blue}{Luca: #1}}
+\newcommand{\dq}[1]{\textcolor{green}{Daniele: #1}}
 
 \begin{document}
 
@@ -65,32 +68,30 @@ We would like to express our sincere thanks to the Editors for supporting this p
 \noindent Reviewers made certain important points which we try to address in this revision:
 
 \begin{enumerate}
-\item The description of the ``Facelift'' pipeline was not clear enough and missed on the details of the deep learning model
-\item The literature review was not at par. 
-\item Some clear adjustment in the description or over arching vision of the work to be either a Urban scene generator, or a framework to make the ``black-box'' more accessible
-\item Clarity around the scale of the User survey
-\item Over all proof-reading to sort out some spelling mistakes
+\item Reviewer 1 expressed concern about the validity of the ``Walkability'' metric actually quantifying walkability of places
+\item Reviewer 1 expressed concern about the validity of the ``Openness'' metric actually quantifying open nature of places. They also suggested trying out Scene Understanding (SUN) attributes from places 205 to address this. 
+\item Reviewer 2 recommended adding definition for urban informatics along with a reference.
+\item Reviewer 2 recommended discussion the PlacePulse dataset in more detail. `` how it was created, and who participated in the curation and assignment of labels. What biases are present in this dataset? Has this been analysed?''
+\item . Looking at the representative examples in Table 4, the "mechanism" or trained logic of the algorithm seems quite straightforward, as acknowledged by the authors, e.g. "adding greenery, narrow roads, and pavements." However, I also note that images in rows 3 and 4 shift from a winter scene (trees with no leaves) to a summer scene, or a grey sky to a blue sky. Further, some suggested beautifications shift entire structures such as buildings. These observations could be discussed, and then used to talk about two points: (a) limitations of the approach, and; (b) usefulness of the results (beyond what is covered in Q4). 
+\item Section Q4 did not convince me. The Likert scale sought to evaluate how well FaceLift supports decision making. It is not clear to me what is meant by decision making here. Similarly, I do not see how the substitution of an act of human creativity through a deep learning algorithm can be rated as "participatory urbanism" when there is nobody participating other than the machine. 
+\item Reviewer 2 recommending adding critical reflections about the framework and have kindly given pointers to do so.
 \end{enumerate}
 
 \end{myquote}
 
-\noindent We have thoroughly revised the paper to follow the guidance provided. A summary response to the points above:
+\noindent We have thoroughly revised the paper in order to follow the guidance provided. A summary response to the points above:
 
 \begin{enumerate}
 
 
-\item We improved the description of the machine learning pipeline and of the individual blocks that compose it. We added a supportive diagram of the pipeline to clarify how the two deep learning models are combined. 
-%We provided samples from the scene generator to demonstrate how the generator learns 'urban scenes' 
-%\textbf{\textcolor{blue}{[$\leftarrow$ Luca: I do not understand this sentence]}\textcolor{red}{[Sagar: Removed from the summary as it was not adding anything]}}. 
-We also clarified the requirements and constraints of the beautification process.
+\item We discussed the Reviewer 1's concern about Walkability as a part of limitations. Indeed we believe that the method of quantifying walkability could actually quantify some other abstract quality akin to, but not exactly, ``walkability''. To further help with the reflection of walkability, we add the table of labels curated using the literature on design measurement in the paper. 
 
-\item We increased the literature review by more than 30\% by adding references to frame our work in a broader context. 
+\item We try out the experiments with SUN labels for quantifying openness. \sj{Time permitting, otherwise we can add this as a future work. }
 
-\item We clarified what we mean by ``explaining black-box inferences''. Specifically, we rephrased the manuscript to best reflect the actual contribution of the work: instead of claiming that we are trying to completely unravel the deep learning black-box framework, we now make clearer that one of our objective was to simply make deep learning methods' outputs interpretable by practitioners.  
+\item 
 
-\item Questions were asked with a non-neutral response Likert scale. That is because previous work~\cite{Agree2012,moors2008exploring} has shown that a non-neutral scale: \emph{(i)} pushes respondents to ``take a stance'', given the absence of a neutral response; and \emph{(ii)} works best if respondents are experts in the subject matter of the survey as responses of the ``I don't know'' type tend to be rare (as it is has been the case for our survey). 
+\item We grounded our choice of the User survey scale into the previous literature that excluded a neutral option to encourage experts to avoid a de-facto position and take a stance based on their knowledge. \textcolor{blue}{\textbf{[++could not read the comments to this one++]}}
 
-%\item We tried to address the concern about non-neutral position in the Likert scale. We make a case based on literature~\cite{moors2008exploring,Agree2012} that to avoid a de-facto position from the experts about FaceLift, it was a strategic choice to not allow a neutral position. This has shown to encourage the responders to take a position based on their expert knowledge, which is what we value greatly.
 
 \item We revised the whole text of the paper to fix spelling and grammar mistakes.
 
@@ -115,7 +116,7 @@ A detailed breakdown of the actions taken can be found next.
 \noindent Comment: The description of the framework is not clear enough, and some details are missing, such as the network structure of the deep learning model.
 \end{myquote}
 
-\noindent Following the reviewer's suggestion, we expanded the description of both deep learning models: the one for classification of image beauty, and the other for reproducing urban scenes to a high degree of fidelity. We also clarified the functioning of the generative model by adding examples of how generative frameworks work. We then added a schema in Figure 5 to describe how the combination of the generative model and the classifier is used to maximize beauty in urban images. We added additional text describing the architecture of the classifier in Section \textbf{``Training a beauty classifier''}. We further expand the presentation of our generator, and clarify how we train it in Section \textbf{``Generating a synthetic beautified scene''}.
+\noindent Following the reviewer's suggestion, we expanded the description of both deep learning models: the one for classification of image beauty, and the other for reproducing urban scenes to a high degree of fidelity. We also clarified the functioning of the generative model by adding examples of how generative frameworks work. We then added a schema in Figure 5 to describe how the combination of the generative model and the classifier is used to maximize beauty in urban images. We added additional text describing the architecture of the classifier in Section \textbf{``Training a beauty classifier''}. We further cite the Generator architecture we have used, and clarify how we train this generator in Section \textbf{``Generating a synthetic beautified scene''}.
 %We draw the reader's attention to the details through the relevant citations seen in the section \textbf{Training a beauty classifier} and section \textbf{Generating a synthetic beautified scene} 
 %\textbf{\textcolor{blue}{[Luca: I do not understand this last sentence]}}. \textbf{\textcolor{blue}{[Luca: Clearly say in which (sub)section the new text was added]}\textcolor{red}{[Sagar: Rephrased]}}
 %We also added Figure 5, which helps portray a better picture of the activation maximization method, which puts the classifier and the generator in tandem to create a beauty maximized template.
@@ -130,8 +131,7 @@ A detailed breakdown of the actions taken can be found next.
 In the revised version, we have added the following text in Section \textbf{``Generating a synthetic beautified scene''}:
 
 \begin{myquoteOrange}
-%Maximizing beauty of an already beautiful image would yield a saturated template $\hat{I_j}$. For this reason, to generate an image that maximizes the beauty neuron in the classifier $C$, the network needs to be supplied with an image that lies in the class $y_i$. The constraint is reverse for maximizing for class $y_j$.
-It makes little sense to beautify an already beautiful image, not least because such beautification process would result in a saturated template $\hat{I_j}$ in our framework. For this reason, to generate an image that maximizes the beauty neuron in the classifier $C$, we restrict the  corresponding input image to be in class $y_i$ (i.e., ugly scenes as per the divisions in Figure 2). We do the opposite when maximizing the ugly neuron. 
+Maximizing beauty of an already beautiful image would yield a saturated template $\hat{I_j}$. For this reason, to generate an image that maximizes the beauty neuron in the classifier $C$, the network needs to be supplied with an image that lies in the class $y_i$. The constraint is reverse for maximizing for class $y_j$.
 \end{myquoteOrange}
 
 
@@ -142,7 +142,7 @@ It makes little sense to beautify an already beautiful image, not least because 
 \end{myquote}
 
 %\ns{Your answer below seems to miss the point - The reviewer seems to be saying you are trying to achieve two \emph{different} things, and you are not doing a good job highlighting both of them, so just focus on one and not the other. I tend to agree -- because you have the extensive eval with the experts, you are doing a good job of showing that the beautification works well. But it is not clear how the black box nature of neural networks is being lifted. Fig 9 simply says what aspects of an urban scene change as a result of FaceLifting, not \textbf{how}. So may be reposition within the text to remove or de-emphasise the claim that you are lifting the black box nature. And the response below would then be - ``Thank you for the suggestion. We have focussed the paper on the FaceLift Pipeline, and how it achieves its ultimate goal of  explainable beautification of urban scenes. Here's the list of changes we have done (intro + wherever else)''}
-\noindent This is a valid concern. We have now de-emphasized the `black-box' claim. In the manuscript, we now make clear that the main goal of FaceLift is to automatically beautify an existing urban scene. Then, as a secondary goal, to make FaceLift usable for practitioners, it is also able to explain which urban elements have been added/removed in the beautification process. 
+\noindent This is a valid concern. We have now de-emphasised the `black-box' claim \textcolor{blue}{\textbf{[++could not read the rest of the text here++]}}
 %but made sure that we describe the pipeline's capacity to make deep learning insights consumable and interpretable for urban design. This claim is supported through our expert survey. To that extent, we have rephrased the \textbf{Abstract}. \textbf{Introduction} and the \textbf{Conclusion} sections.
 %We have focused the paper on the FaceLift Pipeline, and how it achieves its ultimate goal of  explainable beautification of urban scenes. Our emphasis is on FaceLift pipeline as a tool for urban planners and the urban design specific insights that the pipeline is able to produce for decision making. We modify the abstract, introduction and discussion to position the paper in this context. We stress that the transparency of this pipeline is attained through the explanations around the transformations. 
 %\textbf{\textcolor{blue}{[Luca: I feel this response is too vague. The response to the Editor about this comment (beginning of the letter) is a little more to the point.]}\textcolor{red}{[Sagar: Rephrased]}}
@@ -155,7 +155,7 @@ It makes little sense to beautify an already beautiful image, not least because 
 \noindent The question of providing a neutral option has been debated for decades, with convincing arguments on both sides. Previous work~\cite{Agree2012,moors2008exploring} showed that neutral choices end up commonly used to express \textit{lack of knowledge or indifference}. All our participants were experts in their respective fields of urban design, data visualization and architecture. Hence we consciously wanted them to express an opinion about the utility of such a tool in their practice. We clarified this aspect with the following text:
 
 \begin{myquoteOrange}
-Questions were asked with a non-neutral response Likert scale \ldots That is because previous work~\cite{Agree2012,moors2008exploring} has shown that such a scale: \emph{(i)} pushes respondents to ``take a stance'', given the absence of a neutral response; and \emph{(ii)} works best if respondents are experts in the subject matter of the survey as responses of the ``I don't know'' type tend to be rare (as it is has been the case for our survey).
+\textit{Since our respondents were experts in different areas, we wanted them to express an opinion about the utility of such a technology in their practices, and only give non-neutral responses. In accordance with this constraint, we designed the survey based on a non-neutral response Likert scale, as critical studies suggest~\cite{Agree2012,moors2008exploring}}
 \end{myquoteOrange}
 
 
@@ -163,7 +163,7 @@ Questions were asked with a non-neutral response Likert scale \ldots That is bec
 \noindent Comment: In Fig.8 there are five urban design metrics, but in the section of abstract and Table 4, there are only four metrics: walkability, green, openness, and visual complexity. 
 \end{myquote}
 
-\noindent We thank the reviewer for pointing this out. We have added back the fifth metric of `landmarks' in Table 4. Past studies have indeed shown how the presence of landmarks positively impacts a city's `memorability'  and `navigability'~\cite{quercia2014aesthetic,lynch1960image}.
+\noindent We thank the reviewer for pointing this out. We have added back the fifth metric of `landmarks' into the paper. The metric is described in Table 4 and referred to when needed. Past studies have shown the role of landmarks in shaping the perception of `goodness' and `memorability' \textcolor{blue}{\textbf{[++could not make the new term here++]}} of a city, at the macroscopic level of neighborhoods~\cite{quercia2014aesthetic,lynch1960image}.
 %Unfortunately, our setup was not suitable to do any hypothesis testing along these lines at the microscopic level of individual urban scenes. That is because our model has a limited capability to detect diverse landmarks with high accuracy. We would like investigate further in the follow-up extension of this work.
 
 \section*{Some of the positive comments...}
@@ -174,7 +174,7 @@ Questions were asked with a non-neutral response Likert scale \ldots That is bec
 
 \end{myquote}
 
-We want to express our sincere thanks to the Editors and to the Reviewers for all the constructive feedback as well as their positive comments, and hope they will find the new version of the paper much improved.
+We want to express our sincere thanks to the Editors and to the Reviewers for all the constructive feedback as well as the positive comments above, and hope they will find the new version of the paper much improved.
 
 \bibliographystyle{abbrv}
 \bibliography{letter}
