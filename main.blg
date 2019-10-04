@@ -4,45 +4,45 @@ The top-level auxiliary file: main.aux
 The style file: RS.bst
 Database file #1: urbanEmotions.bib
 Warning--empty publisher in lynch1960image
-You've used 43 entries,
+You've used 52 entries,
             2202 wiz_defined-function locations,
-            743 strings with 12433 characters,
-and the built_in function-call counts, 20069 in all, are:
-= -- 2002
-> -- 1040
-< -- 28
-+ -- 327
-- -- 318
-* -- 1749
-:= -- 3294
-add.period$ -- 50
-call.type$ -- 43
-change.case$ -- 330
-chr.to.int$ -- 42
-cite$ -- 44
-duplicate$ -- 812
-empty$ -- 1365
-format.name$ -- 371
-if$ -- 4195
+            791 strings with 13791 characters,
+and the built_in function-call counts, 23625 in all, are:
+= -- 2384
+> -- 1142
+< -- 38
++ -- 359
+- -- 346
+* -- 2029
+:= -- 3872
+add.period$ -- 66
+call.type$ -- 52
+change.case$ -- 380
+chr.to.int$ -- 51
+cite$ -- 53
+duplicate$ -- 974
+empty$ -- 1652
+format.name$ -- 408
+if$ -- 4961
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 48
-newline$ -- 137
-num.names$ -- 129
-pop$ -- 425
+missing$ -- 60
+newline$ -- 167
+num.names$ -- 156
+pop$ -- 488
 preamble$ -- 1
-purify$ -- 373
+purify$ -- 432
 quote$ -- 0
-skip$ -- 632
+skip$ -- 759
 stack$ -- 0
-substring$ -- 1293
-swap$ -- 225
-text.length$ -- 15
+substring$ -- 1568
+swap$ -- 264
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 246
+type$ -- 294
 warning$ -- 1
-while$ -- 152
+while$ -- 183
 width$ -- 0
-write$ -- 380
+write$ -- 465
 (There was 1 warning)

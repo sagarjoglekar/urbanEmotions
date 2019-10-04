@@ -6,9 +6,9 @@ Alexander C. 1977 {\em {A Pattern Language: Towns, Buildings, Constructions}}.
 
 \bibitem{quercia2014aesthetic}
 Quercia D, O'Hare NK, Cramer H. 2014  Aesthetic capital: what makes London look
-  beautiful, quiet, and happy?. In {\em {Proceedings of the 17th ACM Conference
-  on Computer Supported Cooperative Work and Social Computing (CSCW)}} pp.
-  945--955.
+  beautiful, quiet, and happy?. In {\em Proceedings of the 17th ACM conference
+  on Computer supported cooperative work \& social computing} pp. 945--955.
+  ACM.
 
 \bibitem{salesses2013collaborative}
 Salesses P, Schechtner K, Hidalgo CA. 2013  The collaborative image of the
@@ -27,6 +27,16 @@ Dubey A, Naik N, Parikh D, Raskar R, Hidalgo CA. 2016  Deep learning the city:
 \bibitem{de2008architecture}
 De~Botton A. 2008 {\em {The Architecture of Happiness}}.
 Vintage Series. Knopf Doubleday Publishing Group.
+
+\bibitem{foth2009handbook}
+Foth M. 2009 {\em Handbook of research on urban informatics: The practice and
+  promise of the real-time city}.
+Information Science Reference Hershey, PA.
+
+\bibitem{foth2011urban}
+Foth M, Choi JHj, Satchell C. 2011  Urban informatics. In {\em Proceedings of
+  the ACM 2011 conference on Computer supported cooperative work} pp. 1--8.
+  ACM.
 
 \bibitem{real2000classification}
 Real E, Arce C, Sabucedo JM. 2000  Classification of landscapes using
@@ -196,6 +206,12 @@ Quercia D, Pesce JP, Almeida V, Crowcroft J. 2013  {Psychological Maps 2.0: A
   web gamification enterprise starting in London}. In {\em {Proceedings of ACM
   International Conference on World Wide Web (WWW)}}.
 
+\bibitem{quercia2015digital}
+Quercia D, Aiello LM, Schifanella R, Davies A. 2015  The digital life of
+  walkable streets. In {\em Proceedings of the 24th international conference on
+  World Wide Web} pp. 875--884. International World Wide Web Conferences
+  Steering Committee.
+
 \bibitem{badrinarayanan2015segnet}
 Badrinarayanan V, Kendall A, Cipolla R. 2015  Segnet: A deep convolutional
   encoder-decoder architecture for image segmentation. {\em arXiv preprint
@@ -206,7 +222,7 @@ Vaughn BK. 2008  Data analysis using regression and multilevel/hierarchical
   models. {\em {Journal of Educational Measurement}} \textbf{45}, 94--97.
 
 \bibitem{Agree2012}
-Baka A, Figgou L, Triga V. 2012  `Neither agree, nor disagree': a critical
+Baka A, Figgou L, Triga V. 2012  'Neither agree, nor disagree': a critical
   analysis of the middle answer category in Voting Advice Applications. {\em
   International Journal of Electronic Governance} \textbf{5}, 244--263.
 
@@ -214,5 +230,32 @@ Baka A, Figgou L, Triga V. 2012  `Neither agree, nor disagree': a critical
 Moors G. 2008  Exploring the effect of a middle response category on response
   style in attitude measurement. {\em Quality and Quantity} \textbf{42},
   779--794.
+
+\bibitem{norberg80genius}
+Norberg-Schulz C. 1980 {\em Genius Loci: Towards a Phenomenology of
+  Architecture}.
+Rizzoli.
+
+\bibitem{brand1995buildings}
+Brand S. 1995 {\em How buildings learn: What happens after they're built}.
+Penguin.
+
+\bibitem{foth2017lessons}
+Foth M. 2017  Lessons from urban guerrilla placemaking for smart city commons.
+  In {\em Proceedings of the 8th International Conference on Communities and
+  Technologies} pp. 32--35. ACM.
+
+\bibitem{dourish2016algorithms}
+Dourish P. 2016  Algorithms and their others: Algorithmic culture in context.
+  {\em Big Data \& Society} \textbf{3}, 2053951716665128.
+
+\bibitem{kitchin2017thinking}
+Kitchin R. 2017  Thinking critically about and researching algorithms. {\em
+  Information, Communication \& Society} \textbf{20}, 14--29.
+
+\bibitem{kitchin2016ethics}
+Kitchin R. 2016  The ethics of smart cities and urban science. {\em
+  Philosophical Transactions of the Royal Society A: Mathematical, Physical and
+  Engineering Sciences} \textbf{374}, 20160115.
 
 \end{thebibliography}

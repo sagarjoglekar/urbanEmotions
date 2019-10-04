@@ -1,28 +1,72 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{Agree2012}
-A.~Baka, L.~Figgou, and V.~Triga.
-\newblock 'neither agree, nor disagree': a critical analysis of the middle
-  answer category in voting advice applications.
-\newblock {\em International Journal of Electronic Governance},
-  5(3-4):244--263, 2012.
+\bibitem{brand1995buildings}
+S.~Brand.
+\newblock {\em How buildings learn: What happens after they're built}.
+\newblock Penguin, 1995.
 
-\bibitem{lynch1960image}
-K.~Lynch.
-\newblock {\em The image of the city}, volume~11.
-\newblock 1960.
+\bibitem{dourish2016algorithms}
+P.~Dourish.
+\newblock Algorithms and their others: Algorithmic culture in context.
+\newblock {\em Big Data \& Society}, 3(2):2053951716665128, 2016.
 
-\bibitem{moors2008exploring}
-G.~Moors.
-\newblock Exploring the effect of a middle response category on response style
-  in attitude measurement.
-\newblock {\em Quality and Quantity}, 42(6):779--794, 2008.
+\bibitem{dubey2016deep}
+A.~Dubey, N.~Naik, D.~Parikh, R.~Raskar, and C.~A. Hidalgo.
+\newblock Deep learning the city: Quantifying urban perception at a global
+  scale.
+\newblock {\em arXiv preprint arXiv:1608.01769}, 2016.
 
-\bibitem{quercia2014aesthetic}
-D.~Quercia, N.~K. O'Hare, and H.~Cramer.
-\newblock Aesthetic capital: what makes london look beautiful, quiet, and
-  happy?
-\newblock In {\em Proceedings of the 17th ACM conference on Computer supported
-  cooperative work \& social computing}, pages 945--955. ACM, 2014.
+\bibitem{foth2009handbook}
+M.~Foth.
+\newblock {\em Handbook of research on urban informatics: The practice and
+  promise of the real-time city}.
+\newblock Information Science Reference Hershey, PA, 2009.
+
+\bibitem{foth2017lessons}
+M.~Foth.
+\newblock Lessons from urban guerrilla placemaking for smart city commons.
+\newblock In {\em Proceedings of the 8th International Conference on
+  Communities and Technologies}, pages 32--35. ACM, 2017.
+
+\bibitem{foth2011urban}
+M.~Foth, J.~H.-j. Choi, and C.~Satchell.
+\newblock Urban informatics.
+\newblock In {\em Proceedings of the ACM 2011 conference on Computer supported
+  cooperative work}, pages 1--8. ACM, 2011.
+
+\bibitem{kitchin2016ethics}
+R.~Kitchin.
+\newblock The ethics of smart cities and urban science.
+\newblock {\em Philosophical Transactions of the Royal Society A: Mathematical,
+  Physical and Engineering Sciences}, 374(2083):20160115, 2016.
+
+\bibitem{kitchin2017thinking}
+R.~Kitchin.
+\newblock Thinking critically about and researching algorithms.
+\newblock {\em Information, Communication \& Society}, 20(1):14--29, 2017.
+
+\bibitem{norberg80genius}
+C.~Norberg-Schulz.
+\newblock {\em Genius Loci: Towards a Phenomenology of Architecture}.
+\newblock Rizzoli, 1980.
+
+\bibitem{patterson2012sun}
+G.~Patterson and J.~Hays.
+\newblock Sun attribute database: Discovering, annotating, and recognizing
+  scene attributes.
+\newblock In {\em 2012 IEEE Conference on Computer Vision and Pattern
+  Recognition}, pages 2751--2758. IEEE, 2012.
+
+\bibitem{quercia2015digital}
+D.~Quercia, L.~M. Aiello, R.~Schifanella, and A.~Davies.
+\newblock The digital life of walkable streets.
+\newblock In {\em Proceedings of the 24th international conference on World
+  Wide Web}, pages 875--884. International World Wide Web Conferences Steering
+  Committee, 2015.
+
+\bibitem{zhou2016places}
+B.~Zhou, A.~Khosla, A.~Lapedriza, A.~Torralba, and A.~Oliva.
+\newblock Places: An image database for deep scene understanding.
+\newblock {\em arXiv preprint arXiv:1610.02055}, 2016.
 
 \end{thebibliography}

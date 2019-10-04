@@ -48,7 +48,55 @@ To answer that question, we need to understand what makes a space great. After r
 
 To automatically extract visual cues related to these four factors, we select 500 ugly scenes and 500 beautiful ones at random, transform them into their opposite aesthetic qualities (i.e., the ugly ones are beautified, and the beautiful ones are `uglified'), and compare which urban elements related to the four factors distinguish uglified scenes from beautified ones. 
 
-We extract labels from each of our 1,000 scenes using two image classifiers. First, using PlacesNet~\cite{zhou2014learning}, we label each of our scenes according to a classification containing 205 labels (reflecting, for example, landmarks, natural elements), and retain the five labels with highest confidence scores for the scene. Second, using Segnet~\cite{badrinarayanan2015segnet}, we  label each of our scenes according to a classification containing 12 labels. That is because Segnet is trained on dash-cam images, and classifies each scene pixel with one of these twelve labels: road, sky, trees,  buildings, poles, signage, pedestrians, vehicles, bicycles, pavement, fences, and road markings. 
+We extract labels from each of our 1,000 scenes using two image classifiers. First, using PlacesNet~\cite{zhou2014learning}, we label each of our scenes according to a classification containing 205 labels (reflecting, for example, landmarks, natural elements), and retain the five labels with highest confidence scores for the scene. \la{We manually select only the PlacesNet labels that are related to walkability, using a list walkability properties of streets that have been defined in previous work as a guidance~\cite{quercia2015digital}. These labels include, for example, abbey, plaza, courtyard, garden, picnic area, and park (Table~\ref{tab:PlacesLabels} contains the exhaustive list)}. Second, using Segnet~\cite{badrinarayanan2015segnet}, we  label each of our scenes according to a classification containing 12 labels. That is because Segnet is trained on dash-cam images, and classifies each scene pixel with one of these twelve labels: road, sky, trees,  buildings, poles, signage, pedestrians, vehicles, bicycles, pavement, fences, and road markings. 
+
+
+\begin{table}[htb!]
+    \centering
+    \begin{tabular}{ |c|c|c|c| }
+        \hline
+        \textbf{Architectural} & \textbf{Walkable} & \textbf{Landmark} & \textbf{Natural} \\
+        \hline
+        Apartment building & Abbey & Airport & Badlands\\
+        Building Facade & Alley & Amphitheatre & Bamboo Forest\\
+        Construction Site & Boardwalk & Amusement Park & Canyon \\
+        Courthouse & Botanical Garden & Arch & Coast \\
+        Drive way & Corridor & Amphitheatre & Corn field \\
+        Door way & Cottage garden & Baseball Field & Creek \\
+        Forest road & Courtyard & Basilica & Desert (Sand) \\
+        Garbage dump & Crosswalk & Bridge & Field (cultivated)\\
+        Golf course & Fairway & Castle & Field (wild)\\
+        Highway & Food court & Wind mill & Mountain \\
+        Hotel & Forest path & Cathedral & Snowy Mountain \\
+        Inn & Formal Garden & Church & Ocean \\
+        Ice skating rink & Herb Garden & Dam & Orchard \\
+        Motel & Outdoor Market & Dock & Pond \\
+        Office building & Nursery & Cemetery & Rainforest \\
+        Parking Lot & Patio & Fire station & Rice paddy \\
+        Railroad track & Pavilion & Fountain & River \\
+        Residential neighbourhood & Picnic area & Gas Station & Rock arch\\
+        Restaurant & Playground & Harbour & Sand bar \\
+        Runway & Plaza & Hospital & Sea Cliff\\
+        School House & Patio & Lighthouse & Ski slope \\
+        Skyscraper & Shopfront & Mansion & Sky \\
+        Slum & Topiary garden & Mausoleum & Snow field \\
+        Supermarket & Tree farm & Pagoda & Swamp \\
+        Outdoor swimming pool & Veranda & Palace & Valley \\
+        Tower & Vegetable garden  & Racecourse & Wheat field \\
+        Water tower & Yard & Ruin & Desert (vegetation) \\
+        Wind farm &  & Rope Bridge & \\
+        &  & Ski Resort & \\
+        &  & Baseball stadium & \\
+        &  & Football stadium & \\
+        &  & Subway Station & \\
+        &  & Train Station & \\
+        &  & Temple & \\
+        \hline
+    \end{tabular}
+    \caption{\la{Classification of the Places-net labels into the four categories.}}
+    \label{tab:PlacesLabels}
+\end{table}
+
 
 \begin{figure}[h]
 	\centering
@@ -73,7 +121,7 @@ Having these two ways of labeling scenes, we can now test whether the expectatio
 \mbox{ } \\
 \noindent
 \emph{H1 Beautified scenes tend to be walkable.}
-We manually select only the PlacesNet labels that are related to walkability. These labels include, for example, \textit{abbey, plaza, courtyard, garden, picnic area, \textrm{and} park}. To test hypothesis \emph{H1}, we count the number of walkability-related labels found in beautified scenes as opposed to those found in uglified scenes (Figure~\ref{fig:taxonomyCount}): the former contain twice as many walkability labels than the latter. We then determine which types of scenes are associated with beauty (Figure~\ref{fig:WalkableTnomy}). Unsurprisingly, beautified scenes tend to show gardens, yards, and small paths. By contrast, uglified ones tend to show built environment features such as shop fronts and broad roads. 
+We manually select only the PlacesNet labels that are related to walkability. These labels include, for example, \textit{abbey, plaza, courtyard, garden, picnic area, \textrm{and} park}. To test hypothesis \emph{H1}, we count the number of walkability-related labels found in beautified scenes as opposed to those found in uglified scenes (Figure~\ref{fig:taxonomyCount}): the former contain twice as many walkability labels than the latter. We then determine which types of scenes are associated with beauty (Figure~\ref{fig:WalkableTnomy}). \la{Unsurprisingly, beautified scenes tend to show gardens, yards, and small paths. By contrast, uglified ones tend to show built environment features such as shop fronts and broad roads. It is worth noting that walkability often acts as an enabler for other desirable properties of places (e.g., their restorative capability). The reason why our walkability measure correlates with beauty might be because walkability acts as a proxy for such higher-order properties.}
 
 
 \mbox{ } \\
@@ -162,7 +210,7 @@ Pr(\textrm{beautiful}) = logit^{-1}(\alpha + \beta_1 * V_1 + \beta_2 * V_2  + \b
 where $V1$ is the fraction of the scene's pixels marked with one Segnet's label, say, ``buildings'' (over the total number of pixels),  and $V2$ is the fraction of the scene's pixels marked with another label, say, ``trees''. The result consists of three beta coefficients: $\beta_1$ reflects $V1$'s contribution in predicting beauty,  $\beta_2$ reflects $V2$'s contribution, and $\beta_3$ is the interaction effect, that is, it reflects the contribution of the dependency between $V1$ and $V2$ in predicting beauty. We run logistic regressions on the five factors that have been found to be most predictive of urban beauty~\cite{quercia2014aesthetic, ewing2013measuring, alexander1977pattern}, and show the results in Table~\ref{tab:regressioncoef}.
 
 
-Since we are using logistic regressions, the quantitative interpretation of the beta coefficients is eased by the ``divide by 4 rule''~\cite{vaughn2008data}: we can take the $\beta$ coefficients and ``divide them by 4 to get an upper bound of the predictive difference corresponding to a unit difference'' in beauty~\cite{vaughn2008data}. For example, take the results in the first row of Table~\ref{tab:regressioncoef}. In the model $Pr(beautiful) = logit^{-1}(\alpha - 0.032 \cdot buildings + 0.084 \cdot trees + 0.005 \cdot  buildings \cdot trees)$, we can divide - 0.032/4 to get -0.008: a difference of 1\% in the fraction of pixels being buildings corresponds to no more than a 0.8\% \emph{negative} difference in the probability of the scene being beautiful. In a similar way, a difference of 1\% in the fraction of pixels being trees corresponds to no more than a 0.021\% \emph{positive} difference in the probability of the scene being beautiful. By considering the remaining results in Table~\ref{tab:regressioncoef}, we find that, across all pairwise comparisons, trees is the most positive element associated with beauty, while roads and buildings are the most negative ones. These results match previous literature in urban design of what makes spaces great, adding further external validity to our framework's beautification. 
+Since we are using logistic regressions, the quantitative interpretation of the beta coefficients is eased by the ``divide by 4 rule''~\cite{vaughn2008data}: we can take the $\beta$ coefficients and ``divide them by 4 to get an upper bound of the predictive difference corresponding to a unit difference'' in beauty~\cite{vaughn2008data}. For example, take the results in the first row of Table~\ref{tab:regressioncoef}. In the model $Pr(beautiful) = logit^{-1}(\alpha - 0.032 \cdot buildings + 0.084 \cdot trees + 0.005 \cdot  buildings \cdot trees)$, we can divide - 0.032/4 to get -0.008: a difference of 1\% in the fraction of pixels being buildings corresponds to no more than a 0.8\% \emph{negative} difference in the probability of the scene being beautiful. In a similar way, a difference of 1\% in the fraction of pixels being trees corresponds to no more than a 0.021\% \emph{positive} difference in the probability of the scene being beautiful. By considering the remaining results in Table~\ref{tab:regressioncoef}, we find that, across all pairwise comparisons, trees is the most positive element associated with beauty, while roads and buildings are the most negative ones. \la{These results match previous literature in urban design of what makes spaces great~\cite{lynch1960image,alexander1977pattern, jacobs1961death, quercia15thedigital, quercia2014aesthetic}}, adding further external validity to our framework's beautification. 
 
 
 
